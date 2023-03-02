@@ -1,8 +1,11 @@
 # app.py
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 import analysis
 
 app = Flask(__name__)
+CORS(app)
+
 
 @app.get("/screedata")
 def get_scree_data():
@@ -17,11 +20,11 @@ def get_scree_data():
         })
     return jsonify(pc_list)
 
-@app.post("/countries")
-def add_country():
-    if request.is_json:
-        country = request.get_json()
-        country["id"] = _find_next_id()
-        countries.append(country)
-        return country, 201
-    return {"error": "Request must be JSON"}, 415
+# @app.post("/countries")
+# def add_country():
+#     if request.is_json:
+#         country = request.get_json()
+#         country["id"] = _find_next_id()
+#         countries.append(country)
+#         return country, 201
+#     return {"error": "Request must be JSON"}, 415
