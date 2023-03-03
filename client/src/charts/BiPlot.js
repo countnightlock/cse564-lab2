@@ -131,6 +131,11 @@ class BiPlot extends Component {
             .style('alignment-baseline', 'middle')
             .style('fill', 'black')
             .text(d => d[0]);
+
+        chart.append("circle").attr("cx", 380).attr("cy", 20).attr("r", 6).style("fill", "#ff734a");
+        chart.append("circle").attr("cx", 380).attr("cy", 40).attr("r", 6).style("fill", "#5294ac");
+        chart.append("text").attr("x", 400).attr("y", 20).text("Cluster 0").style("font-size", "15px").attr("alignment-baseline","middle");
+        chart.append("text").attr("x", 400).attr("y", 40).text("Cluster 1").style("font-size", "15px").attr("alignment-baseline","middle");
     }
 
     drawChart() {
