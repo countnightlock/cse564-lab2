@@ -58,7 +58,7 @@ def get_biplot_data(pca):
 
     return X_pca_all[:, :2].tolist()
 
-def get_loadings(pca, di=17):
+def get_loadings(pca, di=6):
     global df
     loadings = pca.components_.T * np.sqrt(pca.explained_variance_)
 
@@ -75,4 +75,13 @@ def get_loadings(pca, di=17):
         for i in range(len(pca.components_.T))
     ]
 
+    loading_matrix['ssl_di'] = [
+        np.inner(loading_matrix.iloc[i, :di], loading_matrix.iloc[i, :di])
+        for i in range(len(loading_matrix))
+    ]
+
+    loading_matrix = loading_matrix.sort_values('ssl_di', ascending=False)
+
     return loading_matrix.T.to_json()
+
+get_loadings(init())

@@ -10,6 +10,17 @@ class BiPlot extends Component {
     componentDidMount() {
     }
 
+    getTextRotation(d, xScale, yScale) {
+        const xLoad = xScale(d[1]['loading_on_first_two_PC'][0]) - xScale(0);
+        const yLoad = yScale(d[1]['loading_on_first_two_PC'][1]) - yScale(0);
+
+        const angle = (Math.atan2(yLoad, xLoad)) * 180 / Math.PI;
+        const x = xScale(d[1]['loading_on_first_two_PC'][0] * 2.1);
+        const y = yScale(d[1]['loading_on_first_two_PC'][1] * 2.1);
+
+        return `rotate(${angle}, ${x}, ${y})`;
+    }
+
     plotBiPlot(chart, width, height, margins) {
         const data = this.props.biplotdata;
 
@@ -98,8 +109,8 @@ class BiPlot extends Component {
             .classed('axis-line', true)
             .attr('x1', xScale(0))
             .attr('y1', yScale(0))
-            .attr('x2', d => xScale(d[1]['loading_on_first_two_PC'][0] * 3))
-            .attr('y2', d => yScale(d[1]['loading_on_first_two_PC'][1] * 3))
+            .attr('x2', d => xScale(d[1]['loading_on_first_two_PC'][0] * 2))
+            .attr('y2', d => yScale(d[1]['loading_on_first_two_PC'][1] * 2))
             .attr('stroke', 'red')
             .style('stroke-opacity', 0.8);
 
@@ -110,10 +121,12 @@ class BiPlot extends Component {
             .enter()
             .append('text')
             .classed('axis-line', true)
-            .attr('x', d => xScale(d[1]['loading_on_first_two_PC'][0] * 3.5))
-            .attr('y', d => yScale(d[1]['loading_on_first_two_PC'][1] * 3.5))
-            .style('font-size', '10px')
-            .style('text-anchor', 'middle')
+            .attr('x', d => xScale(d[1]['loading_on_first_two_PC'][0] * 2.1))
+            .attr('y', d => yScale(d[1]['loading_on_first_two_PC'][1] * 2.1))
+            .attr('transform', d => this.getTextRotation(d, xScale, yScale))
+            .style('font-size', '7')
+            .style('text-anchor', 'beginning')
+            .style('alignment-baseline', 'middle')
             .style('fill', 'black')
             .text(d => d[0]);
     }
