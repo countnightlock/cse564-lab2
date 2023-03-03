@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import ScreePlot from './charts/ScreePlot';
 import BiPlot from './charts/BiPlot';
+import DenseTable from './charts/DenseTable';
 
 class App extends Component {
   constructor(props) {
@@ -14,8 +15,9 @@ class App extends Component {
   }
 
   diHandler(value) {
-      console.log('diHandler called with ' + value);
-      this.setState( {di : value} )
+    this.setState( {di : value} )
+    axios.get(`http://localhost:8000/columndata?di=${this.state.di}`)
+      .then(response => this.setState({ columndata: response.data }));
   }
 
   componentDidMount() {
@@ -23,7 +25,7 @@ class App extends Component {
         .then(response => this.setState({ screedata: response.data }));
       axios.get('http://localhost:8000/biplotdata')
         .then(response => this.setState({ biplotdata: response.data }));
-      axios.get('http://localhost:8000/columndata')
+      axios.get(`http://localhost:8000/columndata?di=${this.state.di}`)
         .then(response => this.setState({ columndata: response.data }));
   }
 
@@ -32,6 +34,7 @@ class App extends Component {
         <div>
           <ScreePlot screedata={this.state.screedata} diHandler={this.diHandler} di={this.state.di}/>
           <BiPlot biplotdata={this.state.biplotdata} columndata={this.state.columndata} di={this.state.di}/>
+          <DenseTable columndata={this.state.columndata} di={this.state.di}/>
         </div>
       )
   }
