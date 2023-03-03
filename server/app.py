@@ -28,7 +28,12 @@ def get_biplot_data():
 @app.get("/columndata")
 def get_column_data():
     args = request.args
-    return analysis.get_loadings(pca, int(args.get('di')))
+    return analysis.get_loadings(pca, args.get('di', type=int))
+
+@app.get("/actualdata")
+def get_actual_data():
+    args = request.args
+    return analysis.get_actual_data(args.get('cols').split(','))
 
 # @app.post("/countries")
 # def add_country():

@@ -84,4 +84,6 @@ def get_loadings(pca, di=6):
 
     return loading_matrix.T.to_json()
 
-get_loadings(init())
+def get_actual_data(cols):
+    global df
+    return df[cols].to_json(orient='records')
