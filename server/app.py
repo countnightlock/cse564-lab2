@@ -25,6 +25,10 @@ def get_scree_data():
 def get_biplot_data():
     return jsonify(analysis.get_biplot_data(pca))
 
+@app.get("/columndata")
+def get_column_data():
+    return analysis.get_loadings(pca)
+
 # @app.post("/countries")
 # def add_country():
 #     if request.is_json:

@@ -63,8 +63,16 @@ def get_loadings(pca, di=17):
     loadings = pca.components_.T * np.sqrt(pca.explained_variance_)
 
     loading_matrix = pd.DataFrame(loadings,
-                                  index=['PC' + str(i + 1) for i in range(len(pca.explained_variance_))],
-                                  columns=df.columns.values.tolist()
+                                  columns=['PC' + str(i + 1) for i in range(len(pca.explained_variance_))],
+                                  index=df.columns.values.tolist()
                                   )
 
-    return loading_matrix
+    loading_matrix['loading_on_first_two_PC'] = [
+        [
+            pca.explained_variance_[i] * pca.components_.T[i, 0],
+            pca.explained_variance_[i] * pca.components_.T[i, 1]
+        ] 
+        for i in range(len(pca.components_.T))
+    ]
+
+    return loading_matrix.T.to_json()
