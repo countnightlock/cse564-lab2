@@ -2,26 +2,7 @@ import numpy as np
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
-
-COLUMNS = [
-    "danceability",
-    "energy",
-    "key",
-    "loudness",
-    "mode",
-    "speechiness",
-    "acousticness",
-    "instrumentalness",
-    "liveness",
-    "valence",
-    "tempo",
-    "duration_ms",
-    "time_signature",
-    "album_popularity",
-    "release_date",
-    "total_tracks",
-    "artist_popularity"
-]
+from sklearn.cluster import KMeans
 
 def read_tsv():
     return pd.read_csv('analysis.txt', sep='\t', usecols=lambda col : 'uri' not in col)
@@ -29,9 +10,10 @@ def read_tsv():
 df = None
 X = None
 X_scaled = None
+labels = None
 
 def init():
-    global df, X, X_scaled
+    global df, X, X_scaled, labels
     df = read_tsv()
 
     X = df.values
@@ -43,6 +25,9 @@ def init():
 
     pca = PCA()
     pca.fit(X_scaled)
+
+    kmeans = KMeans(n_clusters = 2, init = 'k-means++', random_state = 12, n_init=10, max_iter=25)
+    labels = kmeans.fit_predict(X_scaled)
 
     return pca
 
@@ -87,3 +72,19 @@ def get_loadings(pca, di=6):
 def get_actual_data(cols):
     global df
     return df[cols].to_json(orient='records')
+
+def get_elbow_plot_data():
+    global X_scaled
+    wcss = []
+    for i in range(1, 12):
+        kmeans = KMeans(n_clusters = i, init = 'k-means++', random_state = 12, n_init=10, max_iter=25)
+        kmeans.fit(X_scaled)
+        wcss.append({
+            'i': i,
+            'wcss': kmeans.inertia_
+        })
+    return wcss
+
+def get_labels():
+    global labels
+    return labels.tolist()

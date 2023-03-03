@@ -4,9 +4,9 @@ import BigTitle from "./BigTitle";
 import MiniScatterPlot from "./MiniScatterPlot";
 
 const gridStyles = {
-    paddingBottom: 2,
-    paddingRight: 2,
-    marginTop: 2,
+    paddingBottom: 1,
+    paddingRight: 1,
+    marginTop: 1,
     marginLeft: "auto",
     marginRight: "auto",
 };
@@ -16,6 +16,7 @@ class ScatterGrid extends Component {
     render() {
         const data = this.props.actualdata;
         const c = this.props.cols;
+        const labels = this.props.labels;
 
         if (data.length == 0 || c.length == 0) return (<div/>);
 
@@ -25,49 +26,49 @@ class ScatterGrid extends Component {
                     <BigTitle columnName={c[0]} />
                 </Grid>
                 <Grid item xs={3}>
-                    <MiniScatterPlot data={data} dimensionX={c[1]} dimensionY={c[0]} />
+                    <MiniScatterPlot data={data} labels={labels} dimensionX={c[1]} dimensionY={c[0]} />
                 </Grid>
                 <Grid item xs={3}>
-                    <MiniScatterPlot data={data} dimensionX={c[2]} dimensionY={c[0]} />
+                    <MiniScatterPlot data={data} labels={labels} dimensionX={c[2]} dimensionY={c[0]} />
                 </Grid>
                 <Grid item xs={3}>
-                    <MiniScatterPlot data={data} dimensionX={c[3]} dimensionY={c[0]} />
+                    <MiniScatterPlot data={data} labels={labels} dimensionX={c[3]} dimensionY={c[0]} />
                 </Grid>
 
                 <Grid item xs={3}>
-                    <MiniScatterPlot data={data} dimensionX={c[0]} dimensionY={c[1]} />
+                    <MiniScatterPlot data={data} labels={labels} dimensionX={c[0]} dimensionY={c[1]} />
                 </Grid>
                 <Grid item xs={3}>
                     <BigTitle columnName={c[1]} />
                 </Grid>
                 <Grid item xs={3}>
-                    <MiniScatterPlot data={data} dimensionX={c[2]} dimensionY={c[1]} />
+                    <MiniScatterPlot data={data} labels={labels} dimensionX={c[2]} dimensionY={c[1]} />
                 </Grid>
                 <Grid item xs={3}>
-                    <MiniScatterPlot data={data} dimensionX={c[3]} dimensionY={c[1]} />
+                    <MiniScatterPlot data={data} labels={labels} dimensionX={c[3]} dimensionY={c[1]} />
                 </Grid>
 
                 <Grid item xs={3}>
-                    <MiniScatterPlot data={data} dimensionX={c[0]} dimensionY={c[2]} />
+                    <MiniScatterPlot data={data} labels={labels} dimensionX={c[0]} dimensionY={c[2]} />
                 </Grid>
                 <Grid item xs={3}>
-                    <MiniScatterPlot data={data} dimensionX={c[1]} dimensionY={c[2]} />
+                    <MiniScatterPlot data={data} labels={labels} dimensionX={c[1]} dimensionY={c[2]} />
                 </Grid>
                 <Grid item xs={3}>
                     <BigTitle columnName={c[2]} />
                 </Grid>
                 <Grid item xs={3}>
-                    <MiniScatterPlot data={data} dimensionX={c[3]} dimensionY={c[2]} />
+                    <MiniScatterPlot data={data} labels={labels} dimensionX={c[3]} dimensionY={c[2]} />
                 </Grid>
 
                 <Grid item xs={3}>
-                    <MiniScatterPlot data={data} dimensionX={c[0]} dimensionY={c[3]} />
+                    <MiniScatterPlot data={data} labels={labels} dimensionX={c[0]} dimensionY={c[3]} />
                 </Grid>
                 <Grid item xs={3}>
-                    <MiniScatterPlot data={data} dimensionX={c[1]} dimensionY={c[3]} />
+                    <MiniScatterPlot data={data} labels={labels} dimensionX={c[1]} dimensionY={c[3]} />
                 </Grid>
                 <Grid item xs={3}>
-                    <MiniScatterPlot data={data} dimensionX={c[2]} dimensionY={c[3]} />
+                    <MiniScatterPlot data={data} labels={labels} dimensionX={c[2]} dimensionY={c[3]} />
                 </Grid>
                 <Grid item xs={3}>
                     <BigTitle columnName={c[3]} />

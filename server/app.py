@@ -35,11 +35,10 @@ def get_actual_data():
     args = request.args
     return analysis.get_actual_data(args.get('cols').split(','))
 
-# @app.post("/countries")
-# def add_country():
-#     if request.is_json:
-#         country = request.get_json()
-#         country["id"] = _find_next_id()
-#         countries.append(country)
-#         return country, 201
-#     return {"error": "Request must be JSON"}, 415
+@app.get("/elbowplot")
+def get_elbow_data():
+    return jsonify(analysis.get_elbow_plot_data())
+
+@app.get("/labels")
+def get_labels():
+    return jsonify(analysis.get_labels())

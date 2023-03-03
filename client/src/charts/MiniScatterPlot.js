@@ -12,6 +12,7 @@ class MiniScatterPlot extends Component {
         const dimensionX = this.props.dimensionX;
         const dimensionY = this.props.dimensionY;
         const data = this.props.data;
+        const labels = this.props.labels;
 
         let xScale, yScale;
 
@@ -52,8 +53,8 @@ class MiniScatterPlot extends Component {
             .attr('cx', d => xScale(d[dimensionX]) + (xIsCategorical ? xScale.bandwidth()/2 : 0))
             .attr('cy', d => yScale(d[dimensionY]) + (yIsCategorical ? yScale.bandwidth()/2 : 0))
             .attr('r', 5)
-            .attr('opacity', xIsCategorical || yIsCategorical ? 0.2 : 1.0)
-            .style('fill', '#1DB954');
+            .attr('opacity', xIsCategorical || yIsCategorical ? 0.2 : 0.6)
+            .style('fill', (d, i) => labels[i] === 0 ? '#ff734a' : '#5294ac');
 
         const xAxis = d3.axisBottom()
             .scale(xScale)
@@ -68,12 +69,15 @@ class MiniScatterPlot extends Component {
             .attr('transform', `translate(0, ${height})`)
             .call(xAxis)
             .selectAll('text')
+            .style('font-size', '18px')
             .style('text-anchor', 'middle');
 
         chart.append('g')
             .classed('y-axis', true)
             .attr('transform', 'translate(0,0)')
-            .call(yAxis);
+            .call(yAxis)
+            .selectAll('text')
+            .style('font-size', '18px');
     }
 
     drawChart() {

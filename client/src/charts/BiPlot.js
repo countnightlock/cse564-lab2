@@ -23,6 +23,7 @@ class BiPlot extends Component {
 
     plotBiPlot(chart, width, height, margins) {
         const data = this.props.biplotdata;
+        const labels = this.props.labels;
 
         const xScale = d3.scaleLinear()
             .domain(d3.extent(data, d => d[0])).nice()
@@ -63,7 +64,8 @@ class BiPlot extends Component {
             .attr('cx', d => xScale(d[0]))
             .attr('cy', d => yScale(d[1]))
             .attr('r', 4)
-            .attr('fill', '#1DB954');
+            .attr('opacity', 0.5)
+            .style('fill', (d, i) => labels[i] === 0 ? '#ff734a' : '#5294ac');
 
         const xAxis = d3.axisBottom()
             .scale(xScale);
