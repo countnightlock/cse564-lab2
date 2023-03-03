@@ -43,7 +43,7 @@ class ScreePlot extends Component {
             .attr('height', d => (height - yScale(d['var_explained'])))
             .attr('width', xScale.bandwidth())
             .style('stroke', '#191414')
-            .style('fill', '#1DB954');
+            .style('fill', (d, i) => i >= this.props.di ? '#1DB954' : '#528491');
 
         // TODO: add flair - https://gramener.github.io/d3js-playbook/tooltips.html
         bars.on('click', (event, d) => {

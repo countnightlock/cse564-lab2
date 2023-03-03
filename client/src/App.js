@@ -7,7 +7,7 @@ import ScreePlot from './charts/ScreePlot';
 class App extends Component {
   constructor(props) {
       super(props);
-      this.state = { screedata: [], di : 3};
+      this.state = { screedata: [], di : 5};
 
       this.diHandler = this.diHandler.bind(this);
   }
@@ -25,7 +25,7 @@ class App extends Component {
   render() {
       return (
         <div>
-          <ScreePlot screedata={this.state.screedata} diHandler={this.diHandler} />
+          <ScreePlot screedata={this.state.screedata} diHandler={this.diHandler} di={this.state.di}/>
         </div>
         
       )
