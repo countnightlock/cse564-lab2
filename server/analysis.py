@@ -1,5 +1,7 @@
 import numpy as np
 import pandas as pd
+from sklearn.preprocessing import StandardScaler
+from sklearn.decomposition import PCA
 
 COLUMNS = [
     "danceability",
@@ -24,21 +26,45 @@ COLUMNS = [
 def read_tsv():
     return pd.read_csv('analysis.txt', sep='\t', usecols=lambda col : 'uri' not in col)
 
-df = read_tsv()
+df = None
+X = None
+X_scaled = None
 
-def get_scree_plot_data():
-    C = np.corrcoef(df, rowvar=False)
+def init():
+    global df, X, X_scaled
+    df = read_tsv()
 
-    eig_vals, eig_vects = np.linalg.eig(C)
+    X = df.values
 
-    eig_pairs = [(np.abs(eig_vals[i]), eig_vects[:, i]) for i in range(len(eig_vals))]
-    eig_pairs.sort(key=lambda x : x[0], reverse=True)
+    scaler = StandardScaler()
+    scaler.fit(X)
 
-    tot = sum(eig_vals)
+    X_scaled = scaler.transform(X)
 
-    var_explained = [(i / tot)*100 for i in sorted(eig_vals, reverse=True)]
-    cumulative_var_explained = np.cumsum(var_explained)
+    pca = PCA()
+    pca.fit(X_scaled)
 
-    return eig_pairs, var_explained, cumulative_var_explained
+    return pca
 
-get_scree_plot_data()
+def get_scree_plot_data(pca):
+    eig_pairs = [(pca.explained_variance_[i], pca.components_[i]) for i in range(len(pca.explained_variance_))]
+    explained_variance = [x * 100 for x in pca.explained_variance_ratio_]
+    cumulative_explained_variance = np.cumsum(explained_variance)
+    return eig_pairs, explained_variance, cumulative_explained_variance
+
+def get_biplot_data(pca):
+    global X_scaled
+    X_pca_all = pca.transform(X_scaled)
+
+    return X_pca_all[:, :2].tolist()
+
+def get_loadings(pca, di=17):
+    global df
+    loadings = pca.components_.T * np.sqrt(pca.explained_variance_)
+
+    loading_matrix = pd.DataFrame(loadings,
+                                  index=['PC' + str(i + 1) for i in range(len(pca.explained_variance_))],
+                                  columns=df.columns.values.tolist()
+                                  )
+
+    return loading_matrix

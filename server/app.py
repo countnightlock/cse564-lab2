@@ -6,10 +6,11 @@ import analysis
 app = Flask(__name__)
 CORS(app)
 
+pca = analysis.init()
 
 @app.get("/screedata")
 def get_scree_data():
-    eig_pairs, var_explained, cumulative_var_explained = analysis.get_scree_plot_data()
+    eig_pairs, var_explained, cumulative_var_explained = analysis.get_scree_plot_data(pca)
     pc_list = []
     for i in range(len(var_explained)):
         pc_list.append({
@@ -19,6 +20,10 @@ def get_scree_data():
             'cumulative_var_explained': cumulative_var_explained[i]
         })
     return jsonify(pc_list)
+
+@app.get("/biplotdata")
+def get_biplot_data():
+    return jsonify(analysis.get_biplot_data(pca))
 
 # @app.post("/countries")
 # def add_country():
