@@ -7,10 +7,17 @@ import ScreePlot from './charts/ScreePlot';
 class App extends Component {
   constructor(props) {
       super(props);
-      this.state = { screedata: [] };
+      this.state = { screedata: [], di : 3};
+
+      this.diHandler = this.diHandler.bind(this);
   }
 
-  async componentDidMount() {
+  diHandler(value) {
+      console.log('diHandler called with ' + value);
+      this.setState( {di : value} )
+  }
+
+  componentDidMount() {
       axios.get('http://localhost:8000/screedata')
         .then(response => this.setState({ screedata: response.data }));
   }
@@ -18,7 +25,7 @@ class App extends Component {
   render() {
       return (
         <div>
-          <ScreePlot screedata={this.state.screedata}/>
+          <ScreePlot screedata={this.state.screedata} diHandler={this.diHandler} />
         </div>
         
       )

@@ -33,7 +33,7 @@ class ScreePlot extends Component {
             .classed('gridline', true)
             .attr('stroke-opacity', 0.1);
 
-        chart.selectAll('.bar')
+        const bars = chart.selectAll('.bar')
             .data(data)
             .enter()
             .append('rect')
@@ -44,6 +44,11 @@ class ScreePlot extends Component {
             .attr('width', xScale.bandwidth())
             .style('stroke', '#191414')
             .style('fill', '#1DB954');
+
+        // TODO: add flair - https://gramener.github.io/d3js-playbook/tooltips.html
+        bars.on('click', (event, d) => {
+                this.props.diHandler(parseInt(d['name'].slice(2)))
+            });
 
         chart.append('path')
             .classed('cumulative', true)
