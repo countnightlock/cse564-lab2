@@ -62,12 +62,6 @@ class App extends Component {
             <ScreePlot screedata={this.state.screedata} diHandler={this.diHandler} di={this.state.di}/>
           </div>
           <div>
-            <h1>BiPlot</h1>
-            <p>This graph shows a scatterplot but on the top two PCs.</p>
-            <p>This graph also shows a representation of the eigenvalues and eigenvectors for the original columns of our dataset.</p>
-            <BiPlot biplotdata={this.state.biplotdata} labels={this.state.labels} columndata={this.state.columndata} di={this.state.di}/>
-          </div>
-          <div>
             <h1>Table of Loadings</h1>
             <p>This table shows as many PCs as selected on the scree plot.</p>
             <p>Rows are sorted based on the sum of squared loadings.</p>
@@ -78,6 +72,12 @@ class App extends Component {
             <h1>Scatterplot Matrix</h1>
             <p>Negative diagonal displays a basic "chart" with just the column name and legend.</p>
             <ScatterGrid actualdata={this.state.actualdata} labels={this.state.labels} cols={this.state.columns}/>
+          </div>
+          <div>
+            <h1>BiPlot</h1>
+            <p>This graph shows a scatterplot but on the top two PCs.</p>
+            <p>This graph also shows a representation of the eigenvalues and eigenvectors for the original columns of our dataset.</p>
+            <BiPlot biplotdata={this.state.biplotdata} labels={this.state.labels} columndata={this.state.columndata} di={this.state.di}/>
           </div>
           <div>
             <h1>Elbow Method</h1>

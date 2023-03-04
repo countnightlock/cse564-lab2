@@ -32,3 +32,7 @@ p {
   top: 10px;
   left: 0;
 }
+
+tbody tr:nth-child(-n+4) {
+  background-color: #efefef;
+}

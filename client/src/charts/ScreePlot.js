@@ -105,7 +105,7 @@ class ScreePlot extends Component {
             .attr('fill', 'currentColor')
             .style('font-size', '10px')
             .style('text-anchor', 'middle')
-            .text('↑ Explained Variance');
+            .text('↑ %age Explained Variance');
     }
 
     drawChart() {
