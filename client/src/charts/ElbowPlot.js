@@ -88,6 +88,18 @@ class ElbowPlot extends Component {
             .style('font-size', '10px')
             .style('text-anchor', 'middle')
             .text('↑ WCSS');
+
+        if (data.length !== 0) {
+            chart.append('text')
+            .attr('x', xScale(data[1]['i']))
+            .attr('y', yScale(data[1]['wcss']))
+            .attr('dx', -5)
+            .attr('dy', 5)
+            .attr('fill', 'currentColor')
+            .style('font-size', '12px')
+            .style('text-anchor', 'end')
+            .text('elbow!');
+        }
     }
 
     drawChart() {

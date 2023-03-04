@@ -10,7 +10,11 @@
   font-size: 8px;
 }
 
-h3 {
+h1 {
+  text-align: center;
+}
+
+p {
   text-align: center;
 }
 
