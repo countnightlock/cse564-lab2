@@ -7,14 +7,26 @@ import ParallelCoords from './charts/ParallelCoords';
 import { dimensionsConfig } from './utils/dimensions';
 import { arrayMoveImmutable } from 'array-move';
 import { Container, Draggable } from '@edorivai/react-smooth-dnd';
+import DummySelector from './charts/DummySelector';
 
 
 class App extends Component {
   constructor(props) {
       super(props);
-      this.state = { alldata: [], labels: [], biplotdata: [], columndata: [], actualdata: [], columns: [], elbowdata: [], di : 5};
+      this.state = {
+        alldata: [],
+        labels: [],
+        biplotdata: [],
+        columndata: [],
+        actualdata: [],
+        columns: [],
+        corrColumns: [],
+        elbowdata: [],
+        di : 5,
+      };
 
       this.diHandler = this.diHandler.bind(this);
+      this.pcpHandler = this.pcpHandler.bind(this);
   }
 
   getTopFourColumns(response) {
@@ -31,6 +43,16 @@ class App extends Component {
           return axios.get(`http://localhost:8000/actualdata?cols=${this.getTopFourColumns(response).join(',')}`);
         })
         .then(response => this.setState({ actualdata: response.data }));
+  }
+
+  pcpHandler(dimension) {
+    let cols = this.state.corrColumns.slice(0);
+    if (this.state.corrColumns.includes(dimension)) {
+      cols = cols.filter(item => item !== dimension);
+    } else {
+      cols.push(dimension);
+    }
+    this.setState({corrColumns : cols});
   }
 
   componentDidMount() {
@@ -66,19 +88,20 @@ class App extends Component {
             <p>This graph shows each principal component's individual contributions to explained variance.</p>
             <p>The line shows cumulative explained variance.</p>
             <p>You can click on the bars to set the dimensionality index (di). This will influence the number of PCs over which sum of squared loadings is calculated.</p>
-            <List>
-              <Container dragHandleSelector='.drag-handle' lockAxis='y' onDrop={this.onDrop}>
+            <Stack direction='row'>
+              <Container orientation='horizontal' dragHandleSelector='.drag-handle' lockAxis='x' onDrop={this.onDrop}>
                 {
                 this.state.columns.map((column, index) => {
                   return <Draggable key={index}>
-                    <ListItem>
-                      <ListItemText className='drag-handle' primary={column} />
+                    <ListItem className='drag-handle' sx={{ border: 1 }}>
+                      <ListItemText primary={column} />
                     </ListItem>
                   </Draggable>
                 })}
               </Container>
-            </List>
-            <ParallelCoords alldata={this.state.alldata} columns={this.state.columns} labels={this.state.labels} />
+            </Stack>
+            <DummySelector corrColumns={this.state.corrColumns} allColumns={this.state.columns} pcpHandler={this.pcpHandler} />
+            <ParallelCoords alldata={this.state.alldata} columns={this.state.corrColumns} labels={this.state.labels} />
           </div>
         </Stack>
       )
