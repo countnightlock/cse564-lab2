@@ -13,41 +13,94 @@ class DummySelector extends Component {
 
     plotDummySelector(chart, width, height, margins) {
         const corrColumns = this.props.corrColumns;
-        const allColumns = this.props.allColumns;
-
+        const mdsvars = this.props.mdsvars;
         const dimensions = [];
 
-        for (let col of allColumns) {
-            if (dimensionsConfig.get(col).get('type') !== 'numerical') continue;
+        for (let col of mdsvars) {
             dimensions.push({
-                name: col,
-                x: d3.randomInt(0, width)(),
-                y: d3.randomInt(0, height)(),
-                selected: corrColumns.includes(col)
+                name: col.name,
+                x: col.x,
+                y: col.y,
+                selected: corrColumns.includes(col.name)
             });
         }
 
+        const xScale = d3.scaleLinear()
+            .domain(d3.extent(dimensions, d => d.x)).nice()
+            .range([0, width]);
+
+        const yScale = d3.scaleLinear()
+            .domain(d3.extent(dimensions, d => d.y)).nice()
+            .range([height, 0]);
+
         chart.append('g')
-            .selectAll('.dot')
+            .selectAll('.dotvars')
             .data(dimensions)
             .enter()
             .append('circle')
-            .classed('dot', true)
-            .attr('cx', d => d.x)
-            .attr('cy', d => d.y)
+            .classed('dotvars', true)
+            .attr('cx', d => xScale(d.x))
+            .attr('cy', d => yScale(d.y))
             .attr('r', 5)
-            .attr('opacity', d => d.selected ? 0.1 : 0.6)
-            .style('fill', d => d.selected ? '#ff734a' : '#5294ac')
-            .append('text')
-            .attr('x', d => d.x + 5)
-            .attr('y', d => d.y + 5)
-            .attr('fill', 'currentColor')
-            .text(d => d.name);
+            .attr('opacity', 0.6)
+            .style('fill', d => d.selected ? '#ff734a' : '#5294ac');
 
-        chart.selectAll('.dot')
+        chart.append('g')
+            .selectAll('.varname')
+            .data(dimensions)
+            .enter()
+            .append('text')
+            .attr('x', d => xScale(d.x) + 5)
+            .attr('y', d => yScale(d.y) + 5)
+            .attr('fill', 'black')
+            .style('font-size', '8px')
+            .text(d => d.name)
+
+        chart.selectAll('.dotvars')
             .on('click', (event, d) => {
                 this.props.pcpHandler(d.name);
-            })
+            });
+
+        const xAxis = d3.axisBottom()
+            .scale(xScale)
+            .ticks(4);
+
+        const yAxis = d3.axisLeft()
+            .scale(yScale)
+            .ticks(4);
+
+        chart.append('g')
+            .classed('x-axis', true)
+            .attr('transform', `translate(0, ${height})`)
+            .call(xAxis)
+            .selectAll('text')
+            .style('font-size', '8px')
+            .style('text-anchor', 'middle');
+
+        chart.append('g')
+            .classed('y-axis', true)
+            .attr('transform', 'translate(0,0)')
+            .call(yAxis)
+            .selectAll('text')
+            .style('font-size', '8px');
+
+        chart.select('.x-axis')
+            .append('text')
+            .attr('x', width)
+            .attr('y', 27)
+            .attr('fill', 'currentColor')
+            .style('font-size', '10px')
+            .style('text-anchor', 'end')
+            .text('x →');
+
+        chart.select('.y-axis')
+            .append('text')
+            .attr('x', 0)
+            .attr('y', -10)
+            .attr('fill', 'currentColor')
+            .style('font-size', '10px')
+            .style('text-anchor', 'middle')
+            .text('↑ y');
 
     }
 

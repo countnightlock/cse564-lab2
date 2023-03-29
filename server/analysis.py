@@ -27,12 +27,29 @@ def init():
 
     X_scaled = scaler.transform(X)
 
-    mds = MDS(n_components=2, metric=True, dissimilarity='euclidean').fit_transform(X_scaled)
+    mds = MDS(n_components=2, metric=True, dissimilarity='euclidean', normalized_stress='auto', random_state=69).fit_transform(X_scaled)
 
     kmeans = KMeans(n_clusters = 2, init = 'k-means++', random_state = 12, n_init=10, max_iter=25)
     labels = kmeans.fit_predict(X_scaled)
 
     return mds
+
+def get_mds_vars():
+    df = read_only_numerical_tsv()
+    X = df.values
+
+    scaler = MinMaxScaler()
+    scaler.fit(X)
+
+    X_scaled = pd.DataFrame(scaler.transform(X), columns=df.columns)
+
+    corrMatrix = 1 - abs(X_scaled.corr())
+    mds_var = MDS(n_components=2, metric=True, dissimilarity='precomputed', normalized_stress='auto', random_state=420).fit_transform(corrMatrix)
+
+    mds_var = np.hstack((mds_var, corrMatrix.columns.to_numpy().reshape(14,1)))
+    dissimilarity = pd.DataFrame(data = mds_var, columns = ['x', 'y', 'name'])
+
+    return dissimilarity.to_json(orient='records')
 
 def get_mds_data(mds):
     mds_df = pd.DataFrame(data=mds, columns=['x','y'])

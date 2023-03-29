@@ -29,6 +29,10 @@ def get_biplot_data():
 def get_mds_data():
     return analysis.get_mds_data(mds)
 
+@app.get('/mdsvars')
+def get_mds_vars():
+    return analysis.get_mds_vars()
+
 @app.get("/columndata")
 def get_column_data():
     args = request.args

@@ -2,7 +2,7 @@
 import './App.css';
 import React, { Component } from 'react';
 import axios from 'axios';
-import { Divider, List, ListItem, ListItemText, Stack } from '@mui/material';
+import { Divider, ListItem, ListItemText, Stack } from '@mui/material';
 import ParallelCoords from './charts/ParallelCoords';
 import { dimensionsConfig } from './utils/dimensions';
 import { arrayMoveImmutable } from 'array-move';
@@ -18,6 +18,7 @@ class App extends Component {
         alldata: [],
         labels: [],
         mdsdata: [],
+        mdsvars: [],
         biplotdata: [],
         columndata: [],
         actualdata: [],
@@ -65,6 +66,8 @@ class App extends Component {
 
       axios.get('http://localhost:8000/mdsdata')
         .then(response => this.setState({ mdsdata: response.data }));
+      axios.get('http://localhost:8000/mdsvars')
+        .then(response => this.setState({ mdsvars: response.data }));
 
       if (this.state.columns.length === 0) {
         this.setState({ columns: Array.from(dimensionsConfig.keys()) });
@@ -87,7 +90,7 @@ class App extends Component {
 
   render() {
       return (
-        <Stack spacing={2} divider={<Divider orientation='horizontal' flexItem/>} >
+        <Stack spacing={2} divider={<Divider orientation='horizontal' sx={{width: 1/2}} flexItem/>} >
           <div>
             <h1>Scree Plot</h1>
             <p>This graph shows each principal component's individual contributions to explained variance.</p>
@@ -105,10 +108,10 @@ class App extends Component {
                 })}
               </Container>
             </Stack>
-            <DummySelector corrColumns={this.state.corrColumns} allColumns={this.state.columns} pcpHandler={this.pcpHandler} />
-            <ParallelCoords alldata={this.state.alldata} columns={this.state.corrColumns} labels={this.state.labels} />
-            <MiniScatterPlot dimensionX={'x'} dimensionY={'y'} labels={this.state.labels} data={this.state.mdsdata} />
           </div>
+          <DummySelector corrColumns={this.state.corrColumns} mdsvars={this.state.mdsvars} pcpHandler={this.pcpHandler} />
+          <ParallelCoords alldata={this.state.alldata} columns={this.state.corrColumns} labels={this.state.labels} />
+          <MiniScatterPlot dimensionX={'x'} dimensionY={'y'} labels={this.state.labels} data={this.state.mdsdata} />
         </Stack>
       )
   }
