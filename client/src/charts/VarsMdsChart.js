@@ -1,17 +1,16 @@
-// DummySelector.js
+// VarsMdsChart.js
 import * as d3 from 'd3';
 import { Component } from 'react';
 import { Element } from 'react-faux-dom';
 
 import { SVG_HEIGHT, SVG_MARGINS, SVG_WIDTH } from '../utils/config';
-import { dimensionsConfig } from '../utils/dimensions';
 
-class DummySelector extends Component {
+class VarsMdsChart extends Component {
 
     componentDidMount() {
     }
 
-    plotDummySelector(chart, width, height, margins) {
+    plotVarsMdsChart(chart, width, height, margins) {
         const corrColumns = this.props.corrColumns;
         const mdsvars = this.props.mdsvars;
         const dimensions = [];
@@ -43,7 +42,7 @@ class DummySelector extends Component {
             .attr('cy', d => yScale(d.y))
             .attr('r', 5)
             .attr('opacity', 0.6)
-            .style('fill', d => d.selected ? '#ff734a' : '#5294ac');
+            .style('fill', d => d.selected ? '#ff734a' : '#1db954');
 
         chart.append('g')
             .selectAll('.varname')
@@ -52,7 +51,7 @@ class DummySelector extends Component {
             .append('text')
             .attr('x', d => xScale(d.x) + 5)
             .attr('y', d => yScale(d.y) + 5)
-            .attr('fill', 'black')
+            .attr('fill', d => d.selected ? '#ff734a' : '#1db954')
             .style('font-size', '8px')
             .text(d => d.name)
 
@@ -126,7 +125,7 @@ class DummySelector extends Component {
         const chartWidth = width - (margins.left + margins.right);
         const chartHeight = height - (margins.top + margins.bottom);
 
-        this.plotDummySelector(chart, chartWidth, chartHeight, margins);
+        this.plotVarsMdsChart(chart, chartWidth, chartHeight, margins);
 
         return div.toReact();
     }
@@ -136,4 +135,4 @@ class DummySelector extends Component {
     }
 }
 
-export default DummySelector;
+export default VarsMdsChart;

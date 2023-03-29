@@ -7,7 +7,7 @@ import ParallelCoords from './charts/ParallelCoords';
 import { dimensionsConfig } from './utils/dimensions';
 import { arrayMoveImmutable } from 'array-move';
 import { Container, Draggable } from '@edorivai/react-smooth-dnd';
-import DummySelector from './charts/DummySelector';
+import VarsMdsChart from './charts/VarsMdsChart';
 import MiniScatterPlot from './charts/MiniScatterPlot';
 
 
@@ -24,8 +24,6 @@ class App extends Component {
         actualdata: [],
         columns: [],
         corrColumns: [],
-        elbowdata: [],
-        di : 5,
       };
 
       this.diHandler = this.diHandler.bind(this);
@@ -72,13 +70,6 @@ class App extends Component {
       if (this.state.columns.length === 0) {
         this.setState({ columns: Array.from(dimensionsConfig.keys()) });
       }
-
-      // axios.get(`http://localhost:8000/columndata?di=${this.state.di}`)
-      //   .then(response => {
-      //     this.setState({ columndata: response.data });
-      //     return axios.get(`http://localhost:8000/actualdata?cols=${this.getTopFourColumns(response).join(',')}`);
-      //   })
-      //   .then(response => this.setState({ actualdata: response.data }));
   }
 
   // https://codesandbox.io/s/74wxnz38m6?file=/src/index.js
@@ -90,12 +81,43 @@ class App extends Component {
 
   render() {
       return (
-        <Stack spacing={2} divider={<Divider orientation='horizontal' sx={{width: 1/2}} flexItem/>} >
-          <div>
-            <h1>Scree Plot</h1>
-            <p>This graph shows each principal component's individual contributions to explained variance.</p>
-            <p>The line shows cumulative explained variance.</p>
-            <p>You can click on the bars to set the dimensionality index (di). This will influence the number of PCs over which sum of squared loadings is calculated.</p>
+        <Stack spacing={1} divider={<Divider orientation='horizontal' flexItem/>} >
+          <div id='mds-container'>
+            <h1>MDS Chart - Data</h1>
+            <p>
+              This chart shows the result of applying Multidimensional Scaling on our data. The distance between any
+              two points on the chart is representative of the distance between those points in the original data space.
+            </p>
+            <p>
+              The x and y axes have no significance other than to provide a frame of reference for the closeness of points.
+            </p>
+            <p>
+              Points are colored based on k-means clustering performed in lab 2a. 
+            </p>
+            <p>
+              <span id='class-1'>⬤</span> = cluster 1, <span id='class-2'>⬤</span> = cluster 2
+            </p>
+            <MiniScatterPlot dimensionX={'x'} dimensionY={'y'} labels={this.state.labels} data={this.state.mdsdata} />
+          </div>
+
+          <div id='pcp-info-container'>
+            <h1>Parallel Coordinates Plot - All Dimensions</h1>
+            <p>
+              This chart shows data in the form of one polyline per datapoint. A polyline is made up of line segments
+              between the values on their corresponding dimension.
+            </p>
+            <p>
+              You can drag and drop the cells below to rearrange axes.
+            </p>
+            <p>
+              Polylines are colored based on k-means clustering performed in lab 2a. 
+            </p>
+            <p>
+              <span id='class-1'>⬤</span> = cluster 1, <span id='class-2'>⬤</span> = cluster 2
+            </p>
+          </div>
+
+          <div id='pcp-table-container'>
             <Stack direction='row'>
               <Container orientation='horizontal' dragHandleSelector='.drag-handle' lockAxis='x' onDrop={this.onDrop}>
                 {
@@ -109,9 +131,49 @@ class App extends Component {
               </Container>
             </Stack>
           </div>
-          <DummySelector corrColumns={this.state.corrColumns} mdsvars={this.state.mdsvars} pcpHandler={this.pcpHandler} />
-          <ParallelCoords alldata={this.state.alldata} columns={this.state.corrColumns} labels={this.state.labels} />
-          <MiniScatterPlot dimensionX={'x'} dimensionY={'y'} labels={this.state.labels} data={this.state.mdsdata} />
+
+          <div id='pcp-chart-container'>
+            <ParallelCoords alldata={this.state.alldata} columns={this.state.columns} labels={this.state.labels} />
+          </div>
+
+          <div id='mds-vars-container'>
+            <h1>MDS Chart - Variables</h1>
+            <p>
+              This chart shows the result of applying Multidimensional Scaling on our variables' correlation matrix. In particular, we
+              use the <code>1 - |correlation|</code> metric to keep highly correlated variables closer on the chart.
+            </p>
+            <p>
+              Click on points to toggle their presence in the PCP below. Note that only numerical variables are plotted here.
+            </p>
+            <p>
+              <span id='var-selected'>⬤</span> = selected, <span id='var-unselected'>⬤</span> = not selected
+            </p>
+          </div>
+
+          <div id='charts-container'>
+            <VarsMdsChart corrColumns={this.state.corrColumns} mdsvars={this.state.mdsvars} pcpHandler={this.pcpHandler} />
+          </div>
+
+          {
+            this.state.corrColumns.length === 0 ?
+              <div id='charts-container'>
+                <h1>Please select at least one dimension to view PCP.</h1>
+              </div> :
+              <div id='pcp-chart-container'>
+
+                  <h1>Variables MDS driven PCP</h1>
+                  <p>
+                    Polylines are colored based on k-means clustering performed in lab 2a. 
+                  </p>
+                  <p>
+                    <span id='class-1'>⬤</span> = cluster 1, <span id='class-2'>⬤</span> = cluster 2
+                  </p>
+
+
+                  <ParallelCoords alldata={this.state.alldata} columns={this.state.corrColumns} labels={this.state.labels} />
+
+              </div>
+          }
         </Stack>
       )
   }

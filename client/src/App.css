@@ -36,3 +36,42 @@ p {
 tbody tr:nth-child(-n+4) {
   background-color: #efefef;
 }
+
+#pcp-info-container {
+  align-self: center;
+  width: 60%;
+}
+
+#pcp-table-container {
+  align-self: center;
+}
+
+#pcp-chart-container {
+  align-self: center;
+  width: 80%;
+}
+
+#mds-container, #charts-container {
+  align-self: center;
+  width: 60%;
+}
+
+#big-container {
+  align-items: center;
+}
+
+#class-1 {
+  color: #ff734a;
+}
+
+#class-2 {
+  color: #5294ac;
+}
+
+#var-selected {
+  color: #ff734a;
+}
+
+#var-unselected {
+  color: #1db954;
+}
