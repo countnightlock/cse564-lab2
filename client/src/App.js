@@ -8,6 +8,7 @@ import { dimensionsConfig } from './utils/dimensions';
 import { arrayMoveImmutable } from 'array-move';
 import { Container, Draggable } from '@edorivai/react-smooth-dnd';
 import DummySelector from './charts/DummySelector';
+import MiniScatterPlot from './charts/MiniScatterPlot';
 
 
 class App extends Component {
@@ -16,6 +17,7 @@ class App extends Component {
       this.state = {
         alldata: [],
         labels: [],
+        mdsdata: [],
         biplotdata: [],
         columndata: [],
         actualdata: [],
@@ -61,6 +63,9 @@ class App extends Component {
       axios.get('http://localhost:8000/actualdata?cols=all')
         .then(response => this.setState({ alldata: response.data }));
 
+      axios.get('http://localhost:8000/mdsdata')
+        .then(response => this.setState({ mdsdata: response.data }));
+
       if (this.state.columns.length === 0) {
         this.setState({ columns: Array.from(dimensionsConfig.keys()) });
       }
@@ -102,6 +107,7 @@ class App extends Component {
             </Stack>
             <DummySelector corrColumns={this.state.corrColumns} allColumns={this.state.columns} pcpHandler={this.pcpHandler} />
             <ParallelCoords alldata={this.state.alldata} columns={this.state.corrColumns} labels={this.state.labels} />
+            <MiniScatterPlot dimensionX={'x'} dimensionY={'y'} labels={this.state.labels} data={this.state.mdsdata} />
           </div>
         </Stack>
       )

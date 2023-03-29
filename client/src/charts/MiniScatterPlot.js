@@ -16,8 +16,8 @@ class MiniScatterPlot extends Component {
 
         let xScale, yScale;
 
-        const xIsCategorical = dimensionsConfig.get(dimensionX).get('type') !== 'numerical';
-        const yIsCategorical = dimensionsConfig.get(dimensionY).get('type') !== 'numerical';
+        const xIsCategorical = false;
+        const yIsCategorical = false;
 
         if (xIsCategorical) {
             xScale = d3.scaleBand()
@@ -69,7 +69,7 @@ class MiniScatterPlot extends Component {
             .attr('transform', `translate(0, ${height})`)
             .call(xAxis)
             .selectAll('text')
-            .style('font-size', '18px')
+            .style('font-size', '8px')
             .style('text-anchor', 'middle');
 
         chart.append('g')
@@ -77,7 +77,25 @@ class MiniScatterPlot extends Component {
             .attr('transform', 'translate(0,0)')
             .call(yAxis)
             .selectAll('text')
-            .style('font-size', '18px');
+            .style('font-size', '8px');
+
+        chart.select('.x-axis')
+            .append('text')
+            .attr('x', width)
+            .attr('y', 27)
+            .attr('fill', 'currentColor')
+            .style('font-size', '10px')
+            .style('text-anchor', 'end')
+            .text('x →');
+
+        chart.select('.y-axis')
+            .append('text')
+            .attr('x', 0)
+            .attr('y', -10)
+            .attr('fill', 'currentColor')
+            .style('font-size', '10px')
+            .style('text-anchor', 'middle')
+            .text('↑ y');
     }
 
     drawChart() {

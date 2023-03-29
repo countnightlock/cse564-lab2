@@ -1,35 +1,42 @@
 import numpy as np
 import pandas as pd
-from sklearn.preprocessing import StandardScaler
-from sklearn.decomposition import PCA
+from sklearn.preprocessing import MinMaxScaler
+from sklearn.manifold import MDS
 from sklearn.cluster import KMeans
 
 def read_tsv():
     return pd.read_csv('analysis.txt', sep='\t', usecols=lambda col : 'uri' not in col)
 
+def read_only_numerical_tsv():
+    return pd.read_csv('analysis.txt', sep='\t', usecols=lambda col : 'uri' not in col and col not in ['key', 'mode', 'time_signature'])
+
 df = None
 X = None
 X_scaled = None
 labels = None
+mds = None
 
 def init():
-    global df, X, X_scaled, labels
+    global df, X, X_scaled, labels, mds
     df = read_tsv()
 
     X = df.values
 
-    scaler = StandardScaler()
+    scaler = MinMaxScaler()
     scaler.fit(X)
 
     X_scaled = scaler.transform(X)
 
-    pca = PCA()
-    pca.fit(X_scaled)
+    mds = MDS(n_components=2, metric=True, dissimilarity='euclidean').fit_transform(X_scaled)
 
     kmeans = KMeans(n_clusters = 2, init = 'k-means++', random_state = 12, n_init=10, max_iter=25)
     labels = kmeans.fit_predict(X_scaled)
 
-    return pca
+    return mds
+
+def get_mds_data(mds):
+    mds_df = pd.DataFrame(data=mds, columns=['x','y'])
+    return mds_df.to_json(orient='records')
 
 def get_scree_plot_data(pca):
     eig_pairs = [(pca.explained_variance_[i], pca.components_[i]) for i in range(len(pca.explained_variance_))]

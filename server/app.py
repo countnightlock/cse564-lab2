@@ -6,11 +6,11 @@ import analysis
 app = Flask(__name__)
 CORS(app)
 
-pca = analysis.init()
+mds = analysis.init()
 
 @app.get("/screedata")
 def get_scree_data():
-    eig_pairs, var_explained, cumulative_var_explained = analysis.get_scree_plot_data(pca)
+    eig_pairs, var_explained, cumulative_var_explained = analysis.get_scree_plot_data(mds)
     pc_list = []
     for i in range(len(var_explained)):
         pc_list.append({
@@ -23,12 +23,16 @@ def get_scree_data():
 
 @app.get("/biplotdata")
 def get_biplot_data():
-    return jsonify(analysis.get_biplot_data(pca))
+    return jsonify(analysis.get_biplot_data(mds))
+
+@app.get('/mdsdata')
+def get_mds_data():
+    return analysis.get_mds_data(mds)
 
 @app.get("/columndata")
 def get_column_data():
     args = request.args
-    return analysis.get_loadings(pca, args.get('di', type=int))
+    return analysis.get_loadings(mds, args.get('di', type=int))
 
 @app.get("/actualdata")
 def get_actual_data():
