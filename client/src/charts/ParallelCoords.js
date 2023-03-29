@@ -49,6 +49,7 @@ class ParallelCoords extends Component {
             .join('path')
             .attr('d', path)
             .style('fill', 'none')
+            .attr('stroke-width', '0.5')
             .style('stroke', (d, i) => labels[i] === 0 ? '#ff734a' : '#5294ac')
             .style('opacity', 0.5);
 
