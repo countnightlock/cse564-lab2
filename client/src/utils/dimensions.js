@@ -47,6 +47,12 @@ function createDimensions() {
         map.set('title', 'Duration');
         map.set('type', 'numerical');
         map.set('description', 'The duration of the track in milliseconds.');
+        map.set('formatter', (dv) => {
+            const date = new Date(dv);
+                return [date.getMinutes(), date.getSeconds()].map(
+                    v => String(v).padStart(2, '0')
+                ).join(':')
+        });
         return map;
     })());
 
@@ -76,18 +82,20 @@ function createDimensions() {
         map.set('description', 'The key the track is in. Integers map to pitches using standard Pitch Class notation. E.g. 0 = C, 1 = C♯/D♭, 2 = D, and so on. If no key was detected, the value is -1.');
         const valueMap = new Map();
         valueMap.set('0', 'C');
-        valueMap.set('1', 'C♯, D♭');
+        valueMap.set('1', 'C♯');
         valueMap.set('2', 'D');
-        valueMap.set('3', 'D♯, E♭');
+        valueMap.set('3', 'D♯');
         valueMap.set('4', 'E');
         valueMap.set('5', 'F');
-        valueMap.set('6', 'F♯, G♭');
+        valueMap.set('6', 'F♯');
         valueMap.set('7', 'G');
-        valueMap.set('8', 'G♯, A♭');
+        valueMap.set('8', 'G♯');
         valueMap.set('9', 'A');
-        valueMap.set('10', 'A♯, B♭');
+        valueMap.set('10', 'A♯');
         valueMap.set('11', 'B');
         map.set('valueMap', valueMap);
+
+        map.set('formatter', (dv) => valueMap.get(String(dv)));
         return map;
     })());
 
@@ -119,6 +127,8 @@ function createDimensions() {
         valueMap.set('0', 'Minor');
         valueMap.set('1', 'Major');
         map.set('valueMap', valueMap);
+
+        map.set('formatter', (dv) => valueMap.get(String(dv)));
         return map;
     })());
 
@@ -162,6 +172,8 @@ function createDimensions() {
         valueMap.set('6', '6/4');
         valueMap.set('7', '7/4');
         map.set('valueMap', valueMap);
+
+        map.set('formatter', (dv) => valueMap.get(String(dv)) ? valueMap.get(String(dv)) : '???');
         return map;
     })());
 

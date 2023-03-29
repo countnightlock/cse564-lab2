@@ -33,7 +33,10 @@ def get_column_data():
 @app.get("/actualdata")
 def get_actual_data():
     args = request.args
-    return analysis.get_actual_data(args.get('cols').split(','))
+    if args.get('cols', type=str) == 'all':
+        return analysis.get_all_data()
+    else:
+        return analysis.get_actual_data(args.get('cols').split(','))
 
 @app.get("/elbowplot")
 def get_elbow_data():
