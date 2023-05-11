@@ -83,13 +83,18 @@ def get_master_data():
     else:
         popularity_filter = args.get('popindex', type=int)
 
-    filtered_df = analysis.get_filtered_df(countries_filter, histogram_filter, popularity_filter)
+    filtered_df = analysis.get_filtered_df(df, countries_filter, histogram_filter, popularity_filter)
+
+    if histogram_filter is not None:
+        country_df = analysis.get_filtered_df(df, None, histogram_filter, None)
+    else:
+        country_df = df
 
     top_5_track_uris = analysis.get_top_five(filtered_df)['track_id'].unique().tolist()
 
     return jsonify({
         'alldata': analysis.get_all_data(filtered_df),
-        'country_data': analysis.get_country_data().to_dict(orient='records'),
+        'country_data': analysis.get_country_data(country_df).to_dict(orient='records'),
         'histogram_data': analysis.get_histogram_data(filtered_df).tolist(),
         'bubble_chart_data': analysis.get_bubble_chart_data(filtered_df),
         'top_five': spotify.get_track_details(top_5_track_uris).to_dict(orient='records'),

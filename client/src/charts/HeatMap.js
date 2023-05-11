@@ -53,6 +53,27 @@ class HeatMap extends Component {
             .range(["white", "#5294ac"])
             .domain([0, d3.max(heat)]);
 
+        var defs = chart.append("defs");
+
+        var gradient = defs.append("linearGradient")
+            .attr("id", "svgGradient")
+            .attr("x1", "100%")
+            .attr("x2", "100%")
+            .attr("y1", "100%")
+            .attr("y2", "0%");
+        
+        gradient.append("stop")
+            .attr("class", "start")
+            .attr("offset", "0%")
+            .attr("stop-color", "red")
+            .attr("stop-opacity", 1);
+            
+        gradient.append("stop")
+            .attr("class", "end")
+            .attr("offset", "100%")
+            .attr("stop-color", "blue")
+            .attr("stop-opacity", 1);
+
         //Read the data
         chart.selectAll()
             .data(heat)
@@ -62,7 +83,8 @@ class HeatMap extends Component {
             .attr("y", (d, i) => y(Math.floor(i % 10)))
             .attr("width", x.bandwidth())
             .attr("height", y.bandwidth())
-            .style("fill", function(d) { return myColor(d)} )
+            .style("fill", "url(#svgGradient)")
+            // .style("fill", function(d) { return myColor(d)} )
         
         chart.selectAll()
             .data(heat)

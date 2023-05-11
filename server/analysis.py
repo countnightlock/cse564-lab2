@@ -122,15 +122,11 @@ def apply_range_filter(df, col, range_l, range_r):
     return df[(df[col] >= range_l) & (df[col] <= range_r)]
 
 
-def get_filtered_df(country_filter, histogram_filter, popularity_filter):
-    global df
-
-    print(country_filter)
-
+def get_filtered_df(data_frame, country_filter, histogram_filter, popularity_filter):
     if country_filter is not None:
-        filtered_df = df[df['country'].isin(country_filter)]
+        filtered_df = data_frame[data_frame['country'].isin(country_filter)]
     else:
-        filtered_df = df
+        filtered_df = data_frame
 
     if histogram_filter is not None:
         filtered_df = apply_range_filter(filtered_df, 'release_date', histogram_filter[0], histogram_filter[1])
@@ -145,9 +141,8 @@ def get_filtered_df(country_filter, histogram_filter, popularity_filter):
     return filtered_df
 
 
-def get_country_data():
-    global df
-    value_counts = df['country'].value_counts()
+def get_country_data(data_frame):
+    value_counts = data_frame['country'].value_counts()
 
     keys = value_counts.keys().tolist()
     values = value_counts.tolist()
@@ -188,6 +183,3 @@ def get_bubble_chart_data(data_frame):
 
 def get_top_five(data_frame):
     return data_frame.sort_values(by=['track_popularity'], ascending=False).head(5)
-
-init()
-print(get_country_data())
