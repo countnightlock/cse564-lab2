@@ -160,23 +160,26 @@ def get_bubble_chart_data(data_frame):
                     'artist': track[1],
                     'album': track[2]
                 },
-                'popularity': track[3]
-            } for track in zip(data_frame['track_name'], data_frame['artist_name'], data_frame['album_name'], data_frame['release_date'])]
+                'popularity': track[3],
+                'genre': track[4]
+            } for track in zip(data_frame['track_name'], data_frame['artist_name'], data_frame['album_name'], data_frame['track_popularity'], data_frame['genre'])]
     filtered_df = data_frame.drop_duplicates(subset=['album_id', 'artist_id'])
     albums = [{
                 'name': {
                     'album': track[1],
                     'artist': track[0]
                 },
-                'popularity': track[2]
-            } for track in zip(filtered_df['artist_name'], filtered_df['album_name'], filtered_df['album_popularity'])]
+                'popularity': track[2],
+                'genre': track[3]
+            } for track in zip(filtered_df['artist_name'], filtered_df['album_name'], filtered_df['album_popularity'], filtered_df['genre'])]
     filtered_df = filtered_df.drop_duplicates(subset=['artist_id'])
     artists = [{
                 'name': {
                     'artist': track[0],
                 },
-                'popularity': track[1]
-            } for track in zip(filtered_df['artist_name'], filtered_df['artist_popularity'])]
+                'popularity': track[1],
+                'genre': track[2]
+            } for track in zip(filtered_df['artist_name'], filtered_df['artist_popularity'], filtered_df['genre'])]
 
     return {'tracks': tracks, 'albums': albums, 'artists': artists}
 
