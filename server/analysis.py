@@ -119,7 +119,7 @@ def get_labels():
     return labels.tolist()
 
 def apply_range_filter(df, col, range_l, range_r):
-    return df[(df[col] >= range_l) & (df[col] <= range_r)]
+    return df[(df[col] >= range_l) & (df[col] < range_r)]
 
 
 def get_filtered_df(data_frame, country_filter, histogram_filter, popularity_filter):
