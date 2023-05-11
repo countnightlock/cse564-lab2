@@ -8,7 +8,8 @@ import random
 
 auth_manager = SpotifyClientCredentials(client_id="2ff4ff705f074eb4bc1ff5296a34ae93", client_secret="59bfc45fd3634e92bcdf69b06731f5d6")
 
-lz_uri = 'https://open.spotify.com/playlist/1wakCONbrTENKlkZSDZx6o?si=8d7406914da44602'
+lz_uri = 'https://open.spotify.com/playlist/6rn21ViY7WVZdPYiauYMTQ?si=b6e607723e104061'
+# lz_uri = 'https://open.spotify.com/playlist/1wakCONbrTENKlkZSDZx6o?si=8d7406914da44602'
 
 spotify = spotipy.Spotify(client_credentials_manager=auth_manager)
 
@@ -86,7 +87,7 @@ def get_audio_features(track_ids):
             'liveness': item['liveness'],
             'speechiness': item['speechiness'],
             'valence': item['valence'],
-        } for item in response])
+        } for item in response if item is not None])
 
     return pd.DataFrame(data=result_items)
 
@@ -152,6 +153,8 @@ def main():
         how='inner',
         on='track_id'
     )
+
+    merged_df.dropna(subset=['acousticness']).reset_index(drop=True)
 
     # print(merged_df.to_json(orient='records'))
     merged_df.to_csv('analysis1.txt', sep='\t', index=False)

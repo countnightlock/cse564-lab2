@@ -1,51 +1,765 @@
 track_id	track_name	track_popularity	album_id	artist_id	genre	country	artist_name	artist_popularity	album_name	album_popularity	release_date	acousticness	danceability	energy	instrumentalness	liveness	speechiness	valence
-0PERS23jNsjcjBywXLvpyc	When I'm Small	58	4EbDqql0TmQPSDaSgDnoEZ	1l9d7B8W0IHy3LqWsxP2SH	Rock	USA	Phantogram	67	Eyelid Movies	52	2010	0.191	0.646	0.758	0.097	0.103	0.0314	0.424
-2FjoCQaBoiEKs3FCvD0HkR	Unbearably White	49	1A3nVEWRJ8yvlPzawHI1pQ	5BvJzeQpmsdsFp4HGUYUEx	Indie	India	Vampire Weekend	66	Father of the Bride	64	2019	0.219	0.531	0.422	0.0198	0.0608	0.0571	0.579
-0tkBOcK7oRVXQJY97zzSvr	Telescope	65	4EK8gtQfdVsmDTji7gBFlz	26T3LtbuGT1Fu9m0eRq5X3	Hip-Hop	India	Cage The Elephant	74	Melophobia	76	2013	0.273	0.589	0.481	1.33e-05	0.0986	0.0285	0.176
-3L80FHW2NswspNHsJfQm85	Tsukuyomi	33	1sgAanfg8fmIFXFbuPBBeO	3Ww8GMbCDMAGwJJ2hd7z7z	Pop	USA	Lena Raine	58	Oneknowing	38	2019	0.862	0.546	0.373	0.929	0.0982	0.0277	0.0919
-5x42CjqVuWJ4HALw5N0FNl	Hyouhaku	42	1MeuOC5pbK1Nz0JPEeBl5j	0txxG1RcOuVefWjrrMQn3G	Hip-Hop	India	R A Y	41	Chapter V	44	2020	0.571	0.34	0.233	0.698	0.085	0.0428	0.213
-1BLfQ6dPXmuDrFmbdfW7Jl	A Little Piece of Heaven	69	3Id3VUk9jSKBD1guNo1buF	0nmQIMXWTXfhgOBdNzhGOs	Indie	USA	Avenged Sevenfold	75	Avenged Sevenfold	74	2007	0.0244	0.486	0.881	0.0	0.429	0.0474	0.667
-38PTaSqKcn1NKafQRdXSby	PPP	50	5tTmosmyV33wCiwniZc4Qs	56ZTgzPBDge0OvCGgMO3OY	Rock	India	Beach House	74	Depression Cherry	69	2015	0.381	0.49	0.464	0.894	0.0555	0.0284	0.142
-1Y3LN4zO1Edc2EluIoSPJN	Until I Found You (with Em Beihold) - Em Beihold Version	93	7ARtQpvnPN2ucbmVHngLOs	5XKFrudbV4IiuE5WuTPRmT	Hip-Hop	United Kingdom	Stephen Sanchez	79	Until I Found You (Em Beihold Version)	86	2022	0.777	0.551	0.55	0.0	0.202	0.0286	0.342
-5TTGoX70AFrTvuEtqHK37S	No. 1 Party Anthem	72	78bpIziExqiI9qztvNFlQu	7Ln80lUS6He07XvHI8qqHH	Indie	USA	Arctic Monkeys	87	AM	93	2013	0.33	0.505	0.698	0.0887	0.0966	0.0297	0.599
-0GegHVxeozw3rdjte45Bfx	White Winter Hymnal	69	5GRnydamKvIeG46dycID6v	4EVpmkEwrLYEg6jIsiPMIb	International	India	Fleet Foxes	64	Fleet Foxes	66	2008	0.44	0.628	0.5	0.0	0.244	0.0268	0.68
-389QX9Q1eUOEZ19vtzzI9O	While My Guitar Gently Weeps - Remastered 2009	72	1klALx0u4AavZNEvC4LrTL	3WrFJ7ztbogyGnTHbHJFl2	Rock	USA	The Beatles	84	The Beatles (Remastered)	78	1968	0.0205	0.453	0.654	0.00395	0.172	0.0317	0.702
-28qA8y1sz0FTuSapsCxNOG	Father Time (feat. Sampha)	75	79ONNoS4M9tfIA1mYLBYVX	2YZyLoL8N0Wb9xBt1NhZWg	Rock	India	Kendrick Lamar	89	Mr. Morale & The Big Steppers	87	2022	0.181	0.514	0.779	0.0	0.099	0.344	0.517
-0fX4oNGBWO3dSGUZcVdVV2	N95	81	79ONNoS4M9tfIA1mYLBYVX	2YZyLoL8N0Wb9xBt1NhZWg	International	USA	Kendrick Lamar	89	Mr. Morale & The Big Steppers	87	2022	0.377	0.79	0.67	2.32e-06	0.119	0.105	0.408
-1QPreu0BNOrUfEb8HTd2qG	Rich Spirit	78	79ONNoS4M9tfIA1mYLBYVX	2YZyLoL8N0Wb9xBt1NhZWg	Indie	USA	Kendrick Lamar	89	Mr. Morale & The Big Steppers	87	2022	0.428	0.852	0.421	2.28e-06	0.106	0.208	0.457
-2g6tReTlM2Akp41g0HaeXN	Die Hard	79	79ONNoS4M9tfIA1mYLBYVX	2YZyLoL8N0Wb9xBt1NhZWg	Indie	India	Kendrick Lamar	89	Mr. Morale & The Big Steppers	87	2022	0.319	0.775	0.736	0.00116	0.127	0.247	0.362
-25Syi9wnfn6ZGAmiOBypPq	Motion Sickness	65	5rcJ5xCMYYLCgGilFDKRZl	1r1uxoy19fzMxunt3ONAkG	Indie	USA	Phoebe Bridgers	80	Stranger in the Alps (Deluxe Edition)	71	2018	0.774	0.651	0.546	0.0437	0.0842	0.0357	0.623
-6NmPA1sBTk3zYOujgUxhf8	You Did This	41	7aqeGazGxWGxzPHLfvvByi	31tVXduq7FmEznjanEBQJA	International	USA	Scattle	46	Sketch	46	2017	0.00258	0.606	0.439	0.814	0.12	0.0493	0.432
-5frmIBzZKMjU2PlWJJ8Ir3	Tere Bin	65	7qYDD5oxBq3ikNV9cgbyjo	7eYwycsUoAQLxKF1MNEvVa	Indie	United Kingdom	Rabbi Shergill	48	Rabbi	58	2004	0.659	0.712	0.87	7.55e-05	0.161	0.0553	0.873
-6CKoWCWAqEVWVjpeoJXyNH	Shape Of My Heart	74	5kV0KBXfELibs6qQJLmOtg	0Ty63ceoRnnJKVEYP0VQpk	International	United Kingdom	Sting	71	Ten Summoner's Tales	73	1993	0.691	0.537	0.373	0.000915	0.083	0.0331	0.244
-780zqvhD7SvK0sMGheplPf	Kaala Rey	38	7DBbDXQbei6e4X6EdXOyz2	3JtetEsoytPoOIPGvqUvSR	Indie	India	Sneha Khanwalkar	36	Gangs Of Wasseypur - 2	42	2012	0.232	0.725	0.511	0.00279	0.233	0.0326	0.472
-5SOA0gaKMMp9cgwn3nuwk7	Solitude - Felsmann + Tiley Reinterpretation	62	7mCzA6gqtv4ZtfInpJXm52	63MQldklfxkjYDoUE4Tppz	International	India	M83	71	Solitude (Felsmann + Tiley Reinterpretation)	55	2020	0.668	0.367	0.202	0.145	0.109	0.0313	0.0362
-2VR1z4g6haFyMoghNj46KB	Jhoom	56	7gITB9pwcGy6027YxnAHsM	3cKNppGLfcxdt9CtoHEZmQ	Indie	United Kingdom	Ali Zafar	57	Jhoom	64	2011	0.392	0.734	0.529	0.0	0.11	0.0346	0.58
-1K2RnVhm3eauKnA8PAcPu1	Heat Waves - Slowed	72	4SRt3uGUROnTFCw41dzHIh	4yvcSjfu4PC0CYQyLy4wSq	International	South Korea	Glass Animals	77	Heat Waves (Expansion Pack)	65	2021	0.649	0.633	0.55	0.000363	0.147	0.0924	0.333
-1ZyQGXH9dZ4AecevHhKUxi	World Gone Mad	54	1eRw8LHFNcfucLRf0PWbHw	7EQ0qTo7fWT7DPxmxtSYEc	Indie	India	Bastille	75	World Gone Mad (From Bright: The Album)	47	2017	0.283	0.505	0.68	0.0	0.175	0.0336	0.362
-1aL9518P5G72N92b48tuKw	Summer High	78	7sni37uwHitUkllYmcRO8W	6LEG9Ld1aLImEFEVHdWNSB	Hip-Hop	United Kingdom	AP Dhillon	76	Summer High	70	2022	0.165	0.86	0.541	0.163	0.0663	0.0325	0.952
-6ft9PAgNOjmZ2kFVP7LGqb	Can't Take My Eyes off You	73	0NUEQILaBzavnzcMEs4buZ	3CDKmzJu6uwEGnPLLZffpD	Rock	USA	Frankie Valli	62	The Very Best of Frankie Valli & The 4 Seasons	69	2003	0.566	0.575	0.764	1.07e-05	0.0692	0.0746	0.536
-59Bc4RPzSL3nYPANh25a6J	My Jinji	61	2vE9BubwB3Sb5yZjv4FyNn	7BqRcZsHYYQeqMAOp7e532	Rock	India	Sunset Rollercoaster	55	JINJI KIKKO	54	2016	0.531	0.389	0.598	0.407	0.143	0.0309	0.517
-1Dp7ASSZVVOPJ85VdLpjOX	Seventeen Going Under	66	4RS1iWb2MC9o21z3t8zxl4	6zlR5ttMfMNmwf2lecU9Cc	International	United Kingdom	Sam Fender	68	Seventeen Going Under	61	2021	0.00471	0.477	0.873	0.00589	0.0813	0.0355	0.611
-67Hna13dNDkZvBpTXRIaOJ	Teardrop	73	49MNmJhZQewjt06rpwp6QR	6FXMGgJwohJLUSr5nVlf9X	Indie	India	Massive Attack	65	Mezzanine	69	1998	0.0173	0.615	0.419	0.497	0.135	0.0395	0.216
-1GnFQL9XnxrXFloKm1yjuW	The Numbers	51	2ix8vWvvSp2Yo7rKMiWpkg	4Z8W4fKeB5YxbusRsdQVPb	International	USA	Radiohead	80	A Moon Shaped Pool	66	2016	0.651	0.282	0.372	0.409	0.0755	0.0315	0.0551
-285pBltuF7vW8TeWk8hdRR	Lucid Dreams	85	6tkjU4Umpo79wwkgPMV3nZ	4MCBfE4596Uoi2O4DtmEMz	International	India	Juice WRLD	89	Goodbye & Good Riddance	89	2018	0.349	0.511	0.566	0.0	0.34	0.2	0.218
-3sqRODOZ1Z6hR4F2tnFAlg	Sakhiyaan	71	2ja8ShVK2RtHqlxzXTRQ6J	2sN4fSzAm2rAL0HIurPCEM	Indie	USA	Maninder Buttar	62	Sakhiyaan	64	2018	0.3	0.706	0.674	0.0	0.202	0.044	0.359
-1wtGtVfMHjeNfNLeNFVMK6	Waiting for the Moon to Rise	34	1y9ogzyvelDrhbnIiPqprm	4I2BJf80C0skQpp1sQmA0h	Hip-Hop	India	Belle and Sebastian	58	Fold Your Hands Child, You Walk Like a Peasant	31	2000	0.807	0.455	0.556	0.0103	0.156	0.0292	0.596
-3bRcSxW2FnSSwrzoYT1knV	At Seventeen	0	0bRlXo4f7P0gF30G3RACTN	5c9uFWpZY2MTlk7Rft0tgp	Indie	USA	Janis Ian	44	Between The Lines	0	1975	0.888	0.599	0.164	0.000612	0.121	0.0475	0.317
-5N22FteLZT3tgYABLAobu1	Funnel of Love	45	1qJy32qMSc0XxWyWVfOaLw	5ZKMPRDHc7qElVJFh3uRqB	Hip-Hop	India	Wanda Jackson	48	Heart Trouble	38	2003	0.0862	0.623	0.658	5.68e-05	0.173	0.0367	0.81
-504gLMHaH2jakKbQymyJCp	Never	35	6lWSJdTy6i0wKU2y1g2uEN	5wvcZVW2R31CFqrx6BZkQE	International	USA	Larry Chance & The Earls	18	Back On the Streets of the Bronx	28	2007	0.799	0.483	0.458	0.000179	0.168	0.0301	0.523
-3GNgik2UtPjHOhnoDi2U0H	Where Is the Love	0	4nDngjnbfvmE9I3L02hU4r	3Xa0P90KKnDRIuoMmdSCGc	International	South Korea	The Monzas	24	Hey! I Know You	0	2017	0.829	0.305	0.404	0.00267	0.329	0.0288	0.233
-3DofkfU0559aayAElVjEIr	Laughing on the Outside	0	66w2ChYG8Ax41fw5JEMCs6	6QwBhFIOXWri9BNtwoIlKY	Indie	United Kingdom	Bernadette Carroll	41	Cleopatra Girls	0	2017	0.822	0.384	0.419	0.00152	0.267	0.0426	0.427
-4PvVX27CitqLAamcc0PCRU	B	48	4IFpj2jyRcugt1yzH82m3E	0xOeVMOz2fVg5BJY3N6akT	Rock	USA	Jaden	68	SYRE	68	2017	0.227	0.515	0.391	0.0	0.355	0.0575	0.47
-15hJmqqEtASVXl6sM7i4UF	trademark usa	74	3r46DPIQeBQbjvjjV5mXGg	5SXuuuRpukkTvsLuUknva1	Indie	India	Baby Keem	79	The Melodic Blue	82	2021	0.107	0.615	0.6	1.61e-06	0.283	0.27	0.0661
-5ubHAQtKuFfiG4FXfLP804	Lego House	75	02pi98kE0nra0yBqCStzbC	6eUKZXaKkcviH0Ku9w2n3V	Pop	USA	Ed Sheeran	91	+	77	2011	0.562	0.592	0.637	0.0	0.13	0.0992	0.565
-0Tel1fmuCxEFV6wBLXsEdk	Kiss Me	70	02pi98kE0nra0yBqCStzbC	6eUKZXaKkcviH0Ku9w2n3V	Rock	USA	Ed Sheeran	91	+	77	2011	0.64	0.589	0.227	0.00469	0.0248	0.0498	0.182
-1HNkqx9Ahdgi1Ixy2xkKkL	Photograph	87	1xn54DMo2qIqBuMqHtUsFd	6eUKZXaKkcviH0Ku9w2n3V	Rock	India	Ed Sheeran	91	x (Deluxe Edition)	85	2014	0.607	0.614	0.379	0.000464	0.0986	0.0476	0.201
-3FzK2g50oLcx8vqETwOn07	Love Songs on the Radio	57	3fjeFLyo8FY1Appkw4Mrvy	4jSYHcSo85heWskYvAULio	Rock	USA	Mojave 3	44	Ask Me Tomorrow	52	1995	0.899	0.457	0.25	0.0896	0.109	0.0269	0.0739
-6Thn8AOHIwPCkf2O4ZgfC2	Song for Zula	62	6rAJ4I8SpPMJj0guCZiAI8	57kIMCLPgkzQlXjblX7XXP	Pop	India	Phosphorescent	49	Muchacho	56	2013	0.734	0.486	0.623	0.536	0.0509	0.0358	0.525
-7mjSHL2Eb0kAwiKbvNNyD9	Wild World	79	44VxbAytHpVi3Rq8hRhild	08F3Y3SctIlsOEmKd6dnH8	Pop	India	Yusuf / Cat Stevens	70	Tea For The Tillerman (Remastered 2020)	77	1970	0.345	0.48	0.542	0.000609	0.113	0.0348	0.567
-1mea3bSkSGXuIRvnydlB5b	Viva La Vida	87	1CEODgTmTwLyabvwd7HBty	4gzpq5DPGxSnKTe4SA8HAU	Rock	USA	Coldplay	88	Viva La Vida or Death and All His Friends	81	2008	0.0954	0.486	0.617	3.23e-06	0.109	0.0287	0.417
-31L9yLXSj6LpCFupyMV6CR	Up&Up	70	3cfAM8b8KqJRoIzt3zLKqw	4gzpq5DPGxSnKTe4SA8HAU	Indie	India	Coldplay	88	A Head Full of Dreams	82	2015	0.0488	0.479	0.717	0.000333	0.102	0.0605	0.253
-1yqMgZNrevsWMLWfO2PRp5	Charlie Brown	71	2R7iJz5uaHjLEVnMkloO18	4gzpq5DPGxSnKTe4SA8HAU	Pop	India	Coldplay	88	Mylo Xyloto	81	2011	0.0212	0.43	0.74	0.00165	0.33	0.0375	0.0948
-7LVHVU3tWfcxj5aiPFEW4Q	Fix You	84	4E7bV0pzG0LciBSWTszra6	4gzpq5DPGxSnKTe4SA8HAU	International	USA	Coldplay	88	X&Y	80	2005	0.164	0.209	0.417	0.00196	0.113	0.0338	0.124
+3yfqSUWxFvZELEM4PmlwIR	The Real Slim Shady	88	6t7956yu5zYf5A829XRiHC	7dGJo4pcD2V6oG8kP0tJRR	Rock	India	Eminem	91	The Marshall Mathers LP	86	2000	0.0302	0.949	0.661	0.0	0.0454	0.0572	0.76
+7FIWs0pqAYbP91WWM0vlTQ	Godzilla (feat. Juice WRLD)	84	4otkd9As6YaxxEkIjXPiZ6	7dGJo4pcD2V6oG8kP0tJRR	Pop	USA	Eminem	91	Music To Be Murdered By	80	2020	0.145	0.808	0.745	0.0	0.292	0.342	0.829
+6c9RCuOBbDhawmqaXYznOl	Shake That - Album Version (Edited)- SUPERCLEAN	56	3eFDUa0q5bS0bYMp9LGJLk	7dGJo4pcD2V6oG8kP0tJRR	Hip-Hop	United Kingdom	Eminem	91	Curtain Call: The Hits	59	2005	0.0454	0.961	0.626	0.000122	0.161	0.0837	0.58
+0qcjuYtMWhBjXg0Xwt5SzS	Just Lose It	70	1kTlYbs28MXw7hwO0NLYif	7dGJo4pcD2V6oG8kP0tJRR	Rock	United Kingdom	Eminem	91	Encore (Deluxe Version)	87	2004	0.0581	0.94	0.633	4.04e-05	0.281	0.0467	0.962
+0fMWtRhzOoWoCo7dRHVEEa	FACK	63	5qENHeCSlwWpEzb25peRmQ	7dGJo4pcD2V6oG8kP0tJRR	Indie	USA	Eminem	91	Curtain Call: The Hits (Deluxe Edition)	77	2005	0.00638	0.842	0.602	0.112	0.103	0.0796	0.372
+2PpruBYCo4H7WOBJ7Q2EwM	Hey Ya!	83	1UsmQ3bpJTyK6ygoOOjG1r	1G9G7WwrXka3Z1r7aIDjI7	Rock	United Kingdom	Outkast	75	Speakerboxxx/The Love Below	79	2003	0.103	0.727	0.974	0.000532	0.174	0.0664	0.965
+6bUNEbXT7HovLW6BgPCBsb	Roses	72	1UsmQ3bpJTyK6ygoOOjG1r	1G9G7WwrXka3Z1r7aIDjI7	Indie	India	Outkast	75	Speakerboxxx/The Love Below	79	2003	0.0482	0.751	0.708	1.85e-05	0.107	0.0545	0.509
+5z7mYFfhw6N6f23VwrokJD	The Way You Move (feat. Sleepy Brown)	70	1UsmQ3bpJTyK6ygoOOjG1r	1G9G7WwrXka3Z1r7aIDjI7	Hip-Hop	South Korea	Outkast	75	Speakerboxxx/The Love Below	79	2003	0.126	0.871	0.597	0.000113	0.0638	0.0464	0.635
+0I3q5fE6wg7LIfHGngUTnV	Ms. Jackson	83	2tm3Ht61kqqRZtIYsBjxEj	1G9G7WwrXka3Z1r7aIDjI7	Indie	USA	Outkast	75	Stankonia	78	2000	0.143	0.843	0.806	0.0	0.0771	0.269	0.613
+12hfCw3Bd5uvvqWa2xTNZS	Ms. Jackson - Mr. Drunk Remix	55	5KOQHt4JKmtDbC4k1YLuBl	1G9G7WwrXka3Z1r7aIDjI7	Hip-Hop	USA	Outkast	75	Stankonia (Deluxe Version)	50	2020	0.0282	0.751	0.645	0.0	0.0339	0.366	0.715
+5TRPicyLGbAF2LGBFbHGvO	Flashing Lights	86	4SZko61aMnmgvNhfhgTuD3	5K4W6rqBFWDnAN6FQUkS6x	Indie	India	Kanye West	91	Graduation	89	2007	0.0381	0.639	0.628	0.0	0.386	0.0399	0.43
+3U21A07gAloCc4P7J8rxcn	All Mine	76	2Ek1q2haOnxVqhvVKqMvJe	5K4W6rqBFWDnAN6FQUkS6x	Indie	USA	Kanye West	91	ye	80	2018	0.123	0.925	0.31	0.0	0.0931	0.291	0.291
+1Vp4St7JcXaUoJcIahtf3L	The New Workout Plan	63	4Uv86qWpGTxf7fU7lG5X6F	5K4W6rqBFWDnAN6FQUkS6x	Indie	USA	Kanye West	91	The College Dropout	81	2004	0.00981	0.704	0.792	0.0	0.365	0.198	0.646
+1PS1QMdUqOal0ai3Gt7sDQ	Gold Digger	81	5ll74bqtkcXlKE7wwkMq4g	5K4W6rqBFWDnAN6FQUkS6x	Hip-Hop	USA	Kanye West	91	Late Registration	79	2005	0.0195	0.629	0.696	0.0	0.0554	0.348	0.623
+4EWCNWgDS8707fNSZ1oaA5	Heartless	86	3WFTGIO6E3Xh4paEOBY9OU	5K4W6rqBFWDnAN6FQUkS6x	International	South Korea	Kanye West	91	808s & Heartbreak	81	2008	0.0515	0.79	0.647	0.0	0.248	0.136	0.654
+3cCxoOgfi6hgt8MNteuiiD	Fade	67	7gsWAHLeT0w7es6FofOXk1	5K4W6rqBFWDnAN6FQUkS6x	Indie	India	Kanye West	91	The Life Of Pablo	84	2016	0.118	0.752	0.765	0.0	0.31	0.0908	0.309
+3sNVsP50132BTNlImLx70i	Bound 2	85	7D2NdGvBHIavgLhmcwhluK	5K4W6rqBFWDnAN6FQUkS6x	Rock	United Kingdom	Kanye West	91	Yeezus	81	2013	0.145	0.367	0.665	0.0	0.113	0.0465	0.31
+68Dni7IE4VyPkTOH9mRWHr	No Role Modelz	90	0UMMIkurRUmkruZ3KGBLtG	6l3HvQ5sa6mXTsMTB19rO5	Rock	USA	J. Cole	86	2014 Forest Hills Drive	88	2014	0.324	0.69	0.521	0.0	0.0534	0.339	0.494
+2wAJTrFhCnQyNSD3oUgTZO	Work Out	82	0fhmJYVhW0e4i33pCLPA5i	6l3HvQ5sa6mXTsMTB19rO5	Rock	United Kingdom	J. Cole	86	Cole World: The Sideline Story	79	2011	0.0531	0.831	0.427	0.0	0.307	0.106	0.216
+0n4bITAu0Y0nigrz3MFJMb	Blurred Lines	77	1eHyfkrIOVLGVnt5E4MD2j	0ZrpamOxcZybMHGg1AYtHP	Indie	USA	Robin Thicke	64	Blurred Lines (Deluxe)	69	2013	0.00334	0.853	0.599	7.93e-06	0.0759	0.0411	0.843
+4ozLl3p2lBHEyRRrKxlWkX	Brain Sludge	39	1uAnKZsQ2VBRGfilRD32m2	6Z8O8PugLuKyLFVkZLQDRZ	Hip-Hop	United Kingdom	Midnight Tyrannosaurus	44	From The Depths	36	2017	0.00484	0.709	0.837	0.000159	0.319	0.561	0.278
+3foTUGybSES1pJlPRlXyYH	Xtermin8 (Midnight Tyrannosaurus Remix)	32	7DlqNiLIF6WZwTjrjpmGXj	6Z8O8PugLuKyLFVkZLQDRZ	Rock	India	Midnight Tyrannosaurus	44	Xtermin8 (Midnight Tyrannosaurus Remix)	24	2021	0.00404	0.632	0.985	0.0604	0.29	0.785	0.0496
+0qWmdV9v1iY6cxLltyNGgs	Planet Purge Pt. 2	35	3Tk1PbseeLG1kxqVW8vyHM	6Z8O8PugLuKyLFVkZLQDRZ	Indie	India	Midnight Tyrannosaurus	44	Never Say Die One Hundred	36	2017	0.000292	0.397	0.89	0.719	0.0754	0.139	0.037
+5XYouohfUclYeRmXQSSvCk	Banana Planet	42	7a3e4XW0tZob8oVNYswvX6	6Z8O8PugLuKyLFVkZLQDRZ	Indie	USA	Midnight Tyrannosaurus	44	Mutation	44	2019	0.00151	0.678	0.931	0.00333	0.693	0.225	0.202
+2jFUqvNZ6sUgQ6X0iIzFwR	Threat Level	23	2CH1p0PcEwucun71oB3Dzd	6Z8O8PugLuKyLFVkZLQDRZ	Indie	United Kingdom	Midnight Tyrannosaurus	44	Threat Level	16	2022	0.0325	0.535	0.646	0.111	0.152	0.155	0.107
+49FXpm0XkKcW5DQzP7XW3L	Love Potion VIP - VIP	33	176hJKIeOwCsiMDtYuPt3K	6Z8O8PugLuKyLFVkZLQDRZ	Indie	USA	Midnight Tyrannosaurus	44	Love Potion VIP	25	2020	0.0231	0.724	0.833	0.0	0.292	0.559	0.381
+1GUZhfnTke0lEKRTjAgoUu	Body Count	46	1KRkp5ps1O80iSrBzz8OKz	6Z8O8PugLuKyLFVkZLQDRZ	International	USA	Midnight Tyrannosaurus	44	Tales From The Man Cave	40	2020	0.00576	0.604	0.833	0.0471	0.0749	0.0851	0.0981
+7rjjSiMQvTlDcrE5J84F8N	Watch Yo Step	52	0O4uz1CxHyAJG2AJSUq0w5	1q4618qKswelCGLoanFKQh	Rock	India	Joey Valence & Brae	57	Watch Yo Step	45	2022	0.0154	0.833	0.961	0.0	0.377	0.352	0.65
+5nwU8aKXeBozf61BWQJ0kw	Underground Sound	57	1ILkKLukIXJjclMoeDx9pe	1q4618qKswelCGLoanFKQh	Hip-Hop	India	Joey Valence & Brae	57	Underground Sound	50	2021	0.053	0.771	0.944	0.0	0.359	0.295	0.723
+2IUBfsp3bP6idA34meFZQP	Crank It Up	46	0xkW83vvQjMBEb9r458HT6	1q4618qKswelCGLoanFKQh	Hip-Hop	United Kingdom	Joey Valence & Brae	57	Crank It Up	39	2021	0.0284	0.727	0.976	0.0	0.408	0.337	0.649
+43TM5XqHGz28ILOMdwkXKj	I'm Fresh	41	1xTcWoe6xDdlcXAG5byabn	1q4618qKswelCGLoanFKQh	Rock	USA	Joey Valence & Brae	57	I'm Fresh	34	2021	0.0215	0.792	0.914	0.0	0.379	0.26	0.727
+2KBYPTSTHjYYOPACrFTkPy	Punk Tactics	70	7pG2QdrVFNTid1hqezx5dH	1q4618qKswelCGLoanFKQh	International	United Kingdom	Joey Valence & Brae	57	Punk Tactics	63	2022	0.0159	0.513	0.974	0.0	0.0712	0.508	0.503
+6hr3cYYXvzF473sSnchaPb	Double Jump	50	1psB1k0xRM7I2OM1zHfgSP	1q4618qKswelCGLoanFKQh	Indie	USA	Joey Valence & Brae	57	Double Jump	42	2021	0.179	0.683	0.91	0.0	0.272	0.361	0.834
+5KmJMi7MiBJtCeJ08lmKzo	Marilyn Monroe	52	0lrmy4pJINsFzycJvttX2W	2RdwBSPQiwcmiDo9kixcl8	International	United Kingdom	Pharrell Williams	80	G I R L	75	2014	0.0578	0.881	0.59	6.3e-06	0.303	0.0641	0.62
+6eVM9lCmIqwGTUOoeH61Lu	Hug Me	70	6kFJhsN8drSfWwL493qK0c	2RdwBSPQiwcmiDo9kixcl8	Rock	India	Pharrell Williams	80	Despicable Me 3 (Original Motion Picture Soundtrack)	64	2017	0.0684	0.842	0.622	0.0	0.33	0.0967	0.587
+6u0oHknFYrnUd42A6rvFly	Sing	47	6NoBzYmh5gUusGPCfg0pct	6eUKZXaKkcviH0Ku9w2n3V	Hip-Hop	USA	Ed Sheeran	91	x (Wembley Edition)	68	2013	0.304	0.818	0.67	1.22e-06	0.0601	0.0472	0.939
+3hlksXnvbKogFdPbpO9vel	Super Bass	80	7aADdYLiK1z7GlMFr0UIZw	0hCNtLu0JehylgoiP8L4Gh	Hip-Hop	India	Nicki Minaj	87	Pink Friday (Complete Edition)	74	2010	0.271	0.723	0.86	4.56e-06	0.598	0.203	0.667
+4C6Uex2ILwJi9sZXRdmqXp	Super Freaky Girl	80	0h5MuD9O9o1VoN07mQmwMQ	0hCNtLu0JehylgoiP8L4Gh	Rock	India	Nicki Minaj	87	Super Freaky Girl	72	2022	0.0645	0.95	0.891	1.77e-05	0.309	0.241	0.912
+1oHNvJVbFkexQc0BpQp7Y4	Starships	76	6OfCOPtcPuhlAovGJ52uZO	0hCNtLu0JehylgoiP8L4Gh	Hip-Hop	South Korea	Nicki Minaj	87	Pink Friday ... Roman Reloaded	70	2011	0.135	0.747	0.716	0.0	0.251	0.075	0.751
+2yjlYDiNiQkdxVqTlaSrlX	Super Freaky Girl	75	1ia27ME4iQkoIyUHBnJqX6	0hCNtLu0JehylgoiP8L4Gh	International	United Kingdom	Nicki Minaj	87	Queen Radio: Volume 1	69	2022	0.0509	0.951	0.878	1.61e-05	0.321	0.211	0.923
+78NwNb2BPO7OKDYYRWB1WT	Get Lucky - Daft Punk Remix	37	4IjfJlYFVmkPH5WQdFuyS8	4tZwfgrHOc3mvqYlEYSvVi	Rock	United Kingdom	Daft Punk	82	Get Lucky (Daft Punk Remix) (feat. Pharrell Williams & Nile Rodgers)	29	2013	0.0267	0.821	0.793	1.37e-05	0.0751	0.0391	0.912
+69kOkLUCkxIZYexIgSG8rq	Get Lucky (feat. Pharrell Williams and Nile Rodgers)	76	4m2880jivSbbyEGAKfITCa	4tZwfgrHOc3mvqYlEYSvVi	Rock	India	Daft Punk	82	Random Access Memories	79	2013	0.0378	0.81	0.793	1.77e-06	0.072	0.0403	0.863
+6nQ1B216Liiydhgn2gar0o	Material Girl	63	1bdjA6LpTF8vkWLK983MRx	2NfwGBr2swqZ1rzE3kAV23	Rock	United Kingdom	Saucy Santana	54	Imma Celebrity	56	2020	0.0421	0.876	0.7	0.0	0.542	0.282	0.433
+3Ca24oa8tofPtGYuULHXHI	Booty (feat. Latto)	62	3JLGu56kAsK7LO8fZ1vCwF	2NfwGBr2swqZ1rzE3kAV23	Rock	USA	Saucy Santana	54	Booty (feat. Latto)	54	2022	0.16	0.876	0.563	0.0	0.365	0.171	0.711
+32OlwWuMpZ6b0aN2RZOeMS	Uptown Funk (feat. Bruno Mars)	84	3vLaOYCNCzngDf8QdBg2V1	3hv9jJF3adDNsBSIQDqcjp	Pop	USA	Mark Ronson	75	Uptown Special	77	2015	0.00801	0.856	0.609	8.15e-05	0.0344	0.0824	0.928
+1xPW9rS8dkuJP46WBTqU2C	A Milli	68	4fRZNOawjx1uzGLN3VhAZ4	55Aa2cqylxrFIXC767Z865	International	India	Lil Wayne	86	Tha Carter III (MTV Bonus Version)	68	2008	0.0391	0.663	0.688	0.00224	0.223	0.283	0.731
+2sQuds8s3EVbhXJpgVWpO4	Mrs. Officer	61	4fRZNOawjx1uzGLN3VhAZ4	55Aa2cqylxrFIXC767Z865	International	USA	Lil Wayne	86	Tha Carter III (MTV Bonus Version)	68	2008	0.196	0.915	0.556	0.0	0.0739	0.173	0.944
+5Qy6a5KzM4XlRxsNcGYhgH	6 Foot 7 Foot	74	0pFydyko4Iw450abXlDPpp	55Aa2cqylxrFIXC767Z865	Indie	United Kingdom	Lil Wayne	86	Tha Carter IV (Complete Edition)	77	2011	0.0007	0.364	0.752	0.0	0.318	0.304	0.606
+1X4WpwBLhUVMeRJwHGKYTT	I Miss My Dawgs	44	5POcKy926GgzFHZpGptJac	55Aa2cqylxrFIXC767Z865	Rock	South Korea	Lil Wayne	86	Tha Carter	60	2004	0.0605	0.795	0.607	0.0	0.0999	0.287	0.628
+7sLpSWxQazJzDVG6YGzlVs	99 Problems	68	4FWvo9oS4gRgHtAwDwUjiO	3nFkdlSjzX9mRTtwJOzDYB	International	USA	JAY-Z	84	The Black Album	69	2003	0.00661	0.494	0.887	0.0	0.103	0.398	0.548
+4Li2WHPkuyCdtmokzW2007	Ni**as In Paris	85	2P2Xwvh2xWXIZ1OWY9S9o5	3nFkdlSjzX9mRTtwJOzDYB	Pop	USA	JAY-Z	84	Watch The Throne (Deluxe)	83	2011	0.127	0.789	0.858	0.0	0.349	0.311	0.775
+2igwFfvr1OAGX9SKDCPBwO	Empire State Of Mind	84	2CUT0104gySOIvqwtXeFsX	3nFkdlSjzX9mRTtwJOzDYB	Rock	India	JAY-Z	84	The Blueprint 3	81	2009	0.0295	0.491	0.956	0.0	0.46	0.392	0.811
+5ukAQcKEIJuzIbP55xp07x	LEMONS - Demo	55	0IGmsGNVilEykPluqWt0rp	6Z5uMO0V6jlOuZ7LUDrSsC	Indie	USA	Brye	48	LEMONS (Demo)	47	2020	0.901	0.501	0.168	0.0	0.134	0.304	0.514
+5rI9MIK4ZpNA0ltqqdhIva	AMERICAN WASTELAND	46	21HZHrMjU4h3Du9cLTFpEp	03LEDukdM723NRLz4UXeNv	Hip-Hop	India	nascar aloe	53	AMERICAN WASTELAND	39	2019	0.0125	0.715	0.912	0.0	0.307	0.294	0.507
+2ZYDcg1rJXrUjPftnipXOr	IMPERFECT	47	2SuG8M3ezHaQ3Vv5UrPZVq	62F9BiUmjqeXbBztCwiX1U	International	USA	Lil Darkie	72	IMPERFECT	39	2020	0.823	0.633	0.376	0.0	0.108	0.0433	0.949
+0XJzb4Jor8YR2razT8lA4r	COMPOSITION XI	52	41sY7dov5ZY2OZ3Tcj7qFk	62F9BiUmjqeXbBztCwiX1U	International	USA	Lil Darkie	72	THIS DOES NOT EXIST	63	2020	0.0976	0.368	0.644	0.012	0.106	0.0652	0.0398
+7Ka5uE4P1EtzEIGkg2110S	COLOSSAL CONFLICT	50	0Y6DjaYCDXPRUsPb0ldHBn	62F9BiUmjqeXbBztCwiX1U	Hip-Hop	India	Lil Darkie	72	COLOSSAL CONFLICT	43	2020	0.0299	0.541	0.935	0.0	0.131	0.425	0.598
+5LlORtdsXmz2VBANWs4mG5	REVOLVER	52	0T1sskJDoybYGvPU5aw5Cf	62F9BiUmjqeXbBztCwiX1U	Indie	United Kingdom	Lil Darkie	72	REVOLVER	45	2020	0.678	0.446	0.978	0.00416	0.155	0.829	0.29
+2tCzoavZgN8Hnoy31NNGNi	AMV	63	60xhnCT75qhoZJOobUrLVP	62F9BiUmjqeXbBztCwiX1U	Hip-Hop	USA	Lil Darkie	72	AMV	56	2020	0.0277	0.624	0.989	0.0035	0.377	0.183	0.651
+4EzKIwes85sqrfmhto8b6x	THE WORLD IS ENDING	64	762HY6C72kYqmGNvhbzKFv	62F9BiUmjqeXbBztCwiX1U	Pop	India	Lil Darkie	72	THE WORLD IS ENDING	57	2022	0.15	0.663	0.562	0.000372	0.276	0.193	0.554
+11xIeUfwaBE7yXB5F1MpmD	fly away	52	2fLhJ8qTFzbQnrShYUpph5	62F9BiUmjqeXbBztCwiX1U	Indie	United Kingdom	Lil Darkie	72	fly away	45	2022	0.428	0.675	0.318	1.02e-06	0.0826	0.0277	0.522
+0Tjsnd9frMSx6NNCOAqiWN	Cold World	0	2tfGdgUUM9ot6eDmQvDppw	5MzRvMpzbC1BiRlARDbyhd	Indie	India	Iceberg Black	32	It's a Cold World	0	2020	0.0512	0.816	0.58	0.0125	0.158	0.0314	0.212
+0oA9wBGDY4uyILLg4GymWP	Tom's Diner	78	7ClPGbXY81egfNn8H1hDAg	23xqmJEN3oVxwzqtNIyR5m	Rock	India	AnnenMayKantereit	70	Tom's Diner	70	2019	0.376	0.68	0.428	0.000344	0.355	0.135	0.334
+5m8pK2dM25CY8hZ8Knu4vJ	letting you in	47	7uEBYbis7xVYnZ68y92i70	1vkWdqcabQ1swciXipkLBj	Hip-Hop	USA	awfultune	61	letting you in	39	2019	0.932	0.532	0.129	0.0	0.321	0.0735	0.268
+5VUshSX3COcIVh3Kh4TuA5	Jurassic	33	6WRLwSGg9eRHGQpvO7FToc	2tXUcirItGbDNvLpApQT3z	Indie	India	Megalodon	28	Jurassic	25	2017	0.000248	0.457	0.986	0.00112	0.352	0.503	0.208
+4y8G3pyyBvBKd47iyvHBNj	My Axe	62	5QKGlCzzD89M7rl0O3sQTW	4xtWjIlVuZwTCeqVAsgEXy	Rock	USA	Insane Clown Posse	65	Bizzar	57	2000	0.00411	0.919	0.785	0.0	0.112	0.0806	0.801
+2nKZMOEvOyTViP09HxBfXx	Boogie Woogie Wu	66	2ipPVolNUBz0kCoc3VJ9zc	4xtWjIlVuZwTCeqVAsgEXy	International	India	Insane Clown Posse	65	The Great Milenko	67	1997	0.00356	0.729	0.703	2.06e-06	0.38	0.226	0.357
+45i70K1PefHafKui2WxH0M	Oh Ana	70	40DMb38Z4n5ylfz4n29qt0	0e86yPdC41PGRkLp2Q1Bph	Rock	United Kingdom	Mother Mother	73	Touch Up	73	2007	0.672	0.512	0.525	1.66e-05	0.112	0.0429	0.337
+3pANfZVFdtuVnJsE6xa5Ox	Me and My Husband	77	42cH7mrkfljkqkxA2Ip9Xq	2uYWxilOVlUdk4oV9DvwqK	Hip-Hop	USA	Mitski	79	Be the Cowboy	83	2018	0.0467	0.497	0.638	0.0	0.385	0.0274	0.77
+5Nj2DabaAuT2GhjozV4K5A	Like Ahh! - Zubah Remix	44	4srgnPdThWyWrkgpPaqSeo	1SmcVs1Kj8P4OT2D8uIiMx	Hip-Hop	USA	Bommer	31	Lost Lands 2019 Compilation	42	2019	0.000375	0.86	0.897	0.0459	0.366	0.0915	0.174
+5TxRUOsGeWeRl3xOML59Ai	ARE WE STILL FRIENDS?	82	5zi7WsKlIiUXv09tbGLKsE	4V8LLVI7PbaPR0K2TGSxFF	Hip-Hop	India	Tyler, The Creator	89	IGOR	88	2019	0.128	0.216	0.497	2.39e-06	0.111	0.0371	0.313
+0fv2KH6hac06J86hBUTcSf	NEW MAGIC WAND	84	5zi7WsKlIiUXv09tbGLKsE	4V8LLVI7PbaPR0K2TGSxFF	Rock	India	Tyler, The Creator	89	IGOR	88	2019	0.0967	0.621	0.73	0.000131	0.673	0.107	0.464
+0qtK3XwbuG153dmwB8iepL	Glitter	73	2nkto6YNI4rUYTLqEwWJ3o	4V8LLVI7PbaPR0K2TGSxFF	Indie	India	Tyler, The Creator	89	Flower Boy	88	2017	0.306	0.449	0.434	2.76e-06	0.633	0.243	0.371
+7KA4W4McWYRpgf0fWsJZWB	See You Again (feat. Kali Uchis)	93	2nkto6YNI4rUYTLqEwWJ3o	4V8LLVI7PbaPR0K2TGSxFF	International	USA	Tyler, The Creator	89	Flower Boy	88	2017	0.371	0.558	0.559	7.49e-06	0.109	0.0959	0.62
+6f44p3Kc4ayD9VtbC9Clkr	Come On, Let's Go (with Nigo)	70	75T8WnF5n7fgKJ0EC7WRPS	4V8LLVI7PbaPR0K2TGSxFF	Pop	South Korea	Tyler, The Creator	89	I Know NIGO!	67	2022	0.136	0.732	0.734	0.000901	0.165	0.0974	0.488
+3hVnmFEvfFgmvqsdjHNnv3	Call for Help (feat. hi i'm ghost)	18	7eqONTVCf2bAoykWr5qyRB	1QeTjGvzNdgEbglFeedKWe	International	South Korea	INHUMAN	43	The Lovecraftian Horrors	36	2017	0.000314	0.296	0.974	0.429	0.408	0.413	0.249
+413FikBJHxjwz8EWNi2hVK	Umitagari	43	5oPvIsJd6pzjmpvmiSVbjg	7p1fL0cAuCPDMG6oBswFhM	Rock	USA	Maretu	57	Coin locker Baby	58	2016	0.308	0.727	0.67	0.000425	0.122	0.0496	0.788
+5ygMX4rnh2XIlZXHpaCX3e	Uminaoshi	45	3H4KputrhYs3q5Dm8hC7DQ	7p1fL0cAuCPDMG6oBswFhM	International	India	Maretu	57	SIU	63	2019	0.0371	0.602	0.985	9.98e-05	0.557	0.0429	0.76
+012dDNpboxNJWKi66YL6eY	Bass Face	27	12vW58nJHtgEiHqyf2OtRJ	1sJO9NMvEseJKrVeXEwTqB	International	USA	Perry Wayne	31	Drive Thru	20	2020	0.000162	0.343	0.973	0.173	0.46	0.246	0.129
+03LUh4qohHqSOaFO27Kq4b	Portals	26	2csCB6jfoRnnLHcFbycXDN	7EtR2SuyYKtyAxPP8zpgcg	Hip-Hop	United Kingdom	Chibs	33	Flow Like EP	22	2017	0.000159	0.865	0.82	0.0	0.0448	0.411	0.0638
+4Qw1VBxYRX2ieU9CADu8Co	Cocoa Hooves	54	14IOe7ahxQPTwUYUQX3IFi	4yvcSjfu4PC0CYQyLy4wSq	Rock	USA	Glass Animals	77	ZABA	69	2014	0.46	0.53	0.275	1.12e-05	0.0729	0.0349	0.0698
+0rRjGruFonCGOt0S5zAJNQ	The Other Side Of Paradise	72	6qb9MDR0lfsN9a2pw77uJy	4yvcSjfu4PC0CYQyLy4wSq	International	India	Glass Animals	77	How To Be A Human Being	74	2016	0.349	0.689	0.338	5.7e-05	0.0649	0.0629	0.568
+37adYGaYaAWTGhBaOzX4Fh	Take A Slice	68	6qb9MDR0lfsN9a2pw77uJy	4yvcSjfu4PC0CYQyLy4wSq	International	India	Glass Animals	77	How To Be A Human Being	74	2016	0.0212	0.623	0.661	0.000229	0.267	0.1	0.63
+5VGEgFZfWBoEOGb3Vlo3rU	Tangerine	51	0KTj6k94XZh0c6IEMfxeWV	4yvcSjfu4PC0CYQyLy4wSq	International	India	Glass Animals	77	Dreamland (+ Bonus Levels)	71	2020	0.114	0.845	0.583	0.000536	0.1	0.0773	0.842
+6o2g1BJvtYQssH84kBYs7y	Back That Azz Up	67	6wpqS71CJr3I0dLguYiZdJ	0rG0AZBscc8S8q1ahIsasI	International	India	JUVENILE	59	400 Degreez	62	1998	0.0155	0.874	0.714	0.0	0.0968	0.129	0.541
+6tQYTfyc7h3YM4jv6wta3d	Inna Black	29	6CoEFRVRC7wIUY3VXIyuUJ	58MEqEE2029jp6KTWTt1hO	International	India	Gentlemens Club	41	Inna Black	22	2020	0.00248	0.31	0.823	0.0155	0.205	0.0824	0.154
+6rje9f1wRFJDO2iTORw0lH	I Know	75	1j2x7FJXTgUT0X5hZ8TDXE	0c173mlxpT3dSFRgMO8XPh	Rock	India	Big Sean	78	Dark Sky Paradise	74	2015	0.327	0.733	0.334	0.0	0.116	0.0811	0.267
+1bzM1cd6oqFozdr4wK6HdR	Blessings	64	1j2x7FJXTgUT0X5hZ8TDXE	0c173mlxpT3dSFRgMO8XPh	Indie	South Korea	Big Sean	78	Dark Sky Paradise	74	2015	0.333	0.79	0.621	0.0	0.122	0.275	0.15
+7FYH5AW3bVfZHJIQpq3UOA	I Don't Fuck With You	75	1j2x7FJXTgUT0X5hZ8TDXE	0c173mlxpT3dSFRgMO8XPh	International	USA	Big Sean	78	Dark Sky Paradise	74	2015	0.0362	0.824	0.733	0.0	0.325	0.0613	0.395
+6bxUnsSGZCmoHHU5auwtps	Beware	73	5RlT8X7XGGLKUhoimrDl54	0c173mlxpT3dSFRgMO8XPh	International	USA	Big Sean	78	Hall Of Fame (Deluxe)	66	2013	0.219	0.7	0.554	1.36e-06	0.419	0.187	0.0633
+3hsmbFKT5Cujb5GQjqEU39	Look At Me Now (feat. Lil' Wayne & Busta Rhymes)	72	6df0qvkMXoyHGt9J8cujZb	7bXgB6jMjp9ATFy66eO08Z	International	South Korea	Chris Brown	88	F.A.M.E. (Expanded Edition)	77	2011	0.0339	0.767	0.677	5.51e-06	0.144	0.184	0.538
+3wKKkGVn7cVSfgPeYYIiXG	Kiss Kiss (feat. T-Pain)	73	6p5pW2WwgVECsOhrXPAyhI	7bXgB6jMjp9ATFy66eO08Z	Hip-Hop	USA	Chris Brown	88	Exclusive (Expanded Edition)	75	2007	0.0506	0.729	0.658	0.0	0.0693	0.225	0.551
+7xYnUQigPoIDAMPVK79NEq	Run It! (feat. Juelz Santana)	75	49gaz5rhWWgqCw61M9700v	7bXgB6jMjp9ATFy66eO08Z	International	South Korea	Chris Brown	88	Chris Brown (Expanded Edition)	75	2005	0.0246	0.846	0.482	0.0	0.393	0.129	0.212
+5oP4FZ5GPH42C3xLhrVypT	Breezeblocks (Alt-J Remix)	34	3krbtXnIhoKa5chgltzRDh	3Xtq9IlfA0l3dNPe3lhGAY	International	United Kingdom	Ryan Helsing	20	Visions	30	2014	0.00172	0.665	0.576	0.201	0.106	0.0916	0.291
+4ak4NgTQcvoixW6T0wJUfF	Dmt and Whiskey	40	3l5Uka8GEjIRpMFpuv0b2i	5nYfBUxnHtI6LAp32fl9qY	Rock	South Korea	Netherfriends	44	808's & Harpbreak	33	2018	0.547	0.667	0.269	0.0216	0.102	0.0618	0.0706
+1HhNoOuqm1a5MXYEgAFl8o	Enemy (with JID) - from the series Arcane League of Legends	8	4fZIyJn2wKb51QPNnWYnqt	53XhwfbYqKCa1cC15pYq2q	International	India	Imagine Dragons	88	Mercury - Act 1	8	2021	0.237	0.728	0.783	0.0	0.434	0.266	0.555
+4G8gkOterJn0Ywt6uhqbhp	Radioactive	74	6htgf3qv7vGcsdxLCDxKp8	53XhwfbYqKCa1cC15pYq2q	Indie	USA	Imagine Dragons	88	Night Visions	75	2012	0.106	0.448	0.784	0.000108	0.668	0.0627	0.236
+0ePX6rVjeql7Bt1KurTbAG	What, Me Worry?	60	6S5j1iJ4B4jknYDr4xOXcA	4kI8Ie27vjvonwaB2ePh8T	International	USA	Portugal. The Man	67	What, Me Worry?	52	2022	0.0682	0.722	0.889	4.77e-06	0.124	0.0416	0.743
+2AYEOC02WLhUiOoaig2SEH	Out of My League	74	3IWUFJCM3CvCCQIHQ4vtRK	4AcHt3JxKy59IX7JNNlZn4	Hip-Hop	USA	Fitz and The Tantrums	66	More Than Just a Dream (Deluxe Edition)	68	2013	0.0387	0.545	0.968	0.00325	0.331	0.0853	0.527
+6EtKlIQmGPB9SX8UjDJG5s	Formula	85	788r22Bhr3IHLTNPy8pZea	2feDdbD5araYcm6JhFHHw7	Hip-Hop	India	Labrinth	82	Euphoria (Original Score from the HBO Series)	83	2019	0.0448	0.574	0.664	0.0553	0.146	0.0409	0.226
+59CfNbkERJ3NoTXDvoURjj	Boyfriend	82	4jUfPmvZGiRRJwULbfk1dc	2W8yFh0Ga6Yf3jiayVxwkE	Indie	South Korea	Dove Cameron	72	Boyfriend	75	2022	0.232	0.345	0.612	0.0	0.194	0.0608	0.232
+26Wi8P1wIM3JQFxRRErnvt	CUM	57	1sCIGjznAsgu5kd7RpSrQx	0RSogp4qeGu0ZM71JRTay3	Rock	India	WHOKILLEDXIX	53	CUM	50	2021	0.0142	0.727	0.707	0.000321	0.229	0.121	0.666
+5vrC8Mq4JigxwEFNXlNtqS	Guillotine	1	1B05u9Vtg43H9aGLrw0eqI	4qOzMSukiZoiSjPQw8Zs7s	Rock	United Kingdom	Mansionair	55	Guillotine	0	2020	0.00461	0.688	0.648	0.164	0.156	0.0936	0.842
+5hM5arv9KDbCHS0k9uqwjr	Borderline	84	31qVWUdRrlb8thMvts0yYL	5INjqkS1o8h1imAzPqGZBb	Indie	USA	Tame Impala	81	The Slow Rush	81	2020	0.0406	0.621	0.873	9.1e-06	0.0824	0.0369	0.873
+74nPAtWaf6jRUcp47xaBjB	Under My Skin	48	1PBnPAVcMTEKYwyf3gAS9C	4dM6NDYSfLcspt8GLoT5aE	Pop	South Korea	Hippie Sabotage	69	Red Moon Rising	58	2020	0.54	0.782	0.504	0.304	0.161	0.0401	0.038
+0UfNdLOe9KIJD7bL9FemeF	I.W.W.I.T.I.W.	28	1SNh5gpQeQzABofAsJtCUE	3CLxkDhrB2fgk9OoJtBxl9	Indie	USA	Polyenso	28	Pure in the Plastic	30	2016	0.37	0.466	0.553	3.33e-05	0.408	0.0707	0.29
+4RvfChDpoaU1ZlTBjgj67Q	Boom Boom Boom Boom Boom Boom Boom Boom Boom Boom Boom Boom Boom	57	7Cjd3XZqXHmRxZpPQw4MW4	17BmVePNxhzlRGKc85xYsd	Pop	India	Dan Bull	56	Generation Gaming VI	50	2015	0.0651	0.848	0.898	2.26e-05	0.062	0.0915	0.897
+4uUUPTF8566PHM1dZqH5Kb	YOU CAN SMD	60	2EadUtQ3hpx3Xt0HKAfOF9	1kMVs324xI4K0tQrKqA4c4	Indie	USA	City Morgue	65	TOXIC BOOGALOO	65	2020	0.0511	0.764	0.818	0.0269	0.159	0.19	0.37
+3yMTMXF7UiD4dLP7hE4RHN	We Come Alive	3	2OnMSAT848g4dzL6Yx8Tdf	0v6pkn5nWfqK3vgeg0gl0W	International	USA	Hydraulix	32	Imposter Syndrome	21	2021	0.0347	0.738	0.871	0.634	0.11	0.157	0.475
+1eFYbcVZBTKcE0iFIYU5qk	Not Into You	67	5JG9GZ1BSc223HhQAAHbCX	597h7tVXuB7UPU6uWKhRkO	Hip-Hop	India	Brooksie	49	Not Into You	59	2021	0.221	0.641	0.678	0.573	0.279	0.0355	0.495
+4qMHIhPg0PdAxGejImhYLu	Unpaid Intern	0	1e5OlE0EY5fucq6GIU1xi3	2Waw2sSbqvAwK8NwACNjVo	Indie	India	Bo Burnham	71	Inside (The Songs)	6	2021	0.427	0.68	0.715	0.0	0.184	0.0916	0.615
+18yAbyPSVNOypgT1iM7GU6	Hell of a Ride (Studio)	60	4zL56l798hLfl3VP2eGIHY	2Waw2sSbqvAwK8NwACNjVo	International	India	Bo Burnham	71	What.	61	2013	0.213	0.738	0.849	0.0	0.186	0.174	0.828
+4vLBnQtece15fFhqWxZvJP	Your New Boyfriend	68	7krAqKWEJpVnJfH4eOqA6F	2XzXLjXRSeFtsic4ieyLJy	Indie	India	Wilbur Soot	62	Your New Boyfriend	60	2020	0.382	0.546	0.453	3.9e-05	0.106	0.121	0.74
+03sX00Et5Ci3Ao4em9erjM	Fruits	24	293f0ngMs8Z4zsJm2aT7sE	3K0GDmmiRwn1Zc7RZzTeAz	Indie	USA	Panda Eyes	47	The Lost Levels	30	2015	0.366	0.631	0.974	0.219	0.177	0.0573	0.345
+79uzBl8P29fWo3doFgjCK0	Oh Yeah, You Gonna Cry?	67	43yKUvEVZ2dTy2vOrozS2j	33tFkBLsl6f8TjKkV0uF0C	Rock	India	Lovejoy	68	Pebble Brain	72	2021	0.00847	0.712	0.695	1.96e-05	0.0761	0.048	0.742
+6ShHxD0hoJSXajmcpQ5Ri8	Sex Sells	3	6rPU1BHqLneslZ1N1EvVdR	33tFkBLsl6f8TjKkV0uF0C	International	USA	Lovejoy	68	Are You Alright?	4	2021	0.00574	0.468	0.721	0.0	0.111	0.0343	0.69
+5PeuB1pbYu2YiqJyTcgR1T	They're Not Happy About Me	49	4Ceco6yw4URlcfPDOWbe6w	2aEfPkQVURTi7E9BqTOKld	Indie	India	Gabriel Templar	31	They're Not Happy About Me	41	2021	0.6	0.767	0.646	0.0	0.0968	0.101	0.654
+3VSc3H3iFGzKp18A5wDDTj	The Bard's Last Note	58	55D08G41o68pm7dIRkyn54	6CTStccOisUTgXVrtCIANm	Indie	India	Ricky Desktop	55	The Bard's Last Note	51	2020	0.614	0.898	0.653	0.0	0.0857	0.526	0.588
+4wHCS1sbcLEwHPJukcoskE	The Chicken Wing Beat	64	1ZLEmtIFYYLfVHTlnR75ln	6CTStccOisUTgXVrtCIANm	Indie	USA	Ricky Desktop	55	The Chicken Wing Beat	57	2020	0.812	0.746	0.286	0.0326	0.0881	0.644	0.559
+2Unp5TajD1T2ZdTxmm1d2R	Living Island	54	31HMfAoUl06i35M7qxPSrn	1ng3xz2dyz57Z1WpnzM2G7	Indie	India	Pogo	51	Living Island	47	2019	0.00943	0.642	0.76	0.0185	0.128	0.0428	0.554
+7v4pPS4A7NgY7bxFA3Etv3	HOT DEMON B!TCHES NEAR U ! ! !	73	5kcBHP5GH7fsOJLwVfXmx3	7yntSJ6uojO3z6GFUVwhAW	Pop	India	CORPSE	68	HOT DEMON B!TCHES NEAR U ! ! !	66	2021	0.00918	0.788	0.764	0.0	0.224	0.254	0.841
+2biZJ6YK8Pz1bUby8VDV3Q	MISA MISA!	73	140flQ7ktV8ptZM0WmHfvV	7yntSJ6uojO3z6GFUVwhAW	Pop	India	CORPSE	68	MISA MISA!	65	2022	0.0302	0.672	0.981	2.36e-05	0.648	0.181	0.694
+46PndWC5iW7JpdmaY2Jswq	Break Shit	65	5UthVBNdNdHyqHmSKUlegX	7502fDxg339jvGV08Jd4R0	Rock	United Kingdom	Jasiah	63	War	62	2021	0.212	0.863	0.587	0.0	0.0832	0.295	0.749
+1mMd869pIVfM8TurlkPjAH	RED EYES BLACK DRAGON (feat. 1nonly)	57	4KkI8MEM9ySiNs5PWgm5Mq	7502fDxg339jvGV08Jd4R0	Indie	South Korea	Jasiah	63	RED EYES BLACK DRAGON (feat. 1nonly)	50	2023	0.218	0.536	0.7	0.0	0.146	0.426	0.508
+015lVQbmBy9cD5VTYCz0ZJ	Weak!	34	1rkedpou8XPJHz8bPoB7qB	1T7n9eX0vgpL6EdY1Qv5IU	International	United Kingdom	Blvc Svnd	32	Weak!	27	2019	0.0119	0.672	0.783	0.0	0.219	0.227	0.522
+3QKKtAgmUkgt4uKpX5Hmlf	Spookie Coochie	55	46RN9zImhSX796Prj1VDkR	4E2rKHVDssGJm2SCDOMMJB	International	India	Doechii	66	Spookie Coochie	48	2019	0.0124	0.84	0.677	3e-06	0.131	0.069	0.349
+5B1nejtbQUzQXJpgzlLd31	Doechii 101	46	5eXvrU5hvCyxZmOdVDVRSc	4E2rKHVDssGJm2SCDOMMJB	Indie	United Kingdom	Doechii	66	Coven Music Session, Vol. 1	54	2019	0.12	0.843	0.601	0.0	0.213	0.14	0.31
+1qn7230d9Ky4xkrV5eH0E7	Everything You Needed	37	5eXvrU5hvCyxZmOdVDVRSc	4E2rKHVDssGJm2SCDOMMJB	International	India	Doechii	66	Coven Music Session, Vol. 1	54	2019	0.963	0.729	0.0368	0.0	0.769	0.0875	0.619
+5hkfoVa5xBk7mOAXbVzroj	Body Offer	39	5eXvrU5hvCyxZmOdVDVRSc	4E2rKHVDssGJm2SCDOMMJB	Indie	USA	Doechii	66	Coven Music Session, Vol. 1	54	2019	0.0771	0.66	0.183	2.64e-05	0.106	0.352	0.275
+5Nj1zRjADsyBn5uRt5BRNK	Weekend	32	5eXvrU5hvCyxZmOdVDVRSc	4E2rKHVDssGJm2SCDOMMJB	Pop	USA	Doechii	66	Coven Music Session, Vol. 1	54	2019	0.358	0.877	0.269	0.000722	0.284	0.324	0.372
+20g2ScIIZX6pF00xwdQp82	Yucky Blucky Fruitcake	35	65UUMdMAz4SOBeyM1n9hLS	4E2rKHVDssGJm2SCDOMMJB	International	India	Doechii	66	Yucky Blucky Fruitcake	27	2020	0.462	0.54	0.628	0.0	0.655	0.327	0.897
+5A1brlnMQDvsDl9W2IOY69	Shit	48	37qnx9fyIcMonemFUpDwNv	4E2rKHVDssGJm2SCDOMMJB	Rock	USA	Doechii	66	Bra-Less	42	2021	0.012	0.962	0.534	0.0	0.125	0.0841	0.242
+5MA0iU2dyAFwWUzfyrk2di	Persuasive	59	3WTIoQzJzDyR8Oc0qiWayx	4E2rKHVDssGJm2SCDOMMJB	Pop	USA	Doechii	66	Persuasive	52	2022	0.143	0.822	0.627	0.0	0.146	0.126	0.5
+7zV60o01JXW3Hff1xgTHOX	Girls	47	1Y8LXsmhhG4XtEo150UCo9	4E2rKHVDssGJm2SCDOMMJB	International	USA	Doechii	66	Girls	40	2018	0.291	0.822	0.669	0.0	0.112	0.249	0.288
+7u5fFWlc7P46XWECmhyqNo	Bitch I'm Nice	59	1XME8elbyGZ3cmhq3rb7Vg	4E2rKHVDssGJm2SCDOMMJB	International	India	Doechii	66	Bitch I'm Nice	51	2022	0.000237	0.892	0.703	0.0741	0.0999	0.0831	0.196
+4N7i6RfJXMWfkx9Zr6pzkJ	E-ER (feat. Lil Yachty)	73	7CUmEkXzsnL13LU8XQnlbC	1m7LSAMIB1BErIHYSOn32W	International	USA	DJ Scheme	64	FAMILY	71	2020	0.074	0.952	0.29	0.0	0.107	0.428	0.394
+1YakuHfzKxjnseCEeVQtrY	Don't Wanna Fall In Love	25	7ramtTKrOVLzbPjzGbSJgr	4qBgvVog0wzW75IQ48mU7v	Hip-Hop	USA	KYLE	64	Smyle (Extended)	19	2015	0.0149	0.486	0.616	0.0	0.356	0.277	0.601
+5lAnYvAIkSDNXqfo7DyFUm	Ain't Shit	79	1nAQbHeOWTfQzbOoFrvndW	5cj0lLjcoR7YOSnhnX0Po5	International	India	Doja Cat	87	Planet Her	89	2021	0.506	0.855	0.488	0.0	0.347	0.208	0.619
+0CsR9Y9SnC6ZWmekmVqSHz	Naked	68	1nAQbHeOWTfQzbOoFrvndW	5cj0lLjcoR7YOSnhnX0Po5	International	India	Doja Cat	87	Planet Her	89	2021	0.374	0.733	0.862	0.00247	0.131	0.197	0.536
+2HolBGR6tpiWI80MXoV1dJ	Payday (feat. Young Thug)	64	1nAQbHeOWTfQzbOoFrvndW	5cj0lLjcoR7YOSnhnX0Po5	Indie	India	Doja Cat	87	Planet Her	89	2021	0.0366	0.619	0.707	7.54e-05	0.13	0.0499	0.558
+0hquQWY3xvYqN4qtiquniF	Vegas (From the Original Motion Picture Soundtrack ELVIS)	83	2Q5DPv9uliinOBSdNooIe3	5cj0lLjcoR7YOSnhnX0Po5	Pop	India	Doja Cat	87	Vegas (From the Original Motion Picture Soundtrack ELVIS)	75	2022	0.0777	0.801	0.601	3.23e-05	0.145	0.255	0.74
+7k51pIqTGEHHZOnpI11Qq2	Won't Bite (feat. Smino)	67	1MmVkhiwTH0BkNOU3nw5d3	5cj0lLjcoR7YOSnhnX0Po5	Indie	USA	Doja Cat	87	Hot Pink	83	2019	0.351	0.807	0.783	0.0	0.14	0.0964	0.592
+7IzN1BfaQ8fmTHYPRPhNws	Luxury	75	6ptPMZzScoFqSVfzph6m9B	7gRhy3MIPHQo5CXYfWaw9I	Hip-Hop	United Kingdom	Azealia Banks	64	Broke with Expensive Taste	72	2014	0.0196	0.689	0.91	1.81e-05	0.272	0.184	0.569
+4p9ip3oAU1pB5b5PahVmd1	You Fuckers Were Asking for This One - Boin Edit	61	01mor1ykgJAXJMvTAUoI2R	6oeSQ4qmDQ7n89Rdt6tLLn	International	India	Rav	56	You Fuckers Were Asking for This One (Boin Edit)	53	2019	0.0555	0.651	0.783	3.02e-06	0.226	0.0781	0.639
+16TmFbChPRVzNZOlGylxDS	Pounds	35	76SWXS4buYzyz1wzLsFJm3	1HIUSy6Z18XvHfvsGPSWYx	Hip-Hop	India	Chill Children	37	BACKWHEN	29	2018	0.0697	0.829	0.853	0.626	0.124	0.0385	0.387
+2Il4l22OHAP17Xvts61GHq	Beneath the Mask - instrumental version	54	4pJT0WKggr4xk149X8A6KC	4hFBhdNVZZuVk5FYThUwaN	Hip-Hop	USA	アトラスサウンドチーム	62	PERSONA5 ORIGINAL SOUNDTRACK	72	2017	0.533	0.676	0.444	0.824	0.182	0.0305	0.705
+0Z1bYJWf48NF0kaqMSNbJk	Haunt Me	51	0o9Jc2nawLTsgvde7NfZ9z	5FN9kuAUamAd4IadVnH4jH	International	India	Samsa	44	Haunt Me	43	2017	0.253	0.739	0.783	0.0	0.14	0.293	0.823
+7yOPE5LvpkynNqCk7nLEwl	HURT	55	20S2pxu7617ZzH7lJA4kKL	7BT9qietxZuylsjyWGYBUR	Rock	United Kingdom	1 800 PAIN	41	BEST HOUSE ON A BAD BLOCK	49	2020	0.0585	0.566	0.958	0.0125	0.386	0.189	0.382
+0Kz931uw9dFCi1xM1kgSzC	Wasted Space	40	3vadaiDQP8Dk9RufhEYeBq	1XFQJfyCZZRmUtvfiQZNMu	Hip-Hop	India	Artificial Reflection	22	Wasted Space	33	2021	0.582	0.713	0.965	0.0	0.185	0.31	0.37
+51pshtuYkgUQnt5huMPbKL	The Spins	74	0WzOtZBpXvWdNdH7hCJ4qo	4LLpKhyESsyAXpc4laK94U	Pop	South Korea	Mac Miller	84	K.I.D.S.	71	2010	0.0135	0.794	0.766	0.0	0.0785	0.0377	0.55
+64O6Y8wpgkcaOYRQioDuRB	Small Worlds	53	1VKdnyJWCS9kUdKW3QGEmY	4LLpKhyESsyAXpc4laK94U	Hip-Hop	USA	Mac Miller	84	Small Worlds	46	2018	0.814	0.516	0.546	4.5e-06	0.0995	0.249	0.515
+0gEcmyKlIUoi3sHTFVO1bE	I Was Sad Last Night I'm OK Now	61	6K7SjlIebufubxXGf4uA7a	4T8NIfZmVY6TJFqVzN6X49	Hip-Hop	India	tobi lou	63	Live on Ice	58	2019	0.497	0.87	0.637	3.15e-05	0.205	0.0614	0.78
+5wxLJCLMUhyi7iTOCyuQrl	Let's go to Hell	44	0StPEpOcL93ORzJFiAFY8u	2kCO8LXN1usaOPL3iEE28I	International	India	Tai Verdes	68	Let's go to Hell	37	2021	0.129	0.789	0.807	0.0	0.584	0.034	0.921
+1nTzXNZCnZ0T7S8BqkL98r	how deep?	64	6TIzz9Z4n03E5USTDzBweS	2kCO8LXN1usaOPL3iEE28I	International	USA	Tai Verdes	68	HDTV	68	2022	0.0989	0.802	0.691	2.29e-06	0.277	0.0466	0.452
+5XzBAMcPTnB3p1xzYyVhxc	Power Power (feat. Shaun Ross)	45	1ftvN3M5OehacrwQ0XJ5cP	6I3MElirhT5t6Kf7p0hGk9	Indie	India	Duckwrth	61	Power Power (feat. Shaun Ross)	37	2022	0.00226	0.843	0.805	1.4e-05	0.138	0.237	0.48
+0oHEteATZnAZuA9dl1dXF3	Sensitive	5	2HDvWBKuYKKxgWz3LjzMte	6u6AbTVrbabv27DLcSrF8i	Indie	USA	Dreamer Isioma	58	Sensitive	2	2020	0.166	0.601	0.649	3.35e-05	0.165	0.133	0.351
+2ax9yh9o3eJWbJZbF8tDvj	Valentina	66	3ZzOPT9jEn4oXC2IY5ZP1p	6u6AbTVrbabv27DLcSrF8i	Rock	India	Dreamer Isioma	58	Valentina	58	2019	0.374	0.717	0.372	0.296	0.117	0.0278	0.735
+190fPjBiTtTKbfOSuJOjhv	Stop Calling The Police On Me	55	0REInqUEj53H3tJjx1ku4Q	6u6AbTVrbabv27DLcSrF8i	Rock	USA	Dreamer Isioma	58	The Leo Sun Sets	52	2020	0.319	0.681	0.58	3.77e-05	0.099	0.0612	0.368
+4GRFzKI7jTZ3kbMfouc7bn	Backstabber	75	6fpLLJsDSSAlToEDW2jv4F	6LqNN22kT3074XbTVUrhzX	Rock	India	Kesha	77	Animal (Expanded Edition)	80	2010	0.0666	0.6	0.939	6.18e-06	0.34	0.19	0.833
+0HPD5WQqrq7wPWR7P7Dw1i	TiK ToK	83	6fpLLJsDSSAlToEDW2jv4F	6LqNN22kT3074XbTVUrhzX	International	India	Kesha	77	Animal (Expanded Edition)	80	2010	0.0991	0.755	0.837	0.0	0.289	0.142	0.714
+3JTMWdhcJPiegDSe7SvZS3	Cannibal	68	0pGumY11G8OGH05ti6jh23	6LqNN22kT3074XbTVUrhzX	Hip-Hop	India	Kesha	77	Cannibal (Expanded Edition)	72	2010	0.0078	0.71	0.68	0.0165	0.0493	0.106	0.571
+3LUWWox8YYykohBbHUrrxd	We R Who We R	73	0pGumY11G8OGH05ti6jh23	6LqNN22kT3074XbTVUrhzX	Pop	South Korea	Kesha	77	Cannibal (Expanded Edition)	72	2010	0.00987	0.736	0.817	0.00167	0.117	0.0407	0.653
+5YLWZYFV2GMaKfr91sZvZg	Sleazy	49	0pGumY11G8OGH05ti6jh23	6LqNN22kT3074XbTVUrhzX	International	USA	Kesha	77	Cannibal (Expanded Edition)	72	2010	0.0195	0.756	0.898	0.0303	0.0997	0.145	0.84
+3pYDZTJM2tVBUhIRifWVzI	Blow	69	0pGumY11G8OGH05ti6jh23	6LqNN22kT3074XbTVUrhzX	Pop	India	Kesha	77	Cannibal (Expanded Edition)	72	2010	0.00334	0.753	0.729	5.66e-05	0.073	0.0392	0.812
+1YcOjtjiwwiwlrzmeueQ45	Crazy Beautiful Life	45	0pGumY11G8OGH05ti6jh23	6LqNN22kT3074XbTVUrhzX	Indie	India	Kesha	77	Cannibal (Expanded Edition)	72	2010	0.0158	0.804	0.57	2.83e-05	0.14	0.0343	0.803
+2ISUiwj8xXqHeUFcen0AIU	Grow A Pear	61	0pGumY11G8OGH05ti6jh23	6LqNN22kT3074XbTVUrhzX	Indie	South Korea	Kesha	77	Cannibal (Expanded Edition)	72	2010	0.0154	0.863	0.667	0.000341	0.125	0.0508	0.892
+484FfAR6a32EjIF8U5PVa1	c u next tuesday	34	0pGumY11G8OGH05ti6jh23	6LqNN22kT3074XbTVUrhzX	Indie	USA	Kesha	77	Cannibal (Expanded Edition)	72	2010	0.0254	0.716	0.925	0.0	0.0681	0.0498	0.701
+6GiG2HRWj1Uvf0XFfILh96	Animal - Billboard Remix	34	0pGumY11G8OGH05ti6jh23	6LqNN22kT3074XbTVUrhzX	Indie	India	Kesha	77	Cannibal (Expanded Edition)	72	2010	0.0302	0.473	0.579	2.21e-05	0.115	0.027	0.142
+187QNdyxLm5eU8xgwSAIlb	Your Love Is My Drug - Bimbo Jones Radio	32	0pGumY11G8OGH05ti6jh23	6LqNN22kT3074XbTVUrhzX	Hip-Hop	USA	Kesha	77	Cannibal (Expanded Edition)	72	2010	0.0166	0.632	0.948	0.000312	0.36	0.0976	0.762
+7IEgvGUnWQLFLbuJYiAJAx	Take It Off - Billboard Radio Mix	46	0pGumY11G8OGH05ti6jh23	6LqNN22kT3074XbTVUrhzX	Rock	South Korea	Kesha	77	Cannibal (Expanded Edition)	72	2010	0.00652	0.807	0.773	0.0101	0.474	0.0675	0.864
+6aMPM4eBKqLFFhwZYo68sf	Animal - Dave Aude Remix	26	0pGumY11G8OGH05ti6jh23	6LqNN22kT3074XbTVUrhzX	Hip-Hop	India	Kesha	77	Cannibal (Expanded Edition)	72	2010	2.64e-05	0.593	0.839	0.00205	0.106	0.0601	0.632
+0mCVNGC4Vvb6gDDQrDpaRh	Les	10	32KdoFFhgjCLdU0DWL71tx	73sIBHcqh3Z3NyqHKZ7FOL	Rock	USA	Childish Gambino	79	Camp	9	2011	0.00654	0.524	0.674	9.3e-05	0.221	0.0895	0.128
+31tf1qEai5o5f4r66Kd0pU	Me and Your Mama	16	4Carzsnpd6yvuHZ49I0oz8	73sIBHcqh3Z3NyqHKZ7FOL	Rock	India	Childish Gambino	79	"""Awaken, My Love!"""	17	2016	0.0116	0.554	0.433	0.0449	0.0667	0.0341	0.237
+1KIJclzEbNhSVw8tiHPWwE	Young	83	54lNPJ6xq2QXwG6jLEIf6C	0U7iI0Dk4Ojvi17nZboNO4	Indie	South Korea	Vacations	73	Vibes	80	2016	0.00392	0.498	0.81	0.00717	0.0635	0.0263	0.594
+4ja2gzrNh9VNigzoXfmbwD	Mariposa	72	0vpGo2ef7QNOKQHtd7qZeh	0imE3buPhAowREqCrr4CYe	Indie	India	Peach Tree Rascals	59	Mariposa	65	2019	0.617	0.676	0.525	0.0	0.356	0.028	0.421
+1KO4aiGkvF1eMTBrzL4vAd	I Don't Want to Talk	55	29l8Ddx32NKjtpeZic3U1I	0NIPkIjTV8mB795yEIiPYL	International	United Kingdom	Wallows	71	I Don't Want to Talk	48	2021	0.0133	0.461	0.908	1.4e-06	0.309	0.0768	0.636
+4L6mbkUpy4bmbeOQmw4hXu	Person in the Mirror	62	3xypvFTyaBdnGjwTwc1iSg	7iS4CQkDpux3s40py3SqZi	International	USA	Naethan Apollo	54	Person in the Mirror	54	2022	0.026	0.868	0.406	0.0	0.0842	0.295	0.772
+4aOOExMBUyxKnEYb39SrTg	Riot	77	0G3uruzIfqEMKmuI8vGZ42	15UsOTVnJzReFVN1VCnxy4	International	South Korea	XXXTENTACION	87	Riot	70	2020	0.019	0.509	0.542	0.00639	0.23	0.442	0.151
+0GRmh4ZlobfhvDE9L4CbOs	Off the Wall!	64	7ifkO4gppMVf0HNy7JJDHn	15UsOTVnJzReFVN1VCnxy4	International	India	XXXTENTACION	87	XXXTENTACION Presents: Members Only, Vol. 3	70	2017	0.123	0.834	0.374	0.0	0.134	0.333	0.545
+5aFRiH5H6t24iWBMYu2GiE	Let There Be Carnage	28	2SNoiyZMW4AqsPI7zM3C9D	0ekK352BUEA00cnbGeOLkO	Hip-Hop	India	XZARKHAN	46	Let There Be Carnage	21	2021	0.043	0.645	0.967	0.0	0.0501	0.461	0.7
+7biafQe3DVcFrOL1dfQB8S	YUNG RARE - DIRTBAG	34	21PVlSbSzIRuI5ePRWKZuI	2z1jwlex23tZ81otnrIU5H	International	USA	SINGE	19	Crackology	28	2020	0.0673	0.683	0.835	0.0	0.43	0.246	0.775
+5Vth7eImumlAyhsW8PqqAM	Naked	54	6hTRp6fXyHzkMfSEdjvwlT	1xFMeZFEf4ZUfuKwrfs5lB	Pop	India	Bickle	39	Naked	47	2020	0.000104	0.815	0.497	0.0219	0.071	0.0547	0.472
+0Z2UOdj2uvGvv9tyoD6wYD	Grey Skies	39	5uCP7wZqIvuZE7tKMk1vTz	4zAOqBfNLyWFvj1e3yvypJ	Hip-Hop	India	Catching Flies	57	The Long Journey Home	41	2013	0.423	0.312	0.449	0.639	0.281	0.0593	0.0395
+1F35Dmog9pekyCVnH1eQpl	Photo ID (with Dominic Fike)	63	1Aus1dFkP2BSyzibCl0HA7	0NB5HROxc8dDBXpkIi1v3d	International	India	Remi Wolf	64	We Love Dogs!	58	2021	0.21	0.75	0.829	0.0	0.279	0.0915	0.87
+27sBcXtgTBSJRdUxei1a7J	Sexy Villain	65	7tJ8Wtej161vR0uCbGDiDR	0NB5HROxc8dDBXpkIi1v3d	Indie	India	Remi Wolf	64	Juno	64	2021	0.402	0.766	0.539	0.0	0.104	0.0479	0.888
+0T7aTl1t15HKHfwep4nANV	Disco Man	66	6fnqjvzov5e9A0wpfhLblj	0NB5HROxc8dDBXpkIi1v3d	Indie	USA	Remi Wolf	64	I'm Allergic To Dogs!	58	2020	0.0443	0.686	0.682	0.0131	0.43	0.0459	0.854
+2aWVaW1p2kUc5yuKwBmRJi	I WANNA SEE SOME ASS (feat. jetsonmade)	73	7AaqMMiYMvnMB3RcS8u3EY	2LIk90788K0zvyj2JJVwkJ	International	USA	Jack Harlow	82	Sweet Action	74	2020	0.18	0.899	0.691	0.000451	0.135	0.0497	0.865
+235m3adTb5WObAJWOonO4f	i guess?	47	2z7HUrHkpJxvDixk8Seqlm	7eRBEVzcZk4XyIdF0Btfg4	International	India	elias	30	i guess?	39	2019	0.0161	0.758	0.844	0.0	0.1	0.267	0.615
+6I9VzXrHxO9rA9A5euc8Ak	Toxic	83	0z7pVBGOD7HCIB7S8eLkLI	26dSoYclwsYLMAKD3tpOr4	Indie	USA	Britney Spears	80	In The Zone	77	2003	0.0249	0.774	0.838	0.025	0.242	0.114	0.924
+4fixebDZAVToLbUCuEloa2	Womanizer	78	2tve5DGwub1TtbX1khPX5j	26dSoYclwsYLMAKD3tpOr4	International	USA	Britney Spears	80	Circus (Deluxe Version)	76	2008	0.073	0.724	0.695	0.0	0.0889	0.0622	0.235
+5hR1PFUnx0uRkqYsW4Z4ja	Mind Yo Business (Feat. Latto)	53	0NCupn1XlJsAHmUcCCGLQk	77gMBvQ2frbQAPyCeoYGm7	Pop	India	Lakeyah	54	Mind Yo Business (Feat. Latto)	46	2022	0.0251	0.961	0.557	0.0	0.0828	0.321	0.742
+02nTpchENdZ4Nm8AfTmrFv	Conceited	65	2q7cKHWIXtGBtEtARc5lyV	08PvCOlef4xdOr20jFSTPd	Rock	USA	Flo Milli	68	Conceited	58	2022	0.0634	0.978	0.683	5.88e-05	0.523	0.0981	0.419
+52BJrldggFQyTiW8XrILhO	In The Party	66	49FIsErcdC5rfTFhRpPZ7P	08PvCOlef4xdOr20jFSTPd	Indie	USA	Flo Milli	68	Ho, why is you here ?	66	2020	0.0096	0.919	0.609	0.0	0.124	0.262	0.418
+7qdFz1dTJqgdVe6NA4F4DP	Beef FloMix	65	49FIsErcdC5rfTFhRpPZ7P	08PvCOlef4xdOr20jFSTPd	Hip-Hop	India	Flo Milli	68	Ho, why is you here ?	66	2020	0.216	0.879	0.733	0.0	0.274	0.142	0.913
+4ue41gFbAjoU0P1EberJWm	We Not Humping - Remix	65	1V9eCkZxExdad79zHEE6Dk	2sflbTtCirog5VxD6jPAfb	Rock	United Kingdom	Monaleo	55	We Not Humping (Remix)	57	2022	0.0344	0.971	0.851	0.0	0.092	0.269	0.81
+2KukL7UlQ8TdvpaA7bY3ZJ	BREAK MY SOUL	74	5JgCaA43ECaGeqbPEo6WUP	6vWDO969PvNqNYHIOW5v0m	Hip-Hop	United Kingdom	Beyoncé	86	BREAK MY SOUL	67	2022	0.0575	0.687	0.887	2.21e-06	0.27	0.0826	0.853
+1Hohk6AufHZOrrhMXZppax	ALIEN SUPERSTAR	77	6FJxoadUE4JNVwWHghBwnb	6vWDO969PvNqNYHIOW5v0m	Pop	United Kingdom	Beyoncé	86	RENAISSANCE	88	2022	0.00453	0.545	0.641	6.59e-05	0.171	0.0998	0.464
+6RX5iL93VZ5fKmyvNXvF1r	Irreplaceable	72	0Zd10MKN5j9KwUST0TdBBB	6vWDO969PvNqNYHIOW5v0m	Pop	United Kingdom	Beyoncé	86	B'Day Deluxe Edition	74	2007	0.0293	0.447	0.694	5.46e-06	0.167	0.382	0.509
+5IVuqXILoxVWvWEPm82Jxr	Crazy In Love (feat. Jay-Z)	79	6oxVabMIqCMJRYN1GqR3Vf	6vWDO969PvNqNYHIOW5v0m	International	United Kingdom	Beyoncé	86	Dangerously In Love	76	2003	0.00249	0.646	0.77	0.0	0.0715	0.226	0.681
+6YNjQUFByeYN29whlsSJXj	Kool Girl	44	4drgLT1DO0CmUtr6cBNhat	3pmmPRPNLabm5decg9Y6c0	Rock	India	Seasalt	28	Kool Girl	37	2018	0.125	0.824	0.683	4.74e-05	0.0637	0.0487	0.757
+2RgOlgNEMnwXPA5dMBm2KR	Nothing	36	5pnTelP2lz9iYY4S4kcW0m	7qyN87BH8AmA498RL3K21d	Indie	India	Derek Simpson	24	KiNG SUN	34	2019	0.073	0.719	0.511	0.00213	0.0406	0.0427	0.932
+0HFDre9WKvyi6U4Yk4uT1F	Criminal Song	50	06Ht6PsOsZNpg3fKjQBBhV	1CT22NjFvtaxNEF9ouO3Ep	Hip-Hop	USA	Teenage Disaster	49	Criminal Song	42	2020	0.000411	0.597	0.643	0.00028	0.174	0.0637	0.462
+5KYWU6rQ1ubN1x53i4v7Wk	Old Is New	23	48ToNVf7z5WnbprWgNzGvq	4Dq44dBQow9U8vPPkDNlxP	International	USA	Joseph Quinn	12	Old Is New	19	2021	0.518	0.691	0.222	0.0615	0.119	0.0463	0.0866
+4blPH3Uy89WnOnYlIv7Ev4	Rät	74	49iT8dV8hZ5o7bqpOI5yfI	3u6lPufHw4Oww6D88rv6sB	Hip-Hop	India	Penelope Scott	64	Public Void	72	2020	0.326	0.609	0.449	0.000115	0.147	0.249	0.309
+5lb9WTRIe0geWjt5zRPTpy	Wifey	51	37lHNd8jnQhYTOTrT2TC4J	1DGAqC29aw0FpJCejAehVk	Rock	USA	Rubi Rose	48	Wifey	43	2022	0.0161	0.891	0.6	0.0	0.117	0.128	0.746
+4cacyP5c3PMlfnyjpg13xW	Betty (Get Money)	75	3FEQZNn34v3EdxrVKi9pZF	2YOYua8FpudSEiB9s88IgQ	Hip-Hop	United Kingdom	Yung Gravy	70	Betty (Get Money)	68	2022	0.00524	0.723	0.772	1.15e-05	0.367	0.0792	0.58
+7L6G0wpIUiPXuvoo7qhb06	oops!	69	7aQSug5yYLtISyxh9eEglW	2YOYua8FpudSEiB9s88IgQ	Pop	India	Yung Gravy	70	Gasanova	66	2020	0.0358	0.886	0.743	0.000198	0.0511	0.0812	0.941
+1TgE5XTrmr3ltc0kD5kxJ1	Hot Tub (with T-Pain & Dillon Francis)	48	3DCLmgvu8dwEyJ3MpBcNka	2YOYua8FpudSEiB9s88IgQ	Pop	USA	Yung Gravy	70	Marvelous	69	2022	0.0783	0.746	0.799	3.54e-06	0.366	0.214	0.59
+2fSWU87ZkCZMwuqN4NsS0y	Mrs. Worldwide	62	3DCLmgvu8dwEyJ3MpBcNka	2YOYua8FpudSEiB9s88IgQ	International	India	Yung Gravy	70	Marvelous	69	2022	0.17	0.943	0.514	7e-05	0.32	0.209	0.792
+0cgy8EueqwMuYzOZrW5vPB	C'est La Vie (with bbno$ & Rich Brian)	69	4cR3Cgc4klmCeDgFkA3nz7	2YOYua8FpudSEiB9s88IgQ	Indie	USA	Yung Gravy	70	C'est La Vie	61	2022	0.0566	0.888	0.778	0.0	0.0653	0.0945	0.774
+0aMHIW1lqrulVCx0LLlr6a	Cocoa Butter Kisses	70	2VBcztE58pBKjIDS5oEgFh	1anyVhU62p31KFi8MEzkbf	International	India	Chance the Rapper	75	Acid Rap	69	2013	0.0518	0.679	0.645	0.0	0.145	0.222	0.203
+7ItXHU9yVm8AUkMyo4kffF	Run (feat. Tyga, 21 Savage & BIA)	58	7b7CkJuDzMUFt0vbzj0pjv	0A0FS04o6zMoto8OKPsDwY	Indie	India	YG	75	Run	51	2022	0.0251	0.817	0.625	1.18e-06	0.223	0.217	0.379
+6suYoN4gFkanqOBn5yRnJC	Boys Will Be Bugs	72	40MJoESOQ4BDr5Y6jY7cFa	2hR4h1Cao2ueuI7Cx9c7V8	Indie	India	Cavetown	72	Animal Kingdom	73	2019	0.00387	0.486	0.528	1.4e-05	0.106	0.0463	0.452
+6PouzZCmnTiMoTTyjEx09Q	One Of A Kind	54	1g8qE9479Xpv38Q3oHqGie	3kBOtwy37e9fzJ3LFSnpbQ	Indie	USA	LIL DUSTY G	59	One Of A Kind	46	2021	0.0281	0.664	0.713	0.0	0.0818	0.0341	0.423
+1qf4LTrblgyq5gKli14LqM	Bad Texter	3	4yT6C0MlsJ7Z4LniiePQM2	2Zgc1KUqd7A9wmQ7mQHuwY	Rock	India	Ryan Woods	42	King of the Basement	1	2021	0.0455	0.611	0.632	7.47e-05	0.339	0.0428	0.619
+1s5A0u1dnAeVNur5nPkCpD	Two Trucks	58	4Julje5zwF2IRlSqBOQ2oJ	4llAOeA6kEF4ytaB2fsmcW	International	USA	Lemon Demon	64	Nature Tapes	58	2014	0.0529	0.758	0.391	0.000867	0.106	0.0453	0.895
+2bJvI42r8EF3wxjOuDav4r	Time of Our Lives	82	4EUf4YyNjuXypWY6W5wEDm	0TnOYISbd1XYRBk9myaseg	Indie	India	Pitbull	83	Globalization	79	2014	0.0921	0.721	0.802	0.0	0.694	0.0583	0.724
+3Tu7uWBecS6GsLsL8UONKn	Don't Stop the Party (feat. TJR)	68	2F7tejLHzTqFq2XLol9ZGy	0TnOYISbd1XYRBk9myaseg	Pop	United Kingdom	Pitbull	83	Global Warming: Meltdown (Deluxe Version)	79	2012	0.00726	0.722	0.958	0.0	0.375	0.0912	0.952
+0Hf4aIJpsN4Os2f0y0VqWl	Feel This Moment (feat. Christina Aguilera)	79	2F7tejLHzTqFq2XLol9ZGy	0TnOYISbd1XYRBk9myaseg	Indie	United Kingdom	Pitbull	83	Global Warming: Meltdown (Deluxe Version)	79	2012	0.039	0.673	0.758	0.0	0.341	0.158	0.542
+13plQdOoWSSXPRUSZc5FuM	I Know You Want Me (Calle Ocho)	71	4RaAjieYFIZRF8uh6GY43r	0TnOYISbd1XYRBk9myaseg	Hip-Hop	United Kingdom	Pitbull	83	Pitbull Starring In Rebelution	69	2009	0.0152	0.817	0.733	4.31e-05	0.107	0.145	0.833
+0OPyDgTRuIdCJ9B4bYSths	Hotel Room Service	72	4RaAjieYFIZRF8uh6GY43r	0TnOYISbd1XYRBk9myaseg	Pop	USA	Pitbull	83	Pitbull Starring In Rebelution	69	2009	0.00684	0.85	0.631	0.000406	0.0679	0.227	0.738
+1LomM3L6atrf79ZL7nHDp4	Shake Senora (feat. T-Pain & Sean Paul)	63	4rG0MhkU6UojACJxkMHIXB	0TnOYISbd1XYRBk9myaseg	International	United Kingdom	Pitbull	83	Planet Pit (Deluxe Version)	81	2011	0.134	0.685	0.944	0.0	0.361	0.341	0.543
+1mB7dCUM7sPyNab6R43nlj	The Drug In Me Is You	74	1KwwS07TEbKS8r1rU4UUe4	2CmaKO2zEGJ1NWpS1yfVGz	International	India	Falling In Reverse	73	The Drug In Me Is You	73	2011	0.0149	0.548	0.855	0.0	0.127	0.151	0.644
+4TncWhCfACwaIU8hllz8SQ	Sexy Drug	68	6Q6AwXjxcD7zL8fJMtHVo7	2CmaKO2zEGJ1NWpS1yfVGz	Indie	India	Falling In Reverse	73	Just Like You (Deluxe Edition)	66	2015	0.00146	0.367	0.978	0.0	0.113	0.232	0.639
+5NSdMmd2LnvgDcpLiKeKeD	Bad Girls Club	62	0KgRZOlXJssqaxzebmdf1w	2CmaKO2zEGJ1NWpS1yfVGz	Rock	USA	Falling In Reverse	73	Fashionably Late (Deluxe Edition)	66	2013	0.0139	0.533	0.924	0.0	0.487	0.154	0.756
+5qZ3zBoRolvpFhnOMoNrGy	Cloud Dance	3	0n4SGb1cNbdXVKzmDpZo8a	3U0Eyg2S4rEutYDRARLkf6	International	USA	Rob Arthur	17	Relaxing Guitar	6	2014	0.815	0.736	0.155	0.888	0.0822	0.0572	0.265
+4BsLwvaJOTOHDNg7xMpvrL	Habit	68	2vIIWsslRiFHiHPWFTsdaE	4iMO20EPodreIaEl8qW66y	International	United Kingdom	Still Woozy	69	Habit	61	2019	0.154	0.767	0.392	0.000398	0.108	0.0945	0.48
+11i33j50Gsr90pRoDJBrEA	Chic 'N' Stu	65	6lA1sGw7eCv27bcpd5E0wT	5eAWCfyUhZtHHtBdNk56l1	Pop	India	System Of A Down	80	Steal This Album!	72	2002	0.0169	0.611	0.795	0.0	0.116	0.04	0.384
+6l17lK6a9LFqhOfh770wWg	Thetawaves	50	6lA1sGw7eCv27bcpd5E0wT	5eAWCfyUhZtHHtBdNk56l1	Indie	India	System Of A Down	80	Steal This Album!	72	2002	1.99e-05	0.462	0.869	0.0528	0.159	0.0379	0.558
+41pOIT2t1rvr2Trg1HQChZ	Radio/Video	69	0cn6MHyx4YuZauaB7Pb66o	5eAWCfyUhZtHHtBdNk56l1	International	India	System Of A Down	80	Mezmerize	78	2005	0.171	0.358	0.921	7.64e-06	0.358	0.0695	0.476
+5uMTA9SIe0sE4dnHHSHaYz	Vicinity Of Obscenity	65	3QxX3NbWyLlLG6lP1xveL3	5eAWCfyUhZtHHtBdNk56l1	Indie	USA	System Of A Down	80	Hypnotize	76	2005	0.0533	0.546	0.957	3.37e-06	0.683	0.164	0.514
+4se25yP3bMpaMAlcxvyJ5Q	Violin	64	2FAzRCz0eQhFMUhDPTxIUb	0DbBBj0ScPumRqKXswGQH1	International	United Kingdom	Cookiee Kawaii	54	Vanice	59	2021	0.0695	0.83	0.875	0.000877	0.117	0.094	0.675
+4sOIYvAENF4svM99o1hjLW	Is U Mad!?	44	3LG0bchog9h0aTSGU8oq6I	0DbBBj0ScPumRqKXswGQH1	Rock	India	Cookiee Kawaii	54	Is U Mad!?	37	2022	0.102	0.794	0.828	1.9e-06	0.113	0.224	0.803
+5yTDE6ccqwhkRLvLCjDB6K	Donkey	40	7zcAR7RBs39HWcCcb6bHTY	0DbBBj0ScPumRqKXswGQH1	International	USA	Cookiee Kawaii	54	Donkey	33	2022	0.83	0.715	0.885	2.46e-06	0.135	0.411	0.442
+2GDKZxasF0ZPGMxUx4YDtG	Mo' Liquor	53	3UGsdfFc2kZBLZhu3YbkF3	4c2ighP1wj8E5dVGJDCOiB	International	India	Kari Faux	47	Lowkey Superstar (Deluxe)	48	2021	0.357	0.825	0.877	0.000681	0.114	0.182	0.734
+3eZqBNHlNA4lUsbAB6UmvD	Loretta	62	6JK3NfcRSyRnrIdBiZtQGM	4UAW69682T7N0wrABUhqx0	Indie	India	Ginger Root	54	Loretta	54	2021	0.282	0.706	0.801	0.594	0.143	0.0462	0.887
+78LMazmfqncADjyJVae8dN	Anything You Want	65	0heGEO3au4OmkR8Oor96qu	25pd339V2rRJo84USlcSRP	International	USA	JAWNY	64	Anything You Want	58	2020	0.145	0.798	0.78	0.0	0.1	0.0554	0.929
+2cX2coZS1PYBfPs8wgbdWE	More Than A Woman	77	4vAhQeeWkSjVn0p5GAaLBx	1LZEQNv7sE11VDY3SdxQeN	Rock	USA	Bee Gees	77	How Can You Mend A Broken Heart	81	2020	0.175	0.601	0.703	8.4e-05	0.571	0.0379	0.673
+5ubvP9oKmxLUVq506fgLhk	Stayin Alive	81	4vAhQeeWkSjVn0p5GAaLBx	1LZEQNv7sE11VDY3SdxQeN	Indie	USA	Bee Gees	77	How Can You Mend A Broken Heart	81	2020	0.0288	0.702	0.773	0.00871	0.147	0.0343	0.953
+4UDmDIqJIbrW0hMBQMFOsM	Stayin' Alive	79	6iqFb4EhmlHHjJGFcRgJmQ	1LZEQNv7sE11VDY3SdxQeN	International	USA	Bee Gees	77	Staying Alive (Original Motion Picture Soundtrack)	72	1977	0.113	0.707	0.535	0.00615	0.0884	0.0436	0.641
+2bioa8f0WfgxGdrHNOzJi9	Cool It	0	6uChgzTnJxLdK38jme5700	3cvyvssZnFHsTpwwHC9dji	Hip-Hop	India	Dejima	36	Cool It	0	2022	0.00565	0.704	0.679	0.781	0.0534	0.0391	0.92
+5S5u0EWtlblH00iTNExZ6X	I Think I Like When It Rains	51	3kWPtRY5FCFhjDFTMNdvP3	3OykSjAE6F2Mb51WplFoRk	International	India	WILLIS	59	Locals 2	44	2017	0.0448	0.622	0.471	0.0	0.0957	0.0277	0.278
+0wGbyS1tExQSwOYu6UceyE	SHADOW	80	4w0uRvtIjqipuoZ7ngqqcV	3ysIyoivMDpeqLg0VMRPQw	Hip-Hop	USA	ONIMXRU	67	SHADOW	72	2022	0.000166	0.721	0.692	0.275	0.104	0.0414	0.531
+5zUQZjVB6bfewBXWqsP9PY	Here	71	7HnbhIDKXIBhMR4EPGuMgu	2wUjUUtkb5lvLKcGKsKqsR	Hip-Hop	India	Alessia Cara	74	Know-It-All	75	2015	0.0785	0.376	0.821	0.0	0.0823	0.104	0.331
+4XHQyvbrBsQaaBUW1VvmsL	My Band	75	61EgDesQnFVyYf2UneM9PQ	5Qi4Bb7a8C0a00NZcA77L0	International	USA	D12	66	D-12 World	70	2004	0.497	0.851	0.849	2.05e-06	0.116	0.0828	0.844
+0h82txCyS3TGgW0F31gew5	Pizzazz	55	53LZZfDTXEmbo9uhV70uTL	1EgCxqT8GgE5oXX3PkeGhq	Indie	USA	Akintoye	47	Pizzazz	47	2022	0.0144	0.443	0.749	0.0	0.206	0.286	0.26
+59ezMUPbbZ5xR8HAtGr24s	Respectfully	41	1diIxbKoyP2QdHGU0cKKTs	1EgCxqT8GgE5oXX3PkeGhq	Pop	South Korea	Akintoye	47	Respectfully	33	2021	0.0566	0.653	0.881	0.0	0.372	0.0822	0.486
+6REbwUNlppTfcnV4d4ZoZi	Swimming Pools (Drank)	80	2XPrwlaAHHXnJzP9tBcIzH	2YZyLoL8N0Wb9xBt1NhZWg	Hip-Hop	USA	Kendrick Lamar	89	Swimming Pools (Drank)	72	2012	0.00627	0.577	0.447	0.00022	0.0899	0.277	0.189
+439TlnnznSiBbQbgXiBqAd	m.A.A.d city	70	6PBZN8cbwkqm1ERj2BGXJ1	2YZyLoL8N0Wb9xBt1NhZWg	Hip-Hop	United Kingdom	Kendrick Lamar	89	good kid, m.A.A.d city	79	2012	0.0538	0.487	0.729	4.07e-06	0.44	0.271	0.217
+2HbKqm4o0w5wEeEFXm2sD4	Money Trees	83	6PBZN8cbwkqm1ERj2BGXJ1	2YZyLoL8N0Wb9xBt1NhZWg	Hip-Hop	India	Kendrick Lamar	89	good kid, m.A.A.d city	79	2012	0.0703	0.716	0.531	0.0	0.224	0.122	0.344
+0fX4oNGBWO3dSGUZcVdVV2	N95	81	79ONNoS4M9tfIA1mYLBYVX	2YZyLoL8N0Wb9xBt1NhZWg	Rock	South Korea	Kendrick Lamar	89	Mr. Morale & The Big Steppers	87	2022	0.377	0.79	0.67	2.32e-06	0.119	0.105	0.408
+7KXjTSCq5nL1LoYtL7XAwS	HUMBLE.	86	4eLPsYPBmXABThSJ821sqY	2YZyLoL8N0Wb9xBt1NhZWg	International	United Kingdom	Kendrick Lamar	89	DAMN.	89	2017	0.000282	0.908	0.621	5.39e-05	0.0958	0.102	0.421
+0zO8ctW0UiuOefR87OeJOZ	Collard Greens	78	7Et3bSTLLqdABO1qCxUplS	5IcR3N7QB1j6KBL8eImZ8m	Rock	India	ScHoolboy Q	73	Oxymoron (Deluxe)	76	2014	0.025	0.825	0.575	9.94e-06	0.205	0.0633	0.65
+1UMKquW1olreYO1LlLmTqi	Gas Pedal	68	5udw4f9l9vwuJVkrbRFy3j	6d47Z08T4snK50HgTEHo5Z	Indie	India	Sage The Gemini	64	Remember Me	65	2014	0.0273	0.843	0.538	0.0	0.124	0.0833	0.428
+1KIQ0RscHwxXPJUvhuO5Bl	Red Nose	64	5udw4f9l9vwuJVkrbRFy3j	6d47Z08T4snK50HgTEHo5Z	Indie	USA	Sage The Gemini	64	Remember Me	65	2014	0.414	0.681	0.473	0.0	0.0794	0.449	0.766
+2ajhenDRiiAnCHHjsIOHhJ	Laffy Taffy	66	5PE3OnyEPOlTShpjij8Wfp	4AllEJE7mVkhhyUV6DjqPz	Indie	USA	D4L	48	Down for Life	59	2005	0.0351	0.891	0.439	0.0	0.0932	0.428	0.622
+4l1R5g85v3bUA1bSSbzg6w	How Bad Can I Be?	66	598g2DLLnd5tIJyVeizTx5	4frIPWBfpZWw7REcjGAkJF	Indie	United Kingdom	Ed Helms	49	Dr. Seuss' The Lorax - Original Songs From The Motion Picture	64	2012	0.0708	0.795	0.866	0.0	0.0623	0.138	0.76
+6m59VvDUi0UQsB2eZ9wVbH	Poison	71	6H5mxGUWguDjtQ4Uzd8veD	2zFZiWQJFFshzojycnXoTL	Pop	USA	Bell Biv DeVoe	56	Poison	65	1990	0.00195	0.84	0.56	0.00417	0.633	0.21	0.775
+6jBCehpNMkwFVF3dz4nLIW	It's Tricky	71	7AFsTiojVaB2I58oZ1tMRg	3CQIn7N5CuRDP8wEI7FiDA	Rock	USA	Run–D.M.C.	61	Raising Hell	69	1986	0.00131	0.965	0.857	0.0	0.0726	0.17	0.951
+7in67pQ0NU9nJhZGYMAwJ7	911	33	26ggJagc5LwZvZrrg7iChu	7rcalnUNzqAa9DxU3O4oOD	International	United Kingdom	Boo-Yaa T.R.I.B.E.	39	West Koasta Nostra	26	2003	0.138	0.72	0.73	0.000179	0.103	0.51	0.587
+3dmnVNKCxtohL1FJsM7xWr	King Of The Hill	45	5VCY0uIkkoaaji9ciCLS0D	3zNM2tRfTX6LI1lN2PlrTt	Indie	India	Westside Connection	58	Bow Down	59	1996	0.0128	0.886	0.824	0.0	0.106	0.295	0.64
+7KwZNVEaqikRSBSpyhXK2j	Hypnotize - 2014 Remaster	82	7dRdaGSxgcBdJnrOviQRuB	5me0Irg2ANcsgc93uaYrpb	Hip-Hop	South Korea	The Notorious B.I.G.	78	Life After Death (2014 Remastered Edition)	79	1997	0.145	0.901	0.697	0.0	0.287	0.28	0.67
+2AP7m2dBb8ULTx4Gc1rdMc	Juicy	63	2yDwwjGzGEcyJMEJuCNyiP	5me0Irg2ANcsgc93uaYrpb	Rock	India	The Notorious B.I.G.	78	Greatest Hits	58	2007	0.38	0.887	0.767	0.0	0.0527	0.295	0.607
+6SAoc6VOdjVrAZe9R2zkVv	Still Smokin	58	4KzJG9VVC0zxlZrRqJTCvE	7hJcb9fa4alzcOq3EaNPoG	Indie	South Korea	Snoop Dogg	83	BODR	57	2022	0.0461	0.571	0.925	0.0	0.35	0.517	0.648
+2NBQmPrOEEjA8VbeWOQGxO	Drop It Like It's Hot	78	797fkvAtk0iZvP1HHPCWbp	7hJcb9fa4alzcOq3EaNPoG	International	South Korea	Snoop Dogg	83	R&G (Rhythm & Gangsta): The Masterpiece	72	2004	0.19	0.888	0.632	0.0	0.101	0.219	0.662
+7Fk0zNC7vGdoDwePPgByKh	Peaches N Cream (feat. Charlie Wilson)	42	0tKHgjptFpCMWQyKrwThXF	7hJcb9fa4alzcOq3EaNPoG	International	USA	Snoop Dogg	83	Peaches N Cream (feat. Charlie Wilson)	34	2015	0.0247	0.83	0.722	1.21e-06	0.0741	0.0595	0.29
+27L8sESb3KR79asDUBu8nW	Stacy's Mom	75	6TZp52tXShLQbq8yNMxqNT	1pgtr4nhBQjp9oCUBPyYWh	International	USA	Fountains Of Wayne	58	Welcome Interstate Managers	69	2003	0.00207	0.774	0.75	1.78e-05	0.0808	0.0412	0.927
+2jVoulHQ4vska1zW0BPV9X	Rewind	16	16eIBJn9e2Fz1dufEeCklE	1Kt09OHecYKH4aJI5ZJdph	Rock	USA	Kris Jonathon	21	Rewind	10	2022	0.761	0.362	0.292	8.51e-06	0.0998	0.0309	0.238
+5lIMcCEhMzK0z8H7rVvijn	That's All	37	2p3K9J0GNvdxXHmSDYGnr3	1Kt09OHecYKH4aJI5ZJdph	Indie	India	Kris Jonathon	21	That's All	30	2021	0.305	0.549	0.105	0.000232	0.128	0.0297	0.141
+5gANtecbnh1Y2GR2pZM8p3	Oceans	13	0y94umW1nRvr2vA17IayAI	1Kt09OHecYKH4aJI5ZJdph	International	South Korea	Kris Jonathon	21	Honeymoon	9	2020	0.9	0.147	0.208	0.0023	0.108	0.0427	0.0655
+4bgXEwLBvgVywxVlfaEpEm	Like A Soccer Mom	62	3tNHzt6IowOQ3BUWcBOhqY	2rhFzFmezpnW82MNqEKVry	Rock	USA	Ski Mask The Slump God	75	Like A Soccer Mom	55	2017	0.112	0.78	0.654	0.0	0.12	0.076	0.713
+74lnM5V6ecvoTPV0fvptx9	Nuketown (feat. Juice WRLD)	76	0z0z4DcXhHiobX5ZKAw8Qn	2rhFzFmezpnW82MNqEKVry	International	South Korea	Ski Mask The Slump God	75	STOKELEY	78	2018	0.113	0.808	0.617	0.0	0.734	0.442	0.632
+1ThmUihH9dF8EV08ku5AXN	Faucet Failure	75	0z0z4DcXhHiobX5ZKAw8Qn	2rhFzFmezpnW82MNqEKVry	Hip-Hop	USA	Ski Mask The Slump God	75	STOKELEY	78	2018	0.111	0.935	0.552	0.0	0.0952	0.335	0.615
+5hwUsRKvnO5yThjVrxHQVt	Unbothered	76	0z0z4DcXhHiobX5ZKAw8Qn	2rhFzFmezpnW82MNqEKVry	Rock	India	Ski Mask The Slump God	75	STOKELEY	78	2018	0.222	0.884	0.445	0.0	0.112	0.418	0.851
+4gKWtJGlhxKKSyV65llt2G	OOGA BOOGA!	71	0S180TSjO1KVmxh4oZHimt	2rhFzFmezpnW82MNqEKVry	Rock	United Kingdom	Ski Mask The Slump God	75	OOGA BOOGA!	64	2022	0.101	0.847	0.916	0.000766	0.118	0.222	0.751
+5hgvycPGSiNlwDTFLawOEV	Dr. Suess	31	1GN0X7HiDHWtHi2kWofJ2l	2rhFzFmezpnW82MNqEKVry	Rock	USA	Ski Mask The Slump God	75	Sin City The Mixtape	34	2021	0.00831	0.898	0.687	0.0	0.0376	0.341	0.559
+1qEmFfgcLObUfQm0j1W2CK	Late Night Talking	88	5r36AJ6VOJtp00oxSkBZ5h	6KImCVD70vtIoJWnq6nGn3	Indie	India	Harry Styles	88	Harry's House	94	2022	0.298	0.714	0.728	0.0	0.106	0.0468	0.901
+4Dvkj6JhhA12EX05fT7y2e	As It Was	92	5r36AJ6VOJtp00oxSkBZ5h	6KImCVD70vtIoJWnq6nGn3	Rock	USA	Harry Styles	88	Harry's House	94	2022	0.342	0.52	0.731	0.00101	0.311	0.0557	0.662
+54KcCiWRCD0SX81E3JLsic	Super Why! - Main Theme	32	6MNRKo8q0asbkzI36MEwWd	4TkCMPznXOjlsYLfzIU1rw	Rock	United Kingdom	Geek Music	62	Super Why! - Main Theme	25	2019	0.418	0.779	0.57	1.1e-05	0.144	0.0544	0.683
+7CBN7Kwx1g8SBJZyUbhHc6	Rush E	62	4PXhJymii1eGf3O88pmZ9o	3637OEmwj1q0HinT4YIx5f	Hip-Hop	United Kingdom	Sheet Music Boss	49	Rush Collection	57	2020	0.68	0.376	0.812	0.927	0.0554	0.0365	0.952
+5D64YQg7kI4f2dIIFInbUo	Katyusha	30	27klGf4pMKrQIEQDVJBsAi	3637OEmwj1q0HinT4YIx5f	Indie	USA	Sheet Music Boss	49	Russian Things	36	2018	0.873	0.619	0.389	0.918	0.12	0.0449	0.236
+0KKkJNfGyhkQ5aFogxQAPU	That's What I Like	85	4PgleR09JVnm3zY1fW3XBA	0du5cEVh5yTK9QJze8zA0C	Pop	United Kingdom	Bruno Mars	88	24K Magic	84	2016	0.013	0.853	0.56	0.0	0.0944	0.0406	0.86
+5XMkENs3GfeRza8MfVAhjK	Finesse	71	4PgleR09JVnm3zY1fW3XBA	0du5cEVh5yTK9QJze8zA0C	International	USA	Bruno Mars	88	24K Magic	84	2016	0.00781	0.741	0.798	0.0	0.0232	0.0718	0.939
+0mBKv9DkYfQHjdMcw2jdyI	Chunky	70	4PgleR09JVnm3zY1fW3XBA	0du5cEVh5yTK9QJze8zA0C	International	India	Bruno Mars	88	24K Magic	84	2016	0.0208	0.571	0.539	0.0	0.125	0.116	0.727
+1ExfPZEiahqhLyajhybFeS	The Lazy Song	74	1uyf3l2d4XYwiEqAb7t7fX	0du5cEVh5yTK9QJze8zA0C	Rock	India	Bruno Mars	88	Doo-Wops & Hooligans	85	2010	0.3	0.794	0.711	0.0	0.0955	0.0699	0.955
+5MMLS3xm12D7N26xlfFApr	Runaway Baby	73	1uyf3l2d4XYwiEqAb7t7fX	0du5cEVh5yTK9QJze8zA0C	International	South Korea	Bruno Mars	88	Doo-Wops & Hooligans	85	2010	0.263	0.658	0.762	0.0	0.127	0.0425	0.823
+0nJW01T7XtvILxQgC5J7Wh	When I Was Your Man	89	58ufpQsJ1DS5kq4hhzQDiI	0du5cEVh5yTK9QJze8zA0C	Indie	USA	Bruno Mars	88	Unorthodox Jukebox	88	2012	0.932	0.612	0.28	0.0	0.088	0.0434	0.387
+3w3y8KPTfNeOKPiqUTakBh	Locked out of Heaven	88	58ufpQsJ1DS5kq4hhzQDiI	0du5cEVh5yTK9QJze8zA0C	Indie	United Kingdom	Bruno Mars	88	Unorthodox Jukebox	88	2012	0.049	0.726	0.698	0.0	0.309	0.0431	0.867
+55h7vJchibLdUkxdlX3fK7	Treasure	81	58ufpQsJ1DS5kq4hhzQDiI	0du5cEVh5yTK9QJze8zA0C	Indie	United Kingdom	Bruno Mars	88	Unorthodox Jukebox	88	2012	0.0412	0.874	0.692	7.24e-05	0.324	0.0431	0.937
+3Vo4wInECJQuz9BIBMOu8i	Finesse - Remix; feat. Cardi B	75	3mumK2ar9b4JPhVOZR0V2p	0du5cEVh5yTK9QJze8zA0C	Indie	India	Bruno Mars	88	Finesse (Remix) [feat. Cardi B]	67	2017	0.0185	0.704	0.859	0.0	0.0215	0.0996	0.926
+4Oun2ylbjFKMPTiaSbbCih	WAP (feat. Megan Thee Stallion)	80	2ogiazbrNEx0kQHGl5ZBTQ	4kYSro6naA4h99UJvo89HB	Indie	South Korea	Cardi B	80	WAP (feat. Megan Thee Stallion)	73	2020	0.0194	0.935	0.454	0.0	0.0824	0.375	0.357
+6Ay2DqMNmsTnl24U90K6ze	Gravity Falls Theme Song	48	0ELvg6KtYrbfoaKAqsT8ir	0Vb15td3iKkAzdGD5Sj9Ky	Rock	India	NateWantsToBattle	60	Gravity Falls Theme Song	41	2015	3.57e-06	0.445	0.865	0.791	0.133	0.0526	0.574
+6RZ7PRWuLhJnJBDvBBkDHF	RAINCLOUDS	50	230ORr9AFwzftE70N07i7J	1hrOvw6197WGlXcIBJAp7v	Pop	India	veggi	50	RAINCLOUDS	43	2021	0.379	0.646	0.687	0.000443	0.27	0.16	0.683
+5PCJldueshnwqQVjS16543	U Don't Have to Call	66	6k16WXh4rKyusIoN00rmpi	23zg3TcAtWQy7J6upgbUnj	International	India	Usher	79	8701	72	2001	0.0478	0.793	0.568	3.57e-05	0.0304	0.0459	0.806
+5rb9QrpfcKFHM1EUbSIurX	Yeah! (feat. Lil Jon & Ludacris)	84	1RM6MGv6bcl6NrAG8PGoZk	23zg3TcAtWQy7J6upgbUnj	Indie	USA	Usher	79	Confessions (Expanded Edition)	82	2004	0.0183	0.894	0.791	0.0	0.0388	0.112	0.583
+1bM50INir8voAkVoKuvEUI	OMG (feat. will.i.am)	75	6A1F3Fkq5dYeYYNkXflcTX	23zg3TcAtWQy7J6upgbUnj	Rock	India	Usher	79	Raymond v Raymond (Expanded Edition)	77	2010	0.198	0.781	0.745	1.14e-05	0.36	0.0332	0.326
+6DD5beNG6Ji3AYp5WrYnwD	What's New Scooby-Doo?	64	5esfoJljMhrZ8VCryEZE2V	2p4FqHnazRucYQHyDCdBrJ	Rock	India	Simple Plan	68	What's New Scooby-Doo?	56	2021	8.94e-05	0.486	0.946	0.0001	0.11	0.0807	0.509
+2monU2EJfR5m53ciaHNE6z	Today is Gonna be a Great Day - Theme Song to Phineas and Ferb	49	1mwUxOieg2GvQn4wm5bJR1	5ND0mGcL9SKSjWIjPd0xIb	Indie	USA	Bowling For Soup	62	Phineas and Ferb	59	2009	0.00687	0.429	0.889	0.0	0.397	0.0711	0.735
+4Cd01GWLuMTNZhW0DE7cF4	Gitchee Gitchee Goo	46	1mwUxOieg2GvQn4wm5bJR1	1pz6Uk6RETJmyNuxp4TD5m	Hip-Hop	India	Phineas and the Ferbtones	37	Phineas and Ferb	59	2009	0.164	0.714	0.946	0.0	0.0658	0.089	0.895
+2wwtLxWeiSWEbmpX9o40IN	Backyard Beach	44	1mwUxOieg2GvQn4wm5bJR1	04K0BYv0Afn6AGrT2rsji2	International	India	Ferb	31	Phineas and Ferb	59	2009	0.0312	0.805	0.825	0.0	0.0548	0.27	0.965
+2kM7fxFNAtA7lo4nAS2Hvj	Busted	52	1mwUxOieg2GvQn4wm5bJR1	0zAjE3KMGAsizj1VNhYPxf	Indie	India	Candace	43	Phineas and Ferb	59	2009	0.235	0.604	0.813	0.0	0.0733	0.364	0.895
+4lInyJlacKVjqj2CTfG6Fy	I Love You Mom	40	1mwUxOieg2GvQn4wm5bJR1	0zAjE3KMGAsizj1VNhYPxf	Rock	United Kingdom	Candace	43	Phineas and Ferb	59	2009	0.669	0.572	0.404	0.0	0.116	0.0402	0.465
+20sKNUEHWGGoVzTeJTl4tu	Do Nothing Day	35	1mwUxOieg2GvQn4wm5bJR1	0zAjE3KMGAsizj1VNhYPxf	International	USA	Candace	43	Phineas and Ferb	59	2009	0.249	0.704	0.66	0.0	0.0804	0.0306	0.878
+5rFxuT2Ou0X5okrxn5JBNz	E.V.I.L. B.O.Y.S.	43	1mwUxOieg2GvQn4wm5bJR1	0zAjE3KMGAsizj1VNhYPxf	Rock	India	Candace	43	Phineas and Ferb	59	2009	0.0449	0.535	0.923	0.0	0.239	0.256	0.491
+7LB4T082nXFbqlvQhS7Khj	Queen of Mars	41	1mwUxOieg2GvQn4wm5bJR1	0zAjE3KMGAsizj1VNhYPxf	Indie	United Kingdom	Candace	43	Phineas and Ferb	59	2009	0.202	0.725	0.772	1.93e-05	0.139	0.135	0.898
+0gG4SZ5weal3dd11pf5SzV	Perry the Platypus Theme	44	1mwUxOieg2GvQn4wm5bJR1	1uYWNGwHu2d2au8iOXZROv	International	USA	Randy Crenshaw	33	Phineas and Ferb	59	2009	0.189	0.638	0.879	2.73e-06	0.0788	0.245	0.881
+76Wrq73y3Ef7VNM4CGSZ0l	S.I.M.P. (Squirrels in My Pants)	50	1mwUxOieg2GvQn4wm5bJR1	2HQvN6u2hFOIRsZOdXB6UM	Hip-Hop	India	2 Guys n the Parque	34	Phineas and Ferb	59	2009	0.0717	0.814	0.879	0.0	0.0401	0.12	0.962
+7tbUyF6EKtnB9NmZqToPmr	I'm Lindana and I Wanna Have Fun	40	1mwUxOieg2GvQn4wm5bJR1	3zJoIfQDXEUCsyoV0bTj8G	Rock	USA	Lindana	24	Phineas and Ferb	59	2009	0.185	0.749	0.855	0.0	0.0504	0.068	0.97
+2fnchtKvtMy4QDWjWkKWPG	My Nemesis	41	1mwUxOieg2GvQn4wm5bJR1	3J6ns49mHsAFXgp5EoDJjS	Indie	USA	Danny Jacob	38	Phineas and Ferb	59	2009	0.452	0.633	0.708	0.0	0.14	0.0316	0.968
+319WGFcwDFpkZZispUwROD	My Undead Mummy and Me	37	1mwUxOieg2GvQn4wm5bJR1	3J6ns49mHsAFXgp5EoDJjS	Indie	India	Danny Jacob	38	Phineas and Ferb	59	2009	0.231	0.722	0.645	0.0	0.132	0.0358	0.914
+73e9HfAdNbRMnx4qP9F2KX	When We Didn't Get Along	36	1mwUxOieg2GvQn4wm5bJR1	3J6ns49mHsAFXgp5EoDJjS	Hip-Hop	USA	Danny Jacob	38	Phineas and Ferb	59	2009	0.903	0.456	0.213	0.0	0.544	0.0334	0.452
+3jPgT6nZFmcIDLEFJlNqn8	Truck Drivin' Girl	37	1mwUxOieg2GvQn4wm5bJR1	3J6ns49mHsAFXgp5EoDJjS	International	India	Danny Jacob	38	Phineas and Ferb	59	2009	0.11	0.585	0.931	0.0	0.434	0.0416	0.965
+1CLHTj88jRT7rI9pMvH7CS	My Goody Two-Shoes Brother	38	1mwUxOieg2GvQn4wm5bJR1	4YfkwCJadzF61hRcKQwlaP	International	India	Dr. Doofenshmirtz	37	Phineas and Ferb	59	2009	0.349	0.536	0.833	0.0	0.337	0.18	0.808
+5XTvvwlYXnMnNoVaF7EQ2T	Disco Miniature Golfing Queen	40	1mwUxOieg2GvQn4wm5bJR1	24atAUm9yln5x8Os9PEIwv	International	India	Laura Dickinson	31	Phineas and Ferb	59	2009	0.0112	0.642	0.776	4.12e-05	0.102	0.0271	0.886
+4idRRwlqWgLtzPnxh7jp5c	Ready for the Bettys	38	1mwUxOieg2GvQn4wm5bJR1	5Fp1YNO1UGetnTEvlpFJTr	Indie	United Kingdom	The Bettys	22	Phineas and Ferb	59	2009	0.00479	0.681	0.755	0.0	0.113	0.0777	0.356
+7KJzeO1QMw80T98GiRlPoP	He's a Bully	35	1mwUxOieg2GvQn4wm5bJR1	1pz7I6tMYKzl223fIsdY58	Indie	South Korea	Robbie Wyckoff	30	Phineas and Ferb	59	2009	0.0642	0.652	0.906	0.0	0.317	0.106	0.846
+1vluT3svKanBmGiWmhJTsH	Fabulous	47	1mwUxOieg2GvQn4wm5bJR1	48biqUQJGRdB9iTPIUPY0h	International	USA	Phineas	42	Phineas and Ferb	59	2009	0.0106	0.773	0.841	0.0	0.337	0.216	0.512
+41vXrvl9HIfUpijbIgi5R6	Ain't Got Rhythm	49	1mwUxOieg2GvQn4wm5bJR1	48biqUQJGRdB9iTPIUPY0h	International	United Kingdom	Phineas	42	Phineas and Ferb	59	2009	0.0812	0.74	0.806	0.0	0.0285	0.196	0.896
+14PO4TmZLQX3gJoVoiAPfb	Little Brothers	36	1mwUxOieg2GvQn4wm5bJR1	6nuWJJNVyTzEiwG8gWFtuX	Pop	USA	Stacy	33	Phineas and Ferb	59	2009	0.919	0.519	0.325	3.15e-06	0.21	0.0296	0.597
+1DAuRdoUEt3wEnhMfkEsiR	Let's Take a Rocketship to Space	36	1mwUxOieg2GvQn4wm5bJR1	5lyPgnomDawdy0mnwph5QN	Hip-Hop	India	Danny and the Jaytones	19	Phineas and Ferb	59	2009	0.375	0.495	0.494	0.0	0.4	0.0397	0.772
+3G3pDMKx7KOAjybOsZ3AMV	Chains on Me	39	1mwUxOieg2GvQn4wm5bJR1	76Vq50mL1AIHj5DUEbWvvM	Hip-Hop	India	The Smile Away Reformatory Glee Club	23	Phineas and Ferb	59	2009	0.0718	0.891	0.564	0.0	0.273	0.0557	0.5
+3IxtiZb7DS34KWzNgRlHnC	Phinedroids and Ferbots	37	1mwUxOieg2GvQn4wm5bJR1	4m9MswNop3oNRW8LDTrscG	Indie	India	Phinedroids and Ferbots	21	Phineas and Ferb	59	2009	0.13	0.866	0.901	0.0	0.171	0.0425	0.964
+3F5qJSvhtixgaLjcaYAgBl	You Snuck Your Way Right Into My Heart	43	1mwUxOieg2GvQn4wm5bJR1	1dDpevEQhtnOqfQce5TrEl	Indie	India	Love Händel	31	Phineas and Ferb	59	2009	0.0231	0.546	0.867	1.13e-05	0.108	0.0389	0.704
+4MJev70u7yjEugU91kSZEU	Quirky Worky Song	40	2NlTgt3Btt2QZlolG41J1j	3J6ns49mHsAFXgp5EoDJjS	Hip-Hop	USA	Danny Jacob	38	Phineas and Ferb: Rockin' and Rollin'	49	2013	0.109	0.836	0.835	0.107	0.202	0.0329	0.947
+4DKXO4OqKOicdm7C4m1paU	There's a Platypus Controlling Me	47	7jiDj8Jdry8EtfY4VTqLb7	4YfkwCJadzF61hRcKQwlaP	International	India	Dr. Doofenshmirtz	37	Phineas and Ferb: Across the 1st and 2nd Dimensions	51	2011	0.0903	0.857	0.949	0.000131	0.407	0.306	0.704
+6jyXQ8HGI7ikECGA0670uo	Fabulous	62	04Xde0FJSo4LVQ1GE36t49	3WtcOzeKXq5mUINE0bNfnt	International	USA	Sharpay Evans	54	High School Musical 2 (Original Soundtrack)	71	2007	0.233	0.827	0.761	0.0	0.0453	0.138	0.703
+3KwwE4sgCzMaKWq6QBebmX	Me Too	76	08eweM0IZoZPCCxODbrMoL	6JL8zeS1NmiOftqZTRgdTz	International	USA	Meghan Trainor	80	Thank You (Deluxe Version)	77	2017	0.0971	0.934	0.694	1.2e-06	0.477	0.101	0.833
+5jE48hhRu8E6zBDPRSkEq7	All About That Bass	75	5W98Ab4VvQEuFEE4TIe5fE	6JL8zeS1NmiOftqZTRgdTz	Pop	India	Meghan Trainor	80	Title (Deluxe)	80	2015	0.0573	0.807	0.887	2.87e-06	0.124	0.0503	0.961
+6gj08XDlv9Duc2fPOxUmVD	Lips Are Movin	73	5W98Ab4VvQEuFEE4TIe5fE	6JL8zeS1NmiOftqZTRgdTz	Indie	USA	Meghan Trainor	80	Title (Deluxe)	80	2015	0.0506	0.775	0.825	1.03e-06	0.111	0.0464	0.95
+3cU2wBxuV6nFiuf6PJZNlC	Dear Future Husband	77	5W98Ab4VvQEuFEE4TIe5fE	6JL8zeS1NmiOftqZTRgdTz	International	USA	Meghan Trainor	80	Title (Deluxe)	80	2015	0.375	0.655	0.782	0.0	0.317	0.185	0.832
+1T20tqHKrePjszGOdbFOEd	Take A Hint (feat. Victoria Justice & Elizabeth Gillies)	65	5wfCTE4O3jyFQPmfSpaWz0	1KYszkVzlhV3rAqmAcYIgd	Rock	USA	Victorious Cast	60	Victorious 2.0: More Music From The Hit TV Show (feat. Victoria Justice)	59	2012	0.00443	0.727	0.86	0.0	0.0718	0.0641	0.747
+1T20tqHKrePjszGOdbFOEd	Take A Hint (feat. Victoria Justice & Elizabeth Gillies)	65	5wfCTE4O3jyFQPmfSpaWz0	1KYszkVzlhV3rAqmAcYIgd	Rock	USA	Victorious Cast	60	Victorious 2.0: More Music From The Hit TV Show (feat. Victoria Justice)	59	2012	0.00443	0.727	0.86	0.0	0.0718	0.0641	0.747
+5ilbsx6qkdgTZLptWIvXEV	Best Friend's Brother (feat. Victoria Justice)	58	1VM5qKftnTKFU9rthvEgYx	1KYszkVzlhV3rAqmAcYIgd	Rock	India	Victorious Cast	60	Victorious: Music From The Hit TV Show (feat. Victoria Justice)	67	2011	0.000398	0.613	0.917	9.69e-06	0.159	0.0637	0.77
+6ihL9TjfRjadfEePzXXyVF	Gives You Hell	72	3BCMpDOcQlbCZpf5vnTadZ	3vAaWhdBR38Q02ohXqaNHT	Hip-Hop	USA	The All-American Rejects	67	When The World Comes Down	65	2008	0.0159	0.718	0.691	0.0	0.0627	0.0387	0.552
+2NZiwbVuhTYXiq0r40FS49	Rubber Bands, Rubber Balls	37	77jAlhvBI46I7MiMmfsEbF	1h0Im5JDn1PkXtilnZT0AH	International	USA	Uncle Sabu & Co.	19	Phineas and Ferb Summer Belongs to You	44	2010	0.185	0.728	0.855	0.0	0.326	0.0621	0.879
+0JJP0IS4w0fJx01EcrfkDe	Dear Maria, Count Me In	78	0H4ELcHequ3OligrjWfrZP	46gyXjRIvN1NL1eCB8GBxo	Rock	United Kingdom	All Time Low	71	So Wrong, It's Right	72	2007	0.00725	0.459	0.895	0.0	0.206	0.0805	0.572
+0E6NdLXGSioEjmHdy22D0v	Three's Company	3	4gh9ozkIw3wuLzNGxCYGRC	7iGTl9hMdKwHmzWNHkBz6F	International	USA	TV Tunesters	28	Tv Themes	17	2007	0.236	0.664	0.548	0.0	0.291	0.0539	0.845
+6FE2iI43OZnszFLuLtvvmg	Classic	82	5IenxFp0vpnXBUxPcwJtbE	2l35CQqtYRh3d8ZIiBep4v	Hip-Hop	India	MKTO	66	MKTO	76	2012	0.0384	0.72	0.791	0.0	0.157	0.124	0.756
+6Dk5fHTvH897XrVzCO64Mx	What You Won't Do for Love	79	4pBJRxtR5TQe8hfsUgZ1r2	4V4Z3qMCwYofWHtip6ePF6	Hip-Hop	USA	Bobby Caldwell	62	What You Won't Do for Love	72	1978	0.462	0.642	0.396	0.000823	0.106	0.0642	0.797
+6btyEL6NwUa97Nex9cZFvo	Pump It	71	2szeSQtOcJgRhDXmTS3SIf	1yxSLGMDHlW21z4YXirZDS	Indie	USA	Black Eyed Peas	81	Monkey Business	68	2005	0.0093	0.649	0.931	0.0	0.751	0.181	0.744
+3opVsyWVYEAFK9bJAG8Opa	Boom Boom Pow	67	3lng6RAtdksQ2q02Fk5jaB	1yxSLGMDHlW21z4YXirZDS	Indie	India	Black Eyed Peas	81	THE E.N.D. (THE ENERGY NEVER DIES)	75	2009	0.13	0.866	0.857	0.0017	0.13	0.0664	0.408
+0oJMv049q8hEkes9w0L1J4	Imma Be	67	3lng6RAtdksQ2q02Fk5jaB	1yxSLGMDHlW21z4YXirZDS	Indie	India	Black Eyed Peas	81	THE E.N.D. (THE ENERGY NEVER DIES)	75	2009	0.179	0.597	0.517	0.0	0.307	0.366	0.413
+3A2yGHWIzmGEIolwonU69h	Act Up	68	6zzs0HMzEPRotJaEJe8uwJ	37hAfseJWi0G3Scife12Il	International	India	City Girls	66	Girl Code	66	2018	0.0167	0.938	0.638	0.0	0.111	0.189	0.313
+1IFPahnCrbKR7QXE6aePa0	COLUMBIA	46	4S3IEAIvXDTi4zjFGeL3mW	22KyrgRdE2K6aB5wtZls3c	Pop	India	AG Club	50	Fuck Your Expectations PT. 1	46	2021	0.0144	0.702	0.697	0.0	0.119	0.109	0.253
+3zb9k8UUuKz5tYmKJvNqQA	Violet	73	6TasXkUMVr3cFnrerHhlVj	5zixe6AbgXPqt4c1uSl94L	Indie	United Kingdom	Connor Price	74	Violet	65	2022	0.0177	0.924	0.716	1.15e-06	0.128	0.0541	0.48
+0TGIw5lMfCjMhFZN7z43uk	Easy	64	3LgYJcq5rLlKX8lJUKnqQa	5zixe6AbgXPqt4c1uSl94L	Hip-Hop	South Korea	Connor Price	74	Easy	57	2022	0.193	0.833	0.485	3.07e-06	0.107	0.051	0.723
+7uIrdhnGQw7bZSR2ygopuX	SIMP	61	4SR1C8HMMnFHpcU4cDGlRa	5ZXkHp732tYHIzqctoZP0E	Hip-Hop	India	Full Tac	48	SIMP	54	2021	0.0808	0.806	0.839	6.66e-05	0.206	0.173	0.459
+7fAyZGPp22pbGMZQgJuf1C	Static	40	5tCYwml6XCzWbbhZwNsw8I	5uhqkMm8dyQvX83kl4Znq0	Indie	USA	99 Neighbors	46	Static	33	2022	0.0211	0.68	0.81	5.41e-06	0.077	0.393	0.883
+0cGG2EouYCEEC3xfa0tDFV	Tainted Love	80	3KFWViJ1wIHAdOVLFTVzjD	6aq8T2RcspxVOGgMrTzjWc	Rock	USA	Soft Cell	64	Non-Stop Erotic Cabaret	73	1981	0.462	0.5	0.501	0.0	0.26	0.0376	0.623
+6L6gmR91yf4sznJ8W3ftKS	We Don't Believe You	36	2XPQn6UyIL06t8Jgv6mba1	19k8AgwwTSxeaxkOuCQEJs	Indie	USA	Jelly Roll	74	Waylon & Willie	57	2017	0.274	0.831	0.672	0.0	0.211	0.266	0.717
+0Dl965SLJGi9bB0SrvtPRx	girlfriend	67	7tBqY28TsUNRRzSJZ1yMLV	52PdgUJOjvS6Mpmjy1SAlx	Rock	USA	hemlocke springs	52	girlfriend	60	2022	0.218	0.763	0.759	4.24e-05	0.0724	0.0906	0.964
+25U7raB3ZSszayTYClh4hF	Somewhere Over The Rainbow_What A Wonderful World	72	0pquf1NcG9FdiypBPwICu9	4ogvuDRerGhZfSf7TtzHlr	Rock	India	Israel Kamakawiwo'ole	62	Facing Future	66	1993	0.928	0.663	0.168	5.68e-05	0.361	0.0448	0.678
+0tZzlYq0kPKFfMkkq1oliq	Heart Beat	45	5YQqNHp9aG12LrEX978LQC	1eBGyqw9kLsidL0q2dimWF	Pop	USA	Austin Moon	53	Austin & Ally	56	2012	0.00552	0.563	0.827	3.26e-06	0.16	0.229	0.868
+4hObp5bmIJ3PP3cKA9K9GY	Don't Worry Be Happy	71	4zhRkgoZKC2xCPPys1gK4b	2FjkZT851ez950cyPjeYid	Indie	India	Bobby McFerrin	57	Simple Pleasures	63	1988	0.88	0.675	0.166	7.14e-05	0.0461	0.171	0.747
+5lUTzPuiloBHm1qEaJcJfF	Candyman	68	0zRJsgzHZUUdk8Rjk6Segd	1l7ZsJRRS8wlW3WfJfPfNS	Hip-Hop	USA	Christina Aguilera	78	Back To Basics	68	2006	0.0125	0.686	0.789	0.0147	0.142	0.23	0.72
+5e3UWcbvTaF5CJWu81MqlQ	"Cruisin' for a Bruisin' - From ""Teen Beach Movie"""	66	5ANe5AfOnYydm3lXELfiHF	4UxLFBvSr4xMDpHe1lrLrH	Hip-Hop	USA	Ross Lynch	60	Teen Beach Movie	68	2013	0.0263	0.585	0.911	0.0	0.112	0.119	0.781
+2adTfABiJJQpZWlujYO3Qo	Can't Stop Singing	61	5ANe5AfOnYydm3lXELfiHF	4UxLFBvSr4xMDpHe1lrLrH	Hip-Hop	South Korea	Ross Lynch	60	Teen Beach Movie	68	2013	0.51	0.513	0.69	0.0	0.102	0.0341	0.777
+6s8nHXTJVqFjXE4yVZPDHR	Troublemaker (feat. Flo Rida)	76	5kU9rWhYr4MmPmaGYP5z4v	3whuHq0yGx60atvA2RCVRW	Hip-Hop	United Kingdom	Olly Murs	66	Right Place Right Time (Expanded Edition)	70	2012	0.015	0.762	0.863	0.0	0.125	0.0561	0.965
+6g6A7qNhTfUgOSH7ROOxTD	Talk Dirty (feat. 2 Chainz)	67	4PeZu0It7qVrTG40t3HM9A	07YZf4WDAMNwqr4jfgOZ8y	Indie	India	Jason Derulo	79	Talk Dirty	67	2013	0.0348	0.76	0.652	0.0	0.307	0.232	0.759
+1Y4ZdPOOgCUhBcKZOrUFiS	Lip Gloss	66	3vgVsm9GY3i39fZ7b1sqV5	5qK5bOC6wLtuLhG5KvU17c	International	USA	Lil Mama	49	Lip Gloss	58	2007	0.41	0.619	0.87	1.37e-06	0.0571	0.501	0.94
+6hYT9vkr0xMjhBlaLsYq9T	The Hustle - Original Mix	52	2hVka2pqO6jgFSdDAWi3mw	0bShb58TO0fM5jOjXhB1WT	Pop	United Kingdom	Van McCoy	39	Disco Baby	44	1975	0.126	0.599	0.927	0.207	0.0441	0.106	0.791
+6W0PqAtbW7fkTRBtmwOwfM	Okay Okay	56	7dwnwKTPnHsmfcMWsChtCp	1uXGmHao7MMRBwCCncmyB6	Indie	India	Pino D'Angiò	50	Italian Classics: Pino D'Angiò Collection, Vol. 1	58	2011	0.569	0.765	0.91	0.00231	0.337	0.0827	0.804
+0mtbdLpb00NVosTfz8qtow	PAW Patrol Pup Pup Boogie	10	7uhUbu0atVJyTGGw04SeC1	1JPhbKU3boL67fftU3U1ED	International	USA	PAW Patrol	67	PAW Patrol Official Theme Song & More	13	2013	0.00766	0.809	0.783	0.00646	0.357	0.037	0.942
+6J5tBYqpU2amNkTkIPHCHE	PAW Patrol Opening Theme	14	7uhUbu0atVJyTGGw04SeC1	1JPhbKU3boL67fftU3U1ED	Hip-Hop	USA	PAW Patrol	67	PAW Patrol Official Theme Song & More	13	2013	0.0185	0.584	0.933	0.0	0.185	0.0805	0.853
+1rNgLcVhVTTKKmHBH8nQlt	5 Little Monkeys	64	1DoHXdVynfeHok3pfIA68S	1RvroR5di6EndZNcfNNL0d	Indie	USA	The Little Sunshine Kids	61	100 Fun Songs for Kids Vol. 1	64	2015	0.441	0.908	0.253	0.0	0.115	0.0587	0.962
+0e5StRkQJonuMRjajfyGwp	Mickey Mouse Clubhouse Theme	58	0zw05iXjK9r60atJFvcVBh	18ZrIxk5cW5C0MEeTeQx7O	International	India	They Might Be Giants (For Kids)	50	Here Come the 123s	53	2008	0.185	0.627	0.82	0.0	0.118	0.473	0.76
+2HnA9E1rQCCaa86POdh7mD	Imagination Movers Theme Song	36	0Ycbxh5rx0Da1yEAMxp9UQ	3nkUcLzl9v6cIxFI6cvTeD	Rock	India	Imagination Movers	46	Imagination Movers: For Those About to Hop	40	2009	0.212	0.711	0.908	0.0	0.338	0.0884	0.843
+0UREO3QWbXJW3gOUXpK1am	The Fresh Prince of Bel-Air	62	36F8dqIQunGUWbsOPWQSjz	1mG23iQeR29Ojhq89D5gbh	Rock	United Kingdom	DJ Jazzy Jeff & The Fresh Prince	53	Greatest Hits	56	1998	0.00278	0.824	0.684	1.45e-06	0.0481	0.0935	0.87
+4LwU4Vp6od3Sb08CsP99GC	The Next Episode	82	7q2B4M5EiBkqrlsNW8lB7N	6DPYiyq5kWVQS4RGwxzPC7	Rock	United Kingdom	Dr. Dre	81	2001	86	1999	0.0281	0.922	0.909	0.0	0.0856	0.27	0.309
+5ZdVYZaMffiDf1plaJ2Jib	Patience	54	08Cq2FeFxRQdpkKrjCGrth	3w2WYNyPCPkZFoC1EqfCMe	Indie	United Kingdom	"Nas & Damian ""Jr. Gong"" Marley"	49	Distant Relatives	54	2010	0.206	0.794	0.636	0.0179	0.0805	0.0416	0.304
+0dQZmVKzYF3F9W64ESs8h4	Für Elise	60	417HhG8JiXnGEop7CRC30M	5BWwOqYJwIlEbS858Kmh2E	Rock	India	Betoven Collection	53	Betoven - Best Piano Pieces	63	2020	0.98	0.263	0.127	0.849	0.109	0.0423	0.0906
+7wyOeWMb8aiR2qjdCEEYZJ	Moonlight Sonata (3rd Movement)	56	417HhG8JiXnGEop7CRC30M	5BWwOqYJwIlEbS858Kmh2E	International	USA	Betoven Collection	53	Betoven - Best Piano Pieces	63	2020	0.968	0.242	0.193	0.862	0.105	0.037	0.113
+2SvULYdmPes23yZQYeLkXV	21 Hungarian Dances, WoO 1 (version for orchestra): Hungarian Dance No. 5 (orch. Schmeling)	59	31hBRlHbV3BCy32YGp17cq	5wTAi7QkpP6kp8a54lmTOq	Rock	USA	Johannes Brahms	66	Brahms: Hungarian Dances Nos. 1-21	52	1988	0.929	0.32	0.127	0.813	0.25	0.0366	0.272
+0H7LRye21kQjDfHVqnGoiM	Carmen Suite No. 2: 2. Habanera	51	5RAc2jGlZHSTa0ADz4antD	2D7RkvtKKb6E5UmbjQM1Jd	Indie	USA	Georges Bizet	59	Bizet: Carmen Suites; L'Arlésienne Suites	50	1994	0.964	0.457	0.00568	0.000645	0.167	0.0461	0.489
+5IkHx2HfZWAebViNDUzfOJ	Wilhelm Tell-galoppe, Op. 29b	45	5YJ6NK6ciEZFMOfmjQZkOI	36bBz6bc9dcEbTHf6uONMG	Hip-Hop	United Kingdom	Slovak Sinfonietta, Zilina	31	Johann Strauss I: Edition - Vol. 3	38	2003	0.961	0.437	0.27	0.786	0.116	0.0403	0.606
+6Scjl9ICEtfHBGPx29uaCD	Summer - Concerto No. 2 in G minor RV315: Presto	51	1yf879NSs4oTO5g8p7AzBO	7zhWbwqo310whs64DiOS8H	Indie	India	Notepad Music	33	Symphony Orchestra	44	2004	0.87	0.322	0.417	0.824	0.519	0.0366	0.494
+2ohxd74aPV5DAJDk7N0mMx	Toccata and Fugue in D minor BWV565	6	1yf879NSs4oTO5g8p7AzBO	7zhWbwqo310whs64DiOS8H	International	USA	Notepad Music	33	Symphony Orchestra	44	2004	0.776	0.106	0.126	0.934	0.107	0.0328	0.0529
+1k1Bqnv2R0uJXQN4u6LKYt	Ain't No Sunshine	82	6N8uPmDqbgXD3ztkCCfxoo	1ThoqLcyIYvZn7iWbj8fsj	International	United Kingdom	Bill Withers	72	Just As I Am	76	1971	0.457	0.527	0.415	1.72e-05	0.117	0.122	0.515
+3M8FzayQWtkvOhqMn2V4T2	Lean on Me	72	0sFuW4rH5mFZUjNKnckO3v	1ThoqLcyIYvZn7iWbj8fsj	Indie	USA	Bill Withers	72	Still Bill	70	1972	0.782	0.619	0.22	1.19e-05	0.124	0.0672	0.426
+0bRXwKfigvpKZUurwqAlEh	Lovely Day	79	3QjPTUI6UcPr5m9RujkO3c	1ThoqLcyIYvZn7iWbj8fsj	Hip-Hop	USA	Bill Withers	72	Menagerie	72	1977	0.292	0.692	0.651	0.00241	0.105	0.0324	0.706
+561F1zqRwGPCTMRsLsXVtL	Time in a Bottle	74	3L9sVl5T7UpFK6tNeEiXdy	1R6Hx1tJ2VOUyodEpC12xM	International	USA	Jim Croce	67	You Don't Mess Around With Jim	73	1972	0.848	0.544	0.265	0.0	0.196	0.035	0.7
+72PoJMDfdaw9gGECgA9kTZ	Nothing From Nothing	62	7LukcPnAOnV7MuJ6uIUe1s	0IecGJbdBeYSOVtSPRehh5	International	USA	Billy Preston	51	The Kids & Me	55	1974	0.613	0.808	0.83	0.0112	0.198	0.0283	0.909
+4vju55Ag7apDL2CfotuE7Q	Sunny	69	6pJkF95sYsVg3FJtTvTuEG	2uNpV18izVIP7DNusoWbT5	International	USA	Bobby Hebb	51	Sunny	62	1966	0.93	0.714	0.338	0.00644	0.389	0.0456	0.667
+7tqhbajSfrz2F7E1Z75ASX	Ain't No Mountain High Enough	85	5LqviduT0g0J0ypFrFSwCE	3koiLjNrgRTNbOwViDipeA	International	USA	Marvin Gaye	74	United	77	1967	0.43	0.663	0.6	0.0	0.184	0.032	0.8
+3IDc87lrpEHWFBASmgTgFV	Mercy Mercy Me (The Ecology)	70	2v6ANhWhZBUKkg6pJJBs3B	3koiLjNrgRTNbOwViDipeA	Hip-Hop	United Kingdom	Marvin Gaye	74	What's Going On	70	1971	0.328	0.498	0.634	0.748	0.0962	0.0475	0.515
+7jmHyHMEqm9MJWiMAneF05	Stand by Me	70	5QL7RNVpZIoIxElgdykaa8	3plJVWt88EqjvtuB4ZDRV3	International	India	Ben E. King	65	Don't Play That Song	63	1962	0.428	0.632	0.232	4.95e-06	0.215	0.0318	0.673
+6Rqn2GFlmvmV4w9Ala0I1e	Feeling Good	75	3ofZeSWPHZOE5WC2tNZDez	7G1GBhoKtEPnP86X2PvEYO	Hip-Hop	South Korea	Nina Simone	69	I Put A Spell On You	70	1965	0.864	0.399	0.326	0.0	0.191	0.0386	0.546
+3Vby4nGmtbDo7HDJamOWkT	Stuck In The Middle With You	78	5ApN9lqru1t3Xh1IaEGTll	7bPU7cvfoD20ixGD9Qnqki	Hip-Hop	USA	Stealers Wheel	62	Stealers Wheel	71	1972	0.0936	0.82	0.575	0.000135	0.109	0.0408	0.964
+4s6LhHAV5SEsOV0lC2tjvJ	California Dreamin' - Single Version	81	76oMr4Y2pOtcrvZLc2ZikF	1bs7HoMkSyQwcobCpE9KpN	International	United Kingdom	The Mamas & The Papas	68	If You Can Believe Your Eyes & Ears	74	1966	0.352	0.552	0.608	0.0	0.0533	0.0345	0.637
+27hhIs2fp6w06N5zx4Eaa5	Dream A Little Dream Of Me	73	0JJMI060q086v9ul5gHdey	1bs7HoMkSyQwcobCpE9KpN	Rock	India	The Mamas & The Papas	68	The Papas & The Mamas	66	1968	0.791	0.413	0.313	1.5e-06	0.0727	0.0519	0.349
+65GbQI9VDTs7vo6MJL2iJA	Coming Home	71	21KIagsx1ZvYcv0sVkEAWv	3qnGvpP8Yth1AqSBMqON5x	Indie	USA	Leon Bridges	72	Coming Home (Deluxe)	73	2015	0.461	0.424	0.465	5.52e-05	0.154	0.0297	0.462
+4GUaG3df9nbrj77GKEB76j	Forever You and Me	62	1aUMtW3DvOoPetvGzgkuUW	2nTjd2lNo1GVEfXM3bCnsh	International	USA	The Teskey Brothers	62	Forever You and Me	55	2018	0.436	0.509	0.467	9.98e-06	0.0971	0.0331	0.538
+6G7MHIvSDR3ehXPkuDFAlM	California Dreamin'	66	1Kw0H84LL5YuP37Kh8lbzY	0vqkz1b2qBkoYrGMj2CUWq	Indie	United Kingdom	Bobby Womack	59	Fly Me To The Moon	63	1969	0.767	0.47	0.385	0.0653	0.179	0.0296	0.694
+5GWCndQ8ykzf6rYRvwrFcj	Anyone Who Knows What Love Is (Will Understand)	55	5yPYingqlUnFfEzbLPtrVS	01Z8Z9K54zewyP04ZfGLSv	Hip-Hop	USA	Irma Thomas	50	Take A Look	50	1966	0.838	0.595	0.279	0.00605	0.0841	0.0306	0.212
+7N15WWy12QAMpGAh6QMAej	(What A) Wonderful World	54	2Dpw2XUAsBvuNdNLarNzz8	6hnWRPzGGKiapVX1UCdEAC	Rock	India	Sam Cooke	68	The Best of Sam Cooke	63	1962	0.571	0.771	0.522	0.0	0.145	0.0368	0.94
+06GszAl8nomfLUZsqGppIK	Bolero - Anthology Version	12	1qmdWAaCA0ZXf5UBptxg2D	776Uo845nYHJpNaStv1Ds4	Indie	India	Jimi Hendrix	71	West Coast Seattle Boy: The Jimi Hendrix Anthology	22	2010	0.122	0.329	0.713	0.926	0.175	0.0294	0.488
+6nTiIhLmQ3FWhvrGafw2zj	American Idiot	80	5dN7F9DV0Qg1XRdIgW8rke	7oPftvlwr6VrsViSDV7fJY	Rock	USA	Green Day	80	American Idiot	79	2004	2.64e-05	0.38	0.988	7.86e-05	0.368	0.0639	0.769
+0qRR9d89hIS0MHRkQ0ejxX	Rich Girl	78	5TNzBp7QYsXIHrI5xxVuic	77tT1kLj6mCWtFNqiOmP9H	International	USA	Daryl Hall & John Oates	72	Bigger Than Both Of Us	70	1976	0.461	0.573	0.683	0.0	0.0935	0.176	0.817
+58r4JuwHhXLAkttkaUZfLw	Got to Be Real	68	059jmsqbxhu2n78LMS0H3P	6UfoTQXaV3DuqtDVjZIxwZ	Rock	India	Cheryl Lynn	53	Cheryl Lynn (Expanded Edition)	62	1978	0.0943	0.836	0.626	0.742	0.153	0.0335	0.898
+2R0zbd80CqwoB0ORDCqDoK	She's A Bad Mama Jama (She's Built, She's Stacked) - Single Version	61	47PRIVK9fSdMzABbJFbQes	6gYjIUFuKIBVJfxXnmrd5P	Pop	India	Carl Carlton	49	Carl Carlton (Expanded Edition)	55	1981	0.15	0.902	0.551	1.95e-06	0.0459	0.0703	0.776
+6MqfTP3OwngywVTOS5OAFt	Memphis Soul Stew	55	10oWkzpDsLfD1lq21m6RPr	0WxOgeRxUt0MwPrI7A5atQ	International	USA	King Curtis	41	King Size Soul	49	1967	0.259	0.724	0.601	0.237	0.111	0.0634	0.886
+2je56j0xuoTi1gYkLLMlJU	Get Down On It - Single Version	70	2vBpHUDhVTInqSLxkw9Kx2	3VNITwohbvU5Wuy5PC6dsI	Hip-Hop	USA	Kool & The Gang	68	Collected	71	2018	0.156	0.877	0.56	0.000139	0.0535	0.0621	0.969
+6cDQo6MvkQJbp2xlZx6uJc	Exceptional	48	2cVKRV3zYpcaU8Cz8sroUA	6SvFyXN6qzhw95Bj4HoevV	Hip-Hop	India	China Anne McClain	58	A.N.T. Farm	53	2011	0.00215	0.675	0.888	0.000292	0.197	0.0428	0.901
+52xJxFP6TqMuO4Yt0eOkMz	We Don't Talk About Bruno	77	25L8ck3KGcmCo3901ztPzR	29PgYEggDV3cDP9QYTogwv	Indie	USA	Carolina Gaitán - La Gaita	59	Encanto (Original Motion Picture Soundtrack)	81	2021	0.357	0.577	0.45	0.0	0.111	0.0834	0.83
+4b1yxSdlumA8N4fEk4UOZp	The Family Madrigal	73	25L8ck3KGcmCo3901ztPzR	5PYToRCsrnvikZg3yl2JMr	Pop	USA	Stephanie Beatriz	66	Encanto (Original Motion Picture Soundtrack)	81	2021	0.12	0.594	0.628	0.0	0.0582	0.359	0.556
+760jhRscwGbIIe1m1IIQpU	Surface Pressure	75	25L8ck3KGcmCo3901ztPzR	4vdAAzZBUKbsrvHi6UR7B7	Rock	USA	Jessica Darrow	57	Encanto (Original Motion Picture Soundtrack)	81	2021	0.0174	0.65	0.584	1.54e-06	0.042	0.307	0.37
+3XoYqtiWHhsk59frZupImG	What Else Can I Do?	73	25L8ck3KGcmCo3901ztPzR	18MFcGBHtyW0mU3ufcm0X1	International	USA	Diane Guerrero	61	Encanto (Original Motion Picture Soundtrack)	81	2021	0.258	0.718	0.709	0.0	0.101	0.039	0.54
+6mb6lVLNrcUgLnEN8QnDJd	How Far I'll Go	75	6pZj4nvx6lV3ulIK3BSjvs	5mnS9jJdKQQcRSqFu5YPVe	International	USA	Auli'i Cravalho	64	Moana (Original Motion Picture Soundtrack/Deluxe Edition)	80	2016	0.649	0.571	0.307	0.0	0.178	0.0499	0.108
+6U4VqEHy4n5VeiH4pQPL24	You're Welcome	74	6pZj4nvx6lV3ulIK3BSjvs	1T8S48bD91THNKBByWBDyn	Indie	India	Dwayne Johnson	61	Moana (Original Motion Picture Soundtrack/Deluxe Edition)	80	2016	0.29	0.788	0.745	0.0	0.0373	0.258	0.672
+3s6nfqfT6kyLBT10vs0M4l	A Dream Is a Wish Your Heart Makes	63	4MaXQAzgpi1UGNNia9r7fx	7gWjOPetXNCBqlVe6axl8K	Indie	India	Lily James	60	Cinderella (Original Motion Picture Soundtrack)	63	2015	0.948	0.274	0.0724	1.45e-06	0.0801	0.0395	0.195
+4ljlAxfaEjO4Q4g9FMtVj4	Remember Me (Ernesto de la Cruz)	62	7nMexBA71PdwPnfqS5Yji5	52H65pWOSERcDK6uVFRwN8	Indie	USA	Benjamin Bratt	44	Coco (Original Motion Picture Soundtrack)	73	2017	0.565	0.446	0.587	0.000478	0.143	0.0413	0.61
+1hwdPQtFHISvZ9SXMkNrIK	A Whole New World	68	7bt2aty3lUo6Q1Ud8pthRz	1GlMjIezcLwV3OFlX0uXOv	Indie	India	Lea Salonga	59	Aladdin Special Edition	62	2004	0.846	0.283	0.227	2.08e-06	0.1	0.0366	0.128
+1Tt7zr1yDbKbT8L4jzSZ74	When I Am Older	67	4M07HWIlZr7zoXoxDHR5mz	4dSQICBjdUIp5iK6RRU2bY	Pop	India	Josh Gad	61	Frozen 2 (Original Motion Picture Soundtrack/Deluxe Edition)	77	2019	0.705	0.73	0.326	0.0	0.103	0.26	0.434
+7bG6SQBGZthPDG5QJL5Gf7	"In Summer - From ""Frozen""/Soundtrack Version"	68	7lZs5r4oQV2nutddffLrg0	4dSQICBjdUIp5iK6RRU2bY	Hip-Hop	India	Josh Gad	61	Frozen (Original Motion Picture Soundtrack / Deluxe Edition)	79	2013	0.536	0.5	0.342	0.0	0.59	0.175	0.684
+0qcr5FMsEO85NAQjrlDRKo	"Let It Go - From ""Frozen""/Soundtrack Version"	77	7lZs5r4oQV2nutddffLrg0	73Np75Wv2tju61Eo9Zw4IR	International	USA	Idina Menzel	69	Frozen (Original Motion Picture Soundtrack / Deluxe Edition)	79	2013	0.558	0.543	0.485	0.0	0.12	0.0305	0.371
+2yi7HZrBOC4bMUSTcs4VK6	"Do You Want to Build a Snowman? - From ""Frozen""/Soundtrack Version"	72	7lZs5r4oQV2nutddffLrg0	2kHxkdiKCSnHMkhIgFBZaI	Hip-Hop	United Kingdom	Kristen Bell	65	Frozen (Original Motion Picture Soundtrack / Deluxe Edition)	79	2013	0.85	0.306	0.121	0.000176	0.257	0.0554	0.166
+6btdYzQ8eZFBrOlUKVHuz0	"Be Our Guest - From ""Beauty And The Beast"" Soundtrack"	60	3O5p9VNddbwvqWTdYKEqV5	0LtVJXnPR8msCJiE2DjHxy	International	USA	Angela Lansbury	55	Beauty and the Beast	62	1991	0.813	0.517	0.421	0.0	0.0788	0.172	0.578
+5J4pDyvjRrYfcgHetKjKSj	"Part of Your World - From ""The Little Mermaid"" Soundtrack"	59	4YTduhQWfS0pOzQC4o0HcG	4mmMtabvFCKA6HfmVmitNH	International	United Kingdom	Jodi Benson	56	The Little Mermaid	62	1997	0.914	0.387	0.132	0.000707	0.281	0.0386	0.323
+28UMEtwyUUy5u0UWOVHwiI	I'll Make a Man Out of You	72	3Ohs7Jo6GM6mydUOL0m5aC	5ZEAzHE2TzAwUcOj6jMIgf	International	India	Donny Osmond	55	Mulan (Original Soundtrack)	70	1998	0.144	0.672	0.322	2.96e-05	0.074	0.0339	0.496
+5cvzqk8wsmLA9P7LrZCRb2	"Supercalifragilisticexpialidocious - From ""Mary Poppins"" Soundtrack"	57	1cuE3waPR1CDFUpYd6fX12	5RdqZVi36tpDPYNPw8jJbO	International	United Kingdom	Julie Andrews	56	Saving Mr. Banks (Original Motion Picture Soundtrack [Deluxe Edition])	55	2013	0.574	0.516	0.718	0.0	0.162	0.42	0.901
+3aJgAgTI9srxcTuyzVDtkm	"Almost There - From ""The Princess and the Frog"" / Soundtrack Version"	66	5mZgyfa7rkogNoxxqHpbOg	4fqk0Vw0VrIY8O2eWtmQO2	Indie	USA	Anika Noni Rose	56	The Princess and the Frog: Tiana and Her Princess Friends	59	2009	0.808	0.535	0.448	1.25e-05	0.303	0.0431	0.557
+1Gm51ZsgLcCdtTTgQEHqil	"The Proud Family: Louder and Prouder Opening Theme - From ""The Proud Family: Louder and Prouder""/Soundtrack Version"	40	4qsW88T4KHoo8HMQFAmFr2	24Cf1irKt7kcewb9OOkPum	Hip-Hop	India	Joyce Wrice	51	"The Proud Family: Louder and Prouder Opening Theme (From ""The Proud Family: Louder and Prouder"")"	33	2022	0.195	0.643	0.767	0.0	0.367	0.207	0.396
+4bV5sf2B4hWBBd5HQ8S7KB	Nobody Like U	70	6z1EZ0KfoiVW0bXIbOWAu3	7jLpPyJ5gQxCvwiBsUfFu6	Rock	United Kingdom	4*TOWN (From Disney and Pixar’s Turning Red)	56	Turning Red (Original Motion Picture Soundtrack)	67	2022	0.129	0.905	0.631	0.0	0.101	0.177	0.751
+0d83zVs3OmdjrhfoAxg1dE	U Know What's Up	64	6z1EZ0KfoiVW0bXIbOWAu3	7jLpPyJ5gQxCvwiBsUfFu6	Pop	India	4*TOWN (From Disney and Pixar’s Turning Red)	56	Turning Red (Original Motion Picture Soundtrack)	67	2022	0.0361	0.812	0.52	1.22e-06	0.0926	0.0541	0.488
+3Dupb5AcaVFErlSSfl3szW	"I Won't Say (I'm In Love) - From ""Hercules"" / Soundtrack Version"	55	4xNCqk5KdkOQvdbaepGjTY	7CckquWatDQSr3PFKkjM8M	Hip-Hop	USA	Susan Egan	53	Disney's Greatest Volume 1	62	2001	0.208	0.684	0.471	0.0	0.14	0.043	0.453
+7zsw78LtXUD7JfEwH64HK2	Poor Unfortunate Souls	62	4aAwvCRNJIqiUGVEjieWv6	0Yy9u86cq66Se2pB9fYaiW	Rock	USA	Pat Carroll	45	The Little Mermaid Special Edition	71	2006	0.77	0.384	0.18	0.0	0.367	0.101	0.368
+1N3dZ7TTWO6VcD4Y3hHYLZ	Try Everything	71	3X6netsswLt0U97Doga56C	0EmeFodog0BfCgMzAIvKQp	Hip-Hop	India	Shakira	90	Zootopia (Original Motion Picture Soundtrack)	64	2016	0.0257	0.705	0.609	0.0	0.0846	0.0307	0.476
+5BSclXJTa9B0iURhUjZo50	La Tortura (feat. Alejandro Sanz)	78	3zHPYwiMJqa3hTBgk695Ae	0EmeFodog0BfCgMzAIvKQp	International	India	Shakira	90	Fijación Oral, Vol. 1	79	2005	0.0297	0.74	0.783	0.000308	0.123	0.0427	0.812
+42k1KeBehAd83lrGt1okiC	Loca (feat. El Cata)	72	3gR578qnw47M30LVBTjrlW	0EmeFodog0BfCgMzAIvKQp	Pop	United Kingdom	Shakira	90	Sale el Sol	76	2010	0.342	0.8	0.692	1.92e-06	0.0554	0.0614	0.917
+3ZFTkvIE7kyPt6Nu3PEa7V	Hips Don't Lie (feat. Wyclef Jean)	86	5ppnlEoj4HdRRdRihnY3jU	0EmeFodog0BfCgMzAIvKQp	Hip-Hop	India	Shakira	90	Oral Fixation, Vol. 2 (Expanded Edition)	79	2005	0.284	0.778	0.824	0.0	0.405	0.0707	0.758
+2lnzGkdtDj5mtlcOW2yRtG	Whenever, Wherever	83	4DyMK9x2gnmRkRa16zHaEV	0EmeFodog0BfCgMzAIvKQp	Hip-Hop	United Kingdom	Shakira	90	Laundry Service	78	2001	0.237	0.794	0.832	1.14e-05	0.203	0.0407	0.871
+3jGAUGvmWbPe2LPc8Hon1c	One Way or Another (Hocus Pocus 2 Version)	59	5StqoKbQqzkAgH3OtPPQED	13y0kncDD4J9wxCyfKr10W	Hip-Hop	India	Bette Midler	57	Hocus Pocus 2 (Original Soundtrack)	54	2022	0.0717	0.571	0.893	0.0	0.174	0.0707	0.679
+6SWxJnEL4PgRySciwic4N3	The Witches Are Back	48	5StqoKbQqzkAgH3OtPPQED	13y0kncDD4J9wxCyfKr10W	International	India	Bette Midler	57	Hocus Pocus 2 (Original Soundtrack)	54	2022	0.051	0.576	0.976	0.0	0.142	0.0818	0.832
+21DxcOtDKlVOlmeYed1IG3	"Zero To Hero - From ""Hercules"""	39	1F4gXThIF2VepRiWYyowAY	66CXWjxzNUsdJxJ2JdwvnR	Rock	USA	Ariana Grande	90	We Love Disney (Deluxe)	43	2015	0.343	0.514	0.774	0.0	0.28	0.279	0.604
+7xoUc6faLbCqZO6fQEYprd	One Last Time	84	6EVYTRG1drKdO8OnIQBeEj	66CXWjxzNUsdJxJ2JdwvnR	Hip-Hop	USA	Ariana Grande	90	My Everything (Deluxe)	84	2014	0.093	0.628	0.593	1.65e-06	0.096	0.0323	0.104
+2SLZ2rX5773RS16mcqBxG7	Peaches & Cream	65	6QlbqTqKJt1UnuH3PLz9mb	7urq0VfqxEYEEiZUkebXT4	Hip-Hop	United Kingdom	112	65	Part III	64	2001	0.00277	0.677	0.52	0.0	0.0532	0.334	0.768
+0UU7cCdt0DaC93MXPcSGVH	That's The Way	47	0Aice1NJH5gDPGZOKFKuwY	1g8uGVofjr2ApBrI8OZhJf	Hip-Hop	India	DJ Clue	43	The Professional	46	1998	0.247	0.931	0.637	7.95e-05	0.168	0.262	0.623
+3PqAnW2bB5TQnMoBivyFOb	Are You That Somebody	71	50GHwAog5gmnqkypVkDso8	0urTpYCsixqZwgNTkPJOJ4	Rock	USA	Aaliyah	67	I Care 4 U	67	2002	0.14	0.85	0.657	0.0192	0.0939	0.166	0.843
+6MdqqkQ8sSC0WB4i8PyRuQ	No Diggity	79	2zGZLQiFl9UubtrVmtIkbi	2P3cjUru4H3fhSXXNxE9kA	Pop	USA	Blackstreet	63	Another Level	72	1996	0.303	0.867	0.646	0.0	0.279	0.288	0.67
+2lMg3lCMOGistaWBNGjuT3	Blow the Whistle	65	5GiqXho2S6vfntgRwSdhYp	4sb7rZNN93BSS6Gqgepo4v	Indie	USA	Too $hort	64	Blow The Whistle	58	2006	0.0042	0.907	0.625	0.0	0.151	0.198	0.605
+5k3U0OGYBccHdKJJu3HrUN	"Hakuna Matata - From ""The Lion King"" Soundtrack"	70	3YA5DdB3wSz4pdfEXoMyRd	0P0do9GwiSgweSF6Ui3mrv	Indie	United Kingdom	Nathan Lane	57	The Lion King	73	1994	0.617	0.408	0.313	1.18e-05	0.115	0.137	0.725
+3IX1c76hbN4iTm9RcItC36	American Boy	58	2zQdtROzQxwRLRbOS4mNx2	5T0MSzX9RC5NA6gAI6irSn	International	United Kingdom	Estelle	67	Shine	50	2008	0.171	0.693	0.729	0.0	0.07	0.378	0.521
+7fII6wuuUEUEazWFp99oTS	"Theme (From ""Inspector Gadget"")"	0	2u8WC0z8aWV8dMpzBtS96q	0VeT7hHTJFJZcENGekjCsB	International	United Kingdom	London Music Works	52	Music For Big Kids	0	2011	0.0414	0.861	0.658	0.187	0.0882	0.0432	0.622
+744ZuzjXQmoJmOdk2I1ym9	"Keep It Undercover - Theme Song From ""K.C. Undercover"""	52	4kQ2DrYRRIq0VTNKJOau2W	6sCbFbEjbYepqswM1vWjjs	Indie	USA	Zendaya	71	"Keep It Undercover (Theme Song From ""K.C. Undercover"")"	45	2015	0.361	0.688	0.774	0.0	0.196	0.086	0.803
+1UQbzags87OFERvmaJw9yb	Swag It Out	40	2nqXchNFJiwWRae1YHAlSg	6sCbFbEjbYepqswM1vWjjs	Indie	USA	Zendaya	71	Swag It Out - Single	33	2011	0.0683	0.672	0.731	0.0	0.351	0.0728	0.462
+7d1CFwrBmH34gmS0Hkbfbt	Replay	68	7hCAU57zY6snnRSHXqAWUl	6sCbFbEjbYepqswM1vWjjs	Indie	India	Zendaya	71	Zendaya	62	2013	0.0416	0.688	0.723	0.0002	0.302	0.121	0.618
+2xar08Fq5xra2KKZs5Bw9j	I've Got a Woman	70	0cw6Sv7IwZ87aLPPvNPSd0	1eYhYunlNJlDoQhtYBvPsi	International	USA	Ray Charles	68	Ray Charles (aka: Hallelujah, I Love Her So)	67	1957	0.833	0.556	0.61	2.22e-06	0.258	0.213	0.665
+5dUMh0ugelpKfoFp3qChuK	Hit the Road Jack	74	7gvxyetkX6vkoMyDkDM6ls	1eYhYunlNJlDoQhtYBvPsi	International	India	Ray Charles	68	True Genius	69	2021	0.704	0.598	0.571	0.0	0.513	0.139	0.962
+0uKr6TVDh0UwUXx7Ud9Po9	バツ猫	47	3DcOkGnGL9cZgq9G1R75HE	5FhcqamaRFfpZb4VHV47fu	Indie	United Kingdom	Kikuo	61	きくおミク6	56	2019	0.0519	0.677	0.75	6.92e-05	0.0397	0.0541	0.837
+3ty4jnVIJ9My8ZnXFMc0Fg	愛して 愛して 愛して	69	5eSuy3Rr40DI0qcPOMFgX0	5FhcqamaRFfpZb4VHV47fu	Hip-Hop	United Kingdom	Kikuo	61	きくおミク3	67	2013	0.0862	0.605	0.842	3.08e-06	0.106	0.0509	0.35
+3wyKFYe5EBMfpAohD27ALi	死生活	31	0FxgZJNSWavuZIPVL90DEW	43XkWaoCS0wKjuMJrWFgoa	Hip-Hop	USA	syudou	54	最悪	53	2019	0.0275	0.303	0.941	0.0	0.106	0.202	0.528
+52liHauPJajkRFLUWepFpj	'Cause I'm a Liar (Kokichi Oma fan song)	55	6gCB4D5aW9usxsUH6tpYVP	07OGOPi4udEwdD6TcGSxdj	Indie	India	Mcki Robyns-P	39	'Cause I'm a Liar (Kokichi Oma Fan Song)	47	2018	0.163	0.561	0.359	0.0	0.539	0.0675	0.52
+6AtYJUcBDGNeC0Qf4UY06d	Akumu no Lullaby	30	1plcylH6fYQrXsUgtOCl9p	6hJkIUy4LmRN3l0Ld99M5x	Hip-Hop	USA	Yuu Miyashita	45	Sabitsuku Made	37	2021	0.0232	0.548	0.862	0.0	0.328	0.0403	0.85
+6vxHp3CDNo0afgKGp2yi1E	Me and Julio Down by the Schoolyard	74	7npBPiCHjPj8PVIGPuHXep	2CvCyf1gEVhI0mX6aFXmVI	Hip-Hop	South Korea	Paul Simon	69	Paul Simon	68	1972	0.237	0.626	0.816	1.8e-06	0.104	0.131	0.798
+5BKKy9fIJL5uM9fz1SnqyP	Chicago	80	7pomP86PUhoJpY3fsC0WDQ	3fMbdgg4jU18AjLCKBhRSm	Indie	India	Michael Jackson	82	XSCAPE	76	2014	0.0784	0.608	0.756	0.0	0.187	0.176	0.55
+2u2udGmop1z67EPpr91km7	Man in the Mirror	66	3OBhnTLrvkoEEETjFA3Qfk	3fMbdgg4jU18AjLCKBhRSm	Indie	South Korea	Michael Jackson	82	HIStory - PAST, PRESENT AND FUTURE - BOOK I	75	1995	0.429	0.794	0.798	1.16e-05	0.118	0.0366	0.265
+7fuKPn33GxRh62aC8n71M3	A Rose Blooms in Chaos	56	2fA2j3NA7draH5CGrBeNiD	3TlahIxLK7BPdGY0cpDZOe	Hip-Hop	India	Davishmar	38	A Rose Blooms in Chaos	48	2022	0.915	0.311	0.444	0.0514	0.157	0.0667	0.734
+1iGOI54dl6Ps1kYlSpPZzg	Overseas	65	59GRmAvlGs7KjLizFnV7Y9	4frXpPxQQZwbCu3eTGnZEw	Rock	South Korea	Thundercat	74	It Is What It Is	73	2020	0.44	0.849	0.604	0.0915	0.78	0.0338	0.714
+7DvlNrYFvmZieL8GdhJuoy	Start Over	63	11enzbnR8lIHAwA82Zz3nH	332mFY6yBda91AsIOSKirG	Indie	India	Planet Giza	55	Don't Throw Rocks At The Moon	63	2021	0.0669	0.627	0.489	0.0	0.0823	0.298	0.842
+0OYc5wK3343Sg7hb3CKWMg	sposed2feel	52	0pDVdiDJ7HUHVmefH6l0FQ	2N2l2BR0KlnQrFnOn7ntEN	Rock	United Kingdom	lojii	44	taurus_EP	51	2021	0.845	0.608	0.709	0.0	0.242	0.228	0.849
+6JLcz9UGiVxAmEZXlCucn5	Wobble	64	2xaFAO5ejxbxjL5gund9Dk	49mHZzhcsoQB1JXWv8Q9gU	International	United Kingdom	V.I.C.	48	Beast	58	2008	0.402	0.855	0.746	0.0	0.146	0.232	0.375
+0CAfXk7DXMnon4gLudAp7J	Low (feat. T-Pain)	82	5j1wrOAOm5KFd17pPiSvle	0jnsk9HBra6NMjO2oANoPY	Hip-Hop	USA	Flo Rida	79	Mail on Sunday	75	2008	0.0928	0.918	0.609	0.0	0.139	0.0791	0.304
+2S5LNtRVRPbXk01yRQ14sZ	I Don't Like It, I Love It (feat. Robin Thicke & Verdine White)	69	5lkNnHVlnCCCV304t89wOH	0jnsk9HBra6NMjO2oANoPY	International	United Kingdom	Flo Rida	79	My House	74	2015	0.0242	0.854	0.766	0.0	0.0793	0.141	0.784
+4rTeOSYqwXNz5qPR2DUTFZ	Everybody (Backstreet's Back) - Radio Edit	60	1SFKmqhTTEkE3PmSBEMpa3	5rSXSAkZ67PYJSvpUpkOr7	Pop	India	Backstreet Boys	75	This Is The End: Original Motion Picture Soundtrack	53	2013	0.025	0.735	0.873	3.27e-06	0.265	0.0402	0.586
+6CjtS2JZH9RkDz5UVInsa9	Thrift Shop (feat. Wanz)	80	5QWHes9ODwn42DHTifGkXd	5BcAKTbp20cv7tC5VqPFoC	Indie	USA	Macklemore & Ryan Lewis	74	The Heist	81	2012	0.0633	0.781	0.526	0.0	0.0457	0.293	0.665
+22skzmqfdWrjJylampe0kt	Can't Hold Us (feat. Ray Dalton)	84	5QWHes9ODwn42DHTifGkXd	5BcAKTbp20cv7tC5VqPFoC	Hip-Hop	India	Macklemore & Ryan Lewis	74	The Heist	81	2012	0.0267	0.633	0.927	0.0	0.0986	0.0839	0.88
+2i0AUcEnsDm3dsqLrFWUCq	Tonight Tonight	72	0UkgnXc0w7qiRE2X086BdN	6jTnHxhb6cDCaCu4rdvsQ0	Pop	USA	Hot Chelle Rae	57	Whatever	67	2011	0.0764	0.686	0.783	0.0	0.163	0.119	0.814
+4AYX69oFP3UOS1CFmV9UfO	Bottoms Up (feat. Nicki Minaj)	74	3sDoSYf2AKB2IegZmkISGD	2iojnBLj0qIMiKPvVhLnsH	Indie	United Kingdom	Trey Songz	70	Passion, Pain & Pleasure (Deluxe Version)	68	2010	0.0205	0.844	0.601	0.0	0.385	0.157	0.331
+7ySUcLPVX7KudhnmNcgY2D	S&M	82	5QG3tjE5L9F6O2vCAPph38	5pKCCKE2ajJHZ9KAiaK11H	Pop	USA	Rihanna	91	Loud (Japan Version)	82	2010	0.0105	0.769	0.684	0.000125	0.0887	0.0411	0.835
+30cSNer6TV8x2utjULVeQ5	SOS	78	2JdjS6jjOml7nt7Yjo0nnh	5pKCCKE2ajJHZ9KAiaK11H	International	India	Rihanna	91	A Girl Like Me	74	2006	0.004	0.677	0.671	5.07e-05	0.413	0.0361	0.527
+4TsmezEQVSZNNPv5RJ65Ov	Pon de Replay	81	4FyGpObwABjn0o8Tdp7AZz	5pKCCKE2ajJHZ9KAiaK11H	Pop	USA	Rihanna	91	Music Of The Sun	74	2005	0.000155	0.779	0.64	0.00077	0.101	0.159	0.498
+49FYlytm3dAAraYgpoJZux	Umbrella	85	3JSWZWeTHF4HDGt5Eozdy7	5pKCCKE2ajJHZ9KAiaK11H	Rock	United Kingdom	Rihanna	91	Good Girl Gone Bad: Reloaded	86	2008	0.00864	0.583	0.829	0.0	0.0426	0.134	0.575
+78TTtXnFQPzwqlbtbwqN0y	FourFiveSeconds	80	7yBl4uFyJzH48Vy6tPieXL	5pKCCKE2ajJHZ9KAiaK11H	Indie	India	Rihanna	91	FourFiveSeconds	72	2015	0.875	0.582	0.272	0.0	0.13	0.0501	0.354
+0NTMtAO2BV4tnGvw9EgBVq	Bitch Better Have My Money	82	4S8F794ucXJcAtycwOZgR9	5pKCCKE2ajJHZ9KAiaK11H	Indie	USA	Rihanna	91	Bitch Better Have My Money	74	2015	0.0509	0.781	0.728	1.94e-06	0.257	0.0621	0.395
+1dEy9Pl81QopSxNsPxXQxv	Stay	69	4eddbruVtOqw8khwxSH6H2	5pKCCKE2ajJHZ9KAiaK11H	International	India	Rihanna	91	Unapologetic (Deluxe)	74	2012	0.945	0.621	0.31	6.12e-05	0.117	0.0283	0.125
+2LvRR121MWFmmEGkuV2vQP	HeadBand (feat. 2 Chainz)	68	177byugYOk12NcfRtWvghY	5ndkK3dpZLKtBklKjxNQwT	Indie	India	B.o.B	73	Underground Luxury	62	2013	0.132	0.919	0.506	0.0	0.0771	0.304	0.273
+5NQbUaeTEOGdD6hHcre0dZ	679 (feat. Remy Boyz)	76	0TyDTzG2zt2tg0wONT9wSU	6PXS4YHDkKvl1wkIl4V8DL	Hip-Hop	India	Fetty Wap	70	679 (feat. Remy Boyz)	68	2015	0.00256	0.618	0.717	0.0	0.625	0.318	0.603
+2d8JP84HNLKhmd6IYOoupQ	Trap Queen	75	2gKQvajkEEaDtkqJ8FJ4uw	6PXS4YHDkKvl1wkIl4V8DL	International	India	Fetty Wap	70	Fetty Wap (Deluxe)	74	2015	0.0244	0.746	0.873	0.0	0.354	0.128	0.817
+6lruHh1jF7ezgbLv72xYmf	FML	68	0tzusAckn6CYqaCBRJHiAh	0vRvGUQVUjytro0xpb26bs	Hip-Hop	USA	Arizona Zervas	66	Living Facts	61	2018	0.113	0.822	0.575	0.0	0.106	0.0934	0.616
+1TkWsnheqK0gBtvh07BtNX	$ave Dat Money (feat. Fetty Wap & Rich Homie Quan)	64	7IhHBoBPWlCSrr8DCmP5ot	1tqhsYv8yBBdwANFNzHtcr	Pop	India	Lil Dicky	61	Professional Rapper	67	2015	0.114	0.858	0.697	0.0	0.224	0.23	0.364
+4tVycdWXDOb0j2A9NQLmjl	Love Robbery	50	4NHY9yJMtwEKMtmzrZqwL2	2BL5VxhQadpc4v2VlZyKY5	Hip-Hop	USA	Kalin and Myles	38	Chase Dreams	44	2014	0.0321	0.887	0.725	2.47e-06	0.0855	0.144	0.736
+3pXF1nA74528Edde4of9CC	Don't	84	6eZdwrhB97A3EYx9QppGfl	2EMAnMvWE2eb56ToJVfCWs	International	India	Bryson Tiller	79	T R A P S O U L	83	2015	0.223	0.765	0.356	0.0	0.0963	0.195	0.189
+61LtVmmkGr8P9I2tSPvdpf	Teach Me How to Dougie	68	7jEhJ72S8vHQOmQTgIATww	1EeArivTpzLNCqubV95255	International	India	Cali Swag District	50	The Kickback	61	2011	0.2	0.846	0.438	9.43e-05	0.0939	0.141	0.512
+0hUepWE4GoMwtKgU8vE617	G.O.A.T.	69	7KNNWIPBk4Josbqhfa2KI3	7ibAWtDtmEfaVhc1FJ3Vl9	International	USA	Eric Bellinger	63	Eric B for President: Term 1	65	2016	0.0232	0.467	0.636	0.0	0.138	0.201	0.419
+5sFDReWLrZHLFZFjHsjUTS	Would? (2022 Remaster)	76	58NXIEYqmq5dQHg9nV9duM	64tNsm6TnZe2zpcMVMOoHL	Indie	India	Alice In Chains	72	Dirt (2022 Remaster)	76	1992	0.000327	0.305	0.833	2.36e-05	0.091	0.0398	0.586
+64fQLRDwjUMWjyKnzleUKf	Coughing my lungs out	15	4pMg66zr5YMSHEuKekXlyk	2nLKb5KOTjny5GUxbR8doa	Hip-Hop	USA	Oddwin	38	ODDWIN'S HARD DRIVE VOL 1.	27	2021	0.000527	0.861	0.737	0.0555	0.323	0.079	0.444
+4J1CJ9cTRVSI1q1qgRmbRp	i have a fortnite addiction	14	4pMg66zr5YMSHEuKekXlyk	2nLKb5KOTjny5GUxbR8doa	Indie	USA	Oddwin	38	ODDWIN'S HARD DRIVE VOL 1.	27	2021	0.00503	0.786	0.796	0.847	0.378	0.0437	0.798
+5jNk6P2A7GUmIHpDWJIxhd	Pass the Mayo	35	5J20YOgRK8Dqpc3Wk8oqxM	4UYsrMSqpG1Sgj2TFesI41	Hip-Hop	USA	BaBa	32	Pass the Mayo	28	2022	0.0354	0.7	0.949	0.597	0.101	0.041	0.89
+55S1sudeHhOHUowwLL6PqW	MATT ANTHEM	2	7z4sisYTIYDM6MONlcFl4A	1xD6zbPy6IetBroIK6psmo	International	India	Chub The Producer	0	MATT ANTHEM	0	2014	0.00143	0.854	0.575	0.00386	0.328	0.114	0.5
+3bI34Ts8OMPfIpoPqzyZgM	TFW (That Feeling When)	67	5J8MNLLViH5zqM6VoGErz8	5t5FqBwTcgKTaWmfEbwQY9	Rock	India	ENHYPEN	75	MANIFESTO : DAY 1	75	2022	0.113	0.689	0.692	0.0	0.134	0.0354	0.902
+0SL5CqcEL8xwU6COeCxYd5	GOOD	27	3D4sDxSTwqNnsyYlI3ueb4	6nfDaffa50mKtEOwR8g4df	Hip-Hop	USA	GOT7	62	MAD Winter Edition	51	2015	0.0307	0.799	0.835	0.0	0.352	0.0699	0.834
+37YoRLUu1qId0ewavgvnkG	Blue Flame	74	4Mc7WwYH41hgUWeKX25Sot	4SpbR6yFEvexJuaBpgAU5p	International	USA	LE SSERAFIM	79	FEARLESS	79	2022	0.0281	0.781	0.725	0.0	0.0761	0.0452	0.765
+6UmRhJatcth1KF76r5ucvZ	1 of 1	48	1hG9lZDk2HqmOHMtuI3Zdj	2hRQKC0gqlZGPrmUKbcchR	International	USA	SHINee	62	1 of 1 - The 5th Album	47	2016	0.0635	0.694	0.879	0.0	0.0478	0.0515	0.84
+5ZwlnR8yGofZ0669mEh8Xm	Celebrate	65	3JWwlQso9kjpJ7q7aw8C2F	7n2Ycct7Beij7Dj7meI4X0	Indie	USA	TWICE	82	Celebrate	57	2022	0.0628	0.776	0.89	0.0	0.0634	0.0573	0.864
+63mL1DdcSFfxVJ9XGnSRQz	Basics	67	3NZ94nQbqimcu2i71qhc4f	7n2Ycct7Beij7Dj7meI4X0	Indie	United Kingdom	TWICE	82	BETWEEN 1&2	74	2022	0.254	0.778	0.8	0.0	0.139	0.227	0.585
+3c0CJ0DBgsGZ7I79lyx02Z	Like Ooh-Ahh	67	72WWZVAx6GtSbEeGESwDLo	7n2Ycct7Beij7Dj7meI4X0	Pop	United Kingdom	TWICE	82	The Story Begins	62	2015	0.241	0.721	0.875	0.000105	0.382	0.0783	0.692
+4TF240Qq2I1cr2Ysvfps4d	Broken Record	53	4NV2SxuesqKwcBdDgACH9R	4oEXworvhegyK83rZwVyWL	Hip-Hop	India	GSoul	52	Hate Everything	56	2019	0.2	0.703	0.599	0.0	0.428	0.101	0.851
+5w18nowVMRZrC5Na9Vxoth	쏘리 쏘리 Sorry, Sorry	62	3v5XUoZzxbmJbxs7vWTua3	6gzXCdfYfFe5XKhPKkYqxV	Indie	India	SUPER JUNIOR	60	쏘리 쏘리 Sorry, Sorry - The 3rd Album	55	2009	0.0226	0.706	0.972	2.57e-06	0.267	0.0352	0.962
+5SusX17QvBBkH7WfMbTU0j	NoNoNo	56	03GKVqpdr6Fi24DeAbgDRs	2uWcrwgWmZcQc3IPBs3tfU	International	USA	Apink	56	Secret Garden	50	2013	0.106	0.74	0.908	0.0	0.0637	0.0327	0.745
+4iJyTp1KwCeBKhf7h0SwsD	REALLY REALLY	64	7aUSYOs4iSl0qx28lelrs0	5DuzBeOgFwViFcv00Q5PFb	Rock	India	WINNER	55	FATE NUMBER FOR	58	2017	0.167	0.765	0.77	0.0	0.0854	0.0592	0.581
+18OjYSOz2ryc2vLmAeG2de	ZOOM	60	58OR7UoaJkJzqeQGClHzh1	1z4g3DjTBBZKhvAroFlhOM	Rock	India	Red Velvet	73	‘The ReVe Festival 2022 - Birthday’	67	2022	0.696	0.808	0.809	5.39e-05	0.163	0.078	0.823
+6jRX28JQ6SoyLj0FqYEqFs	Ripped Pants	52	7n5FErCSkbQ4g2TZXKU6GD	3zCAmjKyHsG7kTGsls1cfj	Pop	USA	Spongebob Squarepants	54	SpongeBob's Greatest Hits	59	2009	0.101	0.768	0.585	0.0	0.445	0.119	0.617
+3xZek9XkEaX130o3XN9cvd	Goofy Goober Rock	52	7n5FErCSkbQ4g2TZXKU6GD	3zCAmjKyHsG7kTGsls1cfj	Indie	India	Spongebob Squarepants	54	SpongeBob's Greatest Hits	59	2009	1.28e-05	0.527	0.868	0.0247	0.229	0.0287	0.643
+6M14BiCN00nOsba4JaYsHW	Ocean Man	66	1yfJqxKKXG320vhqLfUEeC	3u1ulLq00Y3bfmq9FfjsPu	Indie	India	Ween	58	The Mollusk	62	1997	0.551	0.72	0.912	0.00122	0.0982	0.0363	0.973
+5KdKZ1Puef8gmqhZJNDbHW	Loop de Loop	30	7rGK4xRxVlmDuV7dKsGZZn	3u1ulLq00Y3bfmq9FfjsPu	International	United Kingdom	Ween	58	Spongebob Squarepants: Original Theme Highlights	34	2001	0.791	0.746	0.366	6.38e-06	0.0883	0.0452	0.958
+7I9bSsqqIA0cV1nL0igGLm	Cyber Stockholm Syndrome	48	0rYXZCRBEsRBc4ZyRo8Y6w	2KEqzdPS7M5YwGmiuPTdr5	Indie	India	Rina Sawayama	64	RINA	52	2017	0.41	0.527	0.672	0.0	0.341	0.0509	0.259
+4XEiqb5c5prR16lCSTArq5	Popular	40	6aL2SwYj5kSEvIcYORHP37	1dIdBZaaHRW2bDTkHNfWln	International	India	The Veronicas	56	Hook Me Up	60	2007	0.0356	0.705	0.938	0.0	0.334	0.0977	0.777
+1hGy2eLcmC8eKx7qr1tOqx	Beautiful Girls	79	71clfVkkopYLrgweVj2cow	6S0dmVVn4udvppDhZIWxCr	Indie	USA	Sean Kingston	70	Beautiful Girls	72	2007	0.15	0.762	0.661	0.0	0.256	0.0687	0.769
+2D1hlMwWWXpkc3CZJ5U351	P.I.M.P.	71	4ycNE7y1rp5215g1kkqk1P	3q7HBObVc0L8jNeTe5Gofh	Rock	USA	50 Cent	83	Get Rich Or Die Tryin'	79	2003	0.0444	0.7	0.758	1.3e-05	0.0401	0.342	0.889
+41bIQPBE1lFN0mmw6Lmssz	21 Questions	75	4ycNE7y1rp5215g1kkqk1P	3q7HBObVc0L8jNeTe5Gofh	Hip-Hop	USA	50 Cent	83	Get Rich Or Die Tryin'	79	2003	0.353	0.576	0.807	0.000363	0.0512	0.317	0.908
+5CE1jL4dkfZlX5CiHZh5ap	No Romeo No Juliet	56	1TfWU86ZevMnfkHcEHCbyA	3q7HBObVc0L8jNeTe5Gofh	Indie	South Korea	50 Cent	83	No Romeo No Juliet	48	2016	0.341	0.838	0.609	0.0	0.0578	0.219	0.394
+7AJcpbPmgFWC4GHOwPn2fT	Gangsta's Paradise - Re-Recorded - Orchestral Version	24	6j1lzOBLHdzAX29e6r7Bzn	3y24n3XhZ96wgwRXjvS17T	Indie	USA	Coolio	70	Gangsta's Paradise (Re-Recorded - Orchestral Version)	19	2022	0.626	0.458	0.756	0.000323	0.167	0.0528	0.565
+5EKHwtjLNbNdF8wrjmyREE	"Shun Sono Tatakai (From ""Saint Seiya"") [Alernative Version]"	37	6dVc8mwBBSHw8xQy2v5ymE	29uXmx8RwiRRfDah4u00mL	International	India	Seiji Yokoyama	35	Pandora's Box, Andromeda Shun His Fight	34	2020	0.984	0.396	0.0469	0.944	0.0999	0.0623	0.164
+3mFlefemLeoaJHZKmqRON1	Ode To The Wilderness: Fanfare for Strings (First Movement)	2	2UwZWfbuGY7egn67r1C362	02ep1mxR5xAc2t9m0ZyGL6	Indie	USA	Mark John McEncroe	16	Ode To The Wilderness: Fanfare for Strings (First Movement)	0	2021	0.819	0.147	0.196	0.854	0.26	0.0488	0.0669
+6IGiuUvuMVtFFyZv56TF9j	О чём-то своём	34	0WXlWvqjlFbOiw5l6IzP7z	4D57IRIe4pjQlivbEZtQEG	International	India	Crash	29	Нитки	40	2016	0.511	0.801	0.58	0.0	0.109	0.383	0.941
+5BB0Jzw60KyfSTyjJqtely	Na Na Na (Na Na Na Na Na Na Na Na Na)	70	2wPnKggTK3QhYAKL7Q0vvr	7FBcuc1gsnv6Y1nwFtNRCb	Rock	India	My Chemical Romance	78	Danger Days: The True Lives of the Fabulous Killjoys	70	2010	0.000264	0.411	0.986	0.00148	0.371	0.0583	0.649
+0axF06XwNLobcx5z8BVtYw	Give 'Em Hell, Kid	63	3DuiGV3J09SUhvp8gqNx8h	7FBcuc1gsnv6Y1nwFtNRCb	International	United Kingdom	My Chemical Romance	78	Three Cheers for Sweet Revenge	79	2004	0.0234	0.252	0.993	0.0	0.228	0.16	0.118
+3ItzRpwvKtkDSNdRSjXu7Z	Chelsea Dagger	64	6R6pjR9ocMYuqSuNx5e4mg	3M4ThdJR28z9eSMcQHAZ5G	Rock	USA	The Fratellis	61	Costello Music	60	2007	0.0505	0.512	0.817	0.0	0.0775	0.142	0.552
+5rKaO7ymXTVi4GEQdP8X5K	Sailor in a Life Boat	45	3errLr3puRVdp8Rgh8g3lf	0tP6FIlMVLyL77iQxW2rbD	Indie	USA	EURINGER	38	EURINGER	49	2018	0.0153	0.67	0.939	2.05e-05	0.228	0.152	0.557
+5abubE0dYFaEPDeM2sZ4TY	What Do They Know?	62	4fIVLcTjPnagYnDmTivhiY	5R5MLOQbI4lb7GHYioPqoN	Pop	India	Mindless Self Indulgence	64	You'll Rebel To Anything (Expanded and Remastered)	61	2005	0.0406	0.645	0.791	0.0	0.293	0.0927	0.601
+53tGM1hwL54m0PQtQ420Np	Would You Be Impressed?	46	0uecz2X2V83TuxOwJv7mgg	1OKOTYGoCE2buxTYMegJp7	Rock	India	Streetlight Manifesto	49	Somewhere in the Between	50	2007	0.00651	0.504	0.883	0.000335	0.0872	0.101	0.865
+0XijYEOru4Hg5CNeww5Iiz	Let's Bounce	50	7AmUm7lWIJohCUOpOrDaeN	7GXiq6QQjWFEgHjd3TRaCt	International	United Kingdom	Jules Gaia	47	Tuppence	52	2018	0.413	0.793	0.691	0.0558	0.0794	0.041	0.714
+2KmSnPWWCIsEomVsKnbE1a	Big Balls	59	76mvVgXOde87B9aOzLXCOI	711MCceyCBcFnzjGY4Q7Un	Hip-Hop	India	AC/DC	81	Dirty Deeds Done Dirt Cheap	69	1976	0.432	0.62	0.634	0.0	0.604	0.198	0.415
+08mG3Y1vljYA6bvDt4Wqkj	Back In Black	85	6mUdeDZCsExyJLMdAfDuwh	711MCceyCBcFnzjGY4Q7Un	International	United Kingdom	AC/DC	81	Back In Black	84	1980	0.011	0.31	0.7	0.00965	0.0828	0.047	0.763
+7LRMbd3LEoV5wZJvXT1Lwb	T.N.T.	79	19AUoKWRAaQYrggVvdQnqq	711MCceyCBcFnzjGY4Q7Un	International	USA	AC/DC	81	High Voltage	75	1976	0.153	0.754	0.759	0.000108	0.101	0.302	0.435
+2zYzyRzz6pRmhPzyfMEC8s	Highway to Hell	85	10v912xgTZbjAtYfyKWJCS	711MCceyCBcFnzjGY4Q7Un	Indie	United Kingdom	AC/DC	81	Highway to Hell	80	1979	0.061	0.574	0.913	0.00158	0.156	0.133	0.423
+6IFRbgF5BIfkV5a6wC5pu3	Toilet Paper Stuck in my Butt	21	1hgugZyplAFsHkL2XeXIIb	4FWTPurcjxX0pupmhL2Hes	International	USA	The Toilet Bowl Cleaners	37	Still Farting, Pooping, Puking, and Peeing	40	2011	0.943	0.681	0.228	0.0	0.103	0.0375	0.378
+38seQfHTVuPqH3rEv5n5fY	Poop Sneeze (I Wiped My Nose With Poop-Stained Toilet Paper!)	14	5MfZPawVSFjzEM2ipjpqDd	4FWTPurcjxX0pupmhL2Hes	Indie	India	The Toilet Bowl Cleaners	37	You Thought We Ran Out of Poop Song Ideas. You Were Wrong.	35	2013	0.242	0.802	0.426	0.0	0.174	0.0861	0.898
+6iXBQXYVSMSY7LsZ7lj161	Poop in My Fingernails	41	5MfZPawVSFjzEM2ipjpqDd	4FWTPurcjxX0pupmhL2Hes	Pop	United Kingdom	The Toilet Bowl Cleaners	37	You Thought We Ran Out of Poop Song Ideas. You Were Wrong.	35	2013	0.8	0.684	0.345	0.0	0.119	0.244	0.546
+3ruRtibPLzXgNcUBysvmy6	Wet Farts	15	72tZLN4xASazcwpAXdWFnY	4FWTPurcjxX0pupmhL2Hes	Indie	India	The Toilet Bowl Cleaners	37	Let's Not Forget Snot, Boogers & Ear Wax!	20	2008	0.874	0.613	0.23	0.0	0.121	0.169	0.511
+4KcH1ZRV2W1q7Flq0QqC76	Blitzkrieg Bop - 2016 Remaster	74	5uYDAwW0SZgcfOFkxrST64	1co4F2pPNH8JjTutZkmgSm	Rock	USA	Ramones	67	Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)	69	1976	0.000269	0.385	0.783	0.47	0.108	0.233	0.902
+5EOoMWIB9iK4ZpcSex9Ec7	Old Time Rock & Roll	76	1vhib5WLHRVdOpRjiTHk15	485uL27bPomh29R4JmQehQ	Hip-Hop	South Korea	Bob Seger	68	Stranger In Town	72	1978	0.206	0.714	0.937	0.0	0.0731	0.0399	0.964
+6wdIe1ep26qiaIaiHF5b9F	Same Ol' Situation (S.O.S.)	64	23krn1eEy7o3u9laLI1PLD	0cc6vw3VN8YlIcvr1v7tBL	Rock	India	Mötley Crüe	72	Dr. Feelgood (Deluxe Version)	75	1989	0.0363	0.498	0.984	2.96e-05	0.11	0.128	0.258
+7cpFmkNmh3MM0WqXPSbs9f	Suavemente	65	378XG6oO0TWcsGuxeQy2Os	1c22GXH30ijlOfXhfLz9Df	Indie	United Kingdom	Elvis Crespo	65	Suavemente	63	1998	0.254	0.811	0.88	0.00146	0.0475	0.0628	0.915
+1mNvijqTFRqisyURrtrhwa	Y Que Fue?	64	6gc9r4pdiWgM9RLAEmrIjs	1noWnd8QFQD9VLxWEeo4Zf	International	India	Don Miguelo	56	Y Que Fue?	56	2020	0.0512	0.889	0.651	0.0116	0.0955	0.0599	0.874
+228BxWXUYQPJrJYHDLOHkj	Gasolina	83	4pLuE50wL9T26lSv42X0J2	4VMYDCV2IEDYJArk749S6m	Indie	United Kingdom	Daddy Yankee	87	Barrio Fino (Bonus Track Version)	83	2004	0.322	0.852	0.797	2.69e-06	0.0845	0.0614	0.741
+71J3ktUHU5n0EWAfD7VVFX	Tao, Tao	63	4WA8OOdFDDoYUoCDnde5UX	69BX3Y0Y9rzA039eZX2hdx	Indie	USA	Control	55	Cumbias Sin Control	61	1999	0.234	0.854	0.848	6.66e-05	0.0294	0.041	0.949
+49ou9vBZLTCi4TYoYzR3F9	Calabria 2007 (feat. Natasja) - Radio Edit	66	6MEU7vnEiJ0qzsJkZSqPed	1BQaZSq1KsLOZGzjG5QxRC	Rock	India	Enur	50	Calabria 2007 (feat. Natasja)	59	2007	0.00758	0.888	0.556	0.0584	0.0553	0.186	0.45
+129lYDVKnWtlJc2PZJviuA	A Dios Le Pido	73	2UJCnSqpR3AIuTvWYZLCp1	0UWZUmn7sybxMCqrw9tGa7	Indie	United Kingdom	Juanes	76	Un Día Normal	76	2002	0.0683	0.673	0.841	0.0	0.0965	0.0557	0.94
+32ljWqOxw3ckyuaUc882F6	Pink Panther	60	40yJpavMZdcV1lhGNwWJZ0	6WandyxeDxlcOTwxtnTKP4	International	USA	Scene Queen	56	Bimbocore	60	2022	0.00357	0.669	0.853	0.0594	0.132	0.0749	0.476
+5xjBjhBgqR9lJguneF01jQ	Cyberfreak	63	5WcR1r442UgXGInqGAbqxT	1MOetFIO4hBem9p9FVP9Jo	Indie	United Kingdom	Khantrast	62	Cyberfreak	56	2022	0.00474	0.696	0.426	0.319	0.0481	0.047	0.102
+2ZNGVeQUOXsKqRgMVmyr3r	Let’s Ride	63	7AHgpws4jUS12JxsqorrJO	1MOetFIO4hBem9p9FVP9Jo	International	United Kingdom	Khantrast	62	Let’s Ride	55	2022	0.232	0.765	0.75	0.0	0.233	0.198	0.568
+6aLzDW8TlgccoWycY99mfU	I'm Toxic	62	0LbmzupwRcQfKfF2VQr4q0	1MOetFIO4hBem9p9FVP9Jo	Indie	South Korea	Khantrast	62	I'm Toxic	55	2021	0.214	0.75	0.727	0.0	0.0557	0.0669	0.847
+6CB9XIqTBMBJ6ppQluNo8w	Desperado	54	2IkjVpylKdEISBtjMInTwh	1MOetFIO4hBem9p9FVP9Jo	Indie	India	Khantrast	62	Desperado	46	2022	0.108	0.653	0.92	6.54e-06	0.437	0.271	0.771
+0lVp0ajGZ2huxjV0LjnLI4	Naruto Bluebird Freestyle	61	7keMCtMuSyvoRCnHnofyFz	1MOetFIO4hBem9p9FVP9Jo	Rock	USA	Khantrast	62	Naruto Bluebird Freestyle	53	2020	0.206	0.709	0.941	0.0	0.249	0.276	0.333
+5QfWgphE9zrEW3oeyKnQlG	Jump!	52	1YoMiGIGyioxUiJPUZ38zJ	1MOetFIO4hBem9p9FVP9Jo	Rock	USA	Khantrast	62	Jump!	44	2023	0.058	0.853	0.631	0.0	0.102	0.294	0.414
+3khEEPRyBeOUabbmOPJzAG	KICK BACK	84	6RH1fEIz8HVXregzz5Xp2B	1snhtMLeb2DYoMOcVbb8iB	Hip-Hop	USA	Kenshi Yonezu	74	KICK BACK	77	2022	0.00207	0.577	0.941	3.36e-06	0.0891	0.105	0.292
+4JipCNXiKHe9LiKqMQr5w7	chinatown!	69	1EEKcUdS6QxuVMBFcK224N	5qOORCmdl34SsKnB8o4aaF	Hip-Hop	USA	22december	54	chinatown!	62	2021	0.016	0.42	0.66	0.00284	0.138	0.326	0.307
+37F7E7BKEw2E4O2L7u0IEp	Limbo	84	2ll6KONxe4F87GJku1ZZrl	0dlDsD7y6ccmDm8tuWCU6F	Hip-Hop	USA	Freddie Dredd	76	Freddie's Inferno	79	2022	0.0292	0.802	0.623	0.055	0.113	0.459	0.457
+6BeQSTkDbEqkTNDPeMDWu3	SHOTGUN	61	43lBfkvZuXqe2xX99SE8C4	3oIuooXd50rxLlHD9KVqrx	International	South Korea	SXULCVTCHER	47	SHOTGUN	53	2022	0.00879	0.753	0.638	2.38e-06	0.142	0.0595	0.22
+02TkW3n36h68GDwOnGPvYV	Berserk (Guts)	51	41Cw2k5xNcQ2j0Ho9GTdUI	6xini6REf0CP8muuVvDa91	Rock	United Kingdom	Daddyphatsnaps	57	Berserk (Guts)	44	2022	0.471	0.774	0.486	0.000142	0.111	0.276	0.45
+6jqvbCajA0NIkVADIFnNrT	Cyber Psycho (Cyberpunk Edgerunners)	49	4uVB8mY9aAL1v1GLJdyOkq	6xini6REf0CP8muuVvDa91	Rock	South Korea	Daddyphatsnaps	57	Cyber Psycho (Cyberpunk Edgerunners)	42	2022	0.0336	0.621	0.617	5.67e-06	0.116	0.374	0.514
+2O9KgUsmuon6Gycdmagc6t	Princess Bubblegum	69	3pb0Q6sH9ZhxjOKvSVP5bE	4XWaILHqySwH1y6LhlYcsb	Indie	USA	ilyTOMMY	62	Princess Bubblegum	62	2018	0.42	0.589	0.484	0.0385	0.109	0.0742	0.0726
+5ELj1d1b4T9Fr67b8X8mkR	Slide Den	50	7tM2KPXbuOii71TzAPdTCT	7CGSp2GbiOpLPSq61qjxf8	Indie	United Kingdom	midwxst	64	Slide Den	42	2022	0.151	0.551	0.893	0.0	0.308	0.0437	0.562
+4dPVmeisPfQrLcjx0Wz1KW	JoJo Pose	64	4x9AjlHkbRPKSEtpsf8ZmJ	3ivDFy7UfjLbyIGzepJ5hJ	Pop	USA	Apollo Fresh	46	JoJo Pose	57	2020	0.0366	0.781	0.533	0.0	0.597	0.302	0.326
+2tewsqBBUALqKedOrnU1AT	Led	63	2RIYeR7qaek1c8BNIBsq0a	3lBMiwsMDQZItXes0VxBsJ	Hip-Hop	India	GOTOU寄生獣	48	Led	55	2019	0.000786	0.623	0.663	0.0	0.133	0.0521	0.0937
+7sYfWTa2GD1KCaLgGFmFM5	DANCE!	67	3dlb9Ln4sYzsJEppql4uy4	3ZHU5AKrUmIPnCFfr82QER	Rock	India	1nonly	72	DANCE!	60	2021	0.0715	0.903	0.828	0.0013	0.0622	0.174	0.912
+0G4uu3BzqOmgHW7sP5WHBN	March!	56	2oKf1enSq9QsAoWqSWMtHa	2YHPVKeJcX02OyeNneU5v3	Indie	India	XANAKIN SKYWOK	58	March!	49	2022	0.0361	0.775	0.552	0.0	0.166	0.0402	0.253
+6k0X05danQOXSBTVek5DU1	The Rumbling	74	0YK5JsSCN2Z8g1ejHuBqeg	2BM933ADIluGGrPBOhPgIt	Pop	USA	SiM	63	The Rumbling	67	2022	5.62e-05	0.459	0.878	0.000307	0.371	0.0688	0.494
+2SjvBmZYIbQTJ7rrPgdmV8	Baby My Phone	62	3fLglAkAwRiXwFKjGRQxQq	141ww9EOPLPetF8mMt1gKF	Hip-Hop	USA	Yameii Online	54	Baby My Phone	54	2021	0.176	0.427	0.666	0.229	0.0856	0.0415	0.232
+5Sk39LuvdwuvL84jD01Dum	vendetta!	82	68lLFdlKCAqUQ3p3uDlozr	7B9Gg9epjQzfNGdxijFczG	Rock	India	MUPP	68	vendetta!	75	2022	0.175	0.706	0.91	2e-06	0.11	0.146	0.667
+74d7fdc3IibAz8WZuwz2x3	"Demon to a GhxsT (Inspired by ""Demon Slayer"")"	50	6n3RkZF4lEM2kKe7rApucg	48bqPGhLPTuS8gKg3UTtf9	International	South Korea	Fabvl	58	"Demon to a GhxsT (Inspired by ""Demon Slayer"")"	42	2021	0.437	0.791	0.523	0.0	0.0971	0.24	0.37
+1N8TTK1Uoy7UvQNUazfUt5	SPIT IN MY FACE!	87	2XurGuugADHAwF8gEYjtMA	4MvZhE1iuzttcoyepkpfdF	Indie	USA	ThxSoMch	71	SPIT IN MY FACE!	80	2022	0.0464	0.73	0.785	0.0216	0.111	0.0554	0.649
+0j8ppsOOawdPCJnSTcXgOy	GOSHA	73	4UNZOq7e8WjnfaYm2rkltE	5IbEL2xjRtKsunfmsahLuO	International	India	$NOT	71	- TRAGEDY +	72	2020	0.81	0.847	0.448	1.35e-05	0.325	0.416	0.488
+07Pv7QJd4kFRyusSSlJODo	Phantom Troupe - Remix	43	0ZzUopArm41ddN0orm3j7a	6Mt5Jv5qiHPyCmnaLbr6Rz	International	India	Shofu	43	Phantom Troupe (Remix)	36	2021	0.00546	0.885	0.588	0.0	0.0706	0.277	0.458
+3iDQnloxYVrnzE0eNZ85en	uhh	68	3PgoWZSSEFdI0f5gektpdn	6qW2MCeqjNlMwiLl0JPbuZ	Hip-Hop	United Kingdom	framed	59	Uhh	63	2021	0.51	0.424	0.413	0.00808	0.13	0.0816	0.236
+6knXMt7UIPPJveAtsP1Dq4	Don't Run Away	63	5Zujo4KiMKCtdIglUha0xR	2DMYrndKZ3twgaT3wwuS5w	Indie	United Kingdom	Tyler James Williams	50	Let It Shine (Original Soundtrack)	62	2012	0.0783	0.747	0.801	0.0	0.0656	0.0493	0.713
+3NuN59jpH3B5cNa2M4r7XG	BOOGIE	63	5c2AzoNyr46fCQM5d8mxE0	1Bl6wpkWCQ4KVgnASpvzzA	Pop	India	BROCKHAMPTON	68	SATURATION III	66	2017	0.0137	0.604	0.933	0.0	0.37	0.214	0.28
+5LJO4gLXxz0g423NeH16nX	Squidwards Tiki Land	32	59wWtiEDV4NkLG9zx3WT0h	1Q9Cw2k9qmmmDqqSgojo6I	Indie	USA	Finrealnotfake	15	Squidwards Tiki Land	25	2022	0.785	0.691	0.27	0.0	0.752	0.135	0.565
+04aAxqtGp5pv12UXAg4pkq	Centuries	81	022DrG7Wp2PSCwzuD0bSzT	4UXqAaa6dQYAk18Lv7PEgX	International	United Kingdom	Fall Out Boy	80	American Beauty/American Psycho	79	2015	0.00359	0.393	0.858	0.0	0.102	0.0729	0.56
+2iUmqdfGZcHIhS3b9E9EWq	Everybody Talks	80	0uRFz92JmjwDbZbB7hEBIr	0RpddSzUHfncUWNJXKOsjy	Indie	United Kingdom	Neon Trees	66	Picture Show	73	2012	0.00301	0.471	0.924	0.0	0.313	0.0586	0.725
+6b37xrsNCWYIUphFBazqD6	Me Gustas Tu	85	4t1LLdXiWTfoywqricztFo	6wH6iStAh4KIaWfuhf0NYM	Hip-Hop	USA	Manu Chao	72	Próxima Estación: Esperanza	78	2001	0.663	0.657	0.741	0.494	0.222	0.0825	0.908
+3HooFDzhzjBuYQZelqOjhh	El Boogalo de los Destellos	49	5UBnoa7wdR6WVRXh4Boj12	2xfdrsA1TWrKlaEfQQbbmf	International	United Kingdom	Los Destellos	48	Sicodélicos	54	2016	0.509	0.762	0.782	0.924	0.125	0.071	0.903
+1tFLxsvy4fP7fXYCEoWO7q	Ven ven mulata	36	24dVmdybMczU8CmAmCDJ8E	0TEof0oj8lFZMZv3wAvAZE	Indie	USA	Chachi Ensemle, El	30	Manuel El Chachi Lopez-Ruiz: Gypsy Rumba Flamenco	31	2001	0.363	0.69	0.851	0.0	0.312	0.0432	0.964
+2kQuhkFX7uSVepCD3h29g5	Smack That	82	6kzoWb4UzvKYgbDfAwgaFq	0z4gvV4rjIZ9wHck67ucSV	International	India	Akon	80	Konvicted	79	2006	0.321	0.939	0.742	0.0	0.107	0.0467	0.924
+48EQasc6XD0pOQtkIOWqOC	Locked Up	69	77eKpEVxmSr1RhqMlirlTF	0z4gvV4rjIZ9wHck67ucSV	International	India	Akon	80	Trouble Deluxe Edition	76	2005	0.0262	0.833	0.568	0.0	0.11	0.0847	0.369
+4u8IPU322yG7mNrqv89GGL	Hey Sexy Lady	70	4JYMeEAVnEVnJhXe1VZS2b	5EvFsr3kj42KNv97ZEnqij	Pop	United Kingdom	Shaggy	73	Lucky Day	63	2002	0.0052	0.957	0.554	0.00185	0.249	0.067	0.64
+3WkibOpDF7cQ5xntM1epyf	It Wasn't Me	80	3MT88SSyxQGbqYXj4LVk3b	5EvFsr3kj42KNv97ZEnqij	International	India	Shaggy	73	Hot Shot	77	2000	0.0561	0.853	0.606	0.0	0.313	0.0713	0.654
+1q51MejmtLKEv8mABG8XRE	Sexy Can I	65	3JU7Ke4Ftaag8o2njrw8Rs	6gbGGM0E8Q1hE511psqxL0	Indie	USA	Ray J	54	All I Feel	58	2008	0.296	0.575	0.686	0.0	0.617	0.319	0.926
+0k2GOhqsrxDTAbFFSdNJjT	Temperature	81	32Bu3ETQhR1PFCj3ndDlYf	3Isy6kedDrgPYoTS1dazA9	Rock	USA	Sean Paul	82	The Trinity	75	2005	0.106	0.951	0.6	0.0	0.0712	0.0685	0.822
+6bK9BH9Ts8Gj5JFvnQkzak	Get Busy	78	1aYcfMrpGIuPNZhDWMJcnV	3Isy6kedDrgPYoTS1dazA9	Indie	India	Sean Paul	82	Dutty Rock (20th Anniversary)	75	2022	0.614	0.741	0.824	0.0	0.158	0.0352	0.725
+4h4QlmocP3IuwYEj2j14p8	Sunroof	88	0VaHnwzDug4AcDkejYDUl5	7qmpXeNz2ojlMl2EEfkeLs	International	United Kingdom	Nicky Youre	72	Sunroof	81	2021	0.352	0.768	0.714	0.0	0.15	0.0401	0.842
+7cLvLpnhpnQtea3ETMYgV5	Never Go Wrong	64	17ZqMxccQxyrfwZyH2OUhP	7qmpXeNz2ojlMl2EEfkeLs	Indie	United Kingdom	Nicky Youre	72	Never Go Wrong	57	2022	0.0687	0.585	0.835	0.0	0.275	0.113	0.93
+3jHBgKdLCf46aP3HRI0WYv	World's Smallest Violin	73	1y2AzG31F4CuCKQ1rpIzaI	6s22t5Y3prQHyaHWUN1R1C	Hip-Hop	USA	AJR	74	OK ORCHESTRA	74	2021	0.116	0.68	0.696	0.0	0.607	0.051	0.684
+5odlY52u43F5BjByhxg7wg	golden hour	90	69AaAkdktFGnk9POmHENkT	164Uj4eKjl6zTBKfJLFKKK	Hip-Hop	India	JVKE	80	this is what ____ feels like (Vol. 1-4)	87	2022	0.653	0.515	0.593	0.162	0.25	0.0322	0.153
+6HMtHNpW6YPi1hrw9tgF8P	About Damn Time	80	1NgFBv1PxMG1zhFDW1OrRr	56oDRnqbIiwx4mymNEv7dS	Indie	India	Lizzo	78	Special	80	2022	0.0974	0.836	0.743	0.0	0.335	0.0653	0.723
+2BZoxb2pGyRY7EYzDx6IwB	Lollipop	53	53PNegcXlOzoH9xZHovxk8	3PnZvNZGx7AuTLLeKhGTXb	Indie	USA	Charlie Curtis-Beard	44	Lollipop	46	2021	0.177	0.748	0.626	9.26e-05	0.536	0.0959	0.795
+1S04juvhfo9NFsTVzxR4tU	Get Me Hype (Intro)	52	28zSKv6y1iWehsGpxGbpW6	3ej8SuMJzEgwFLe2lCBikV	Rock	India	Lebra Jolie	40	Lebra Jolie	49	2022	0.00269	0.925	0.661	0.0	0.324	0.244	0.369
+1SDPlyCpP441BhYKcupxc0	Give U Some (feat. Rob49)	50	28zSKv6y1iWehsGpxGbpW6	3ej8SuMJzEgwFLe2lCBikV	International	India	Lebra Jolie	40	Lebra Jolie	49	2022	0.0177	0.945	0.682	0.0	0.0813	0.311	0.84
+3GH8eacML602pwvPdKiLAc	Moody! (feat. Saba)	59	4Vu0PtnR4eyViFmKZNpJqL	4JqpJeNOhP6bAkolNMLwFg	International	USA	Jean Deaux	55	Watch This!	55	2020	0.0291	0.897	0.753	0.0	0.585	0.289	0.785
+196bEeTFycq0JGq9n9v6sF	Who Dis! - Bonus Track	42	2ZSD8MXRMojIHYq5Agd5mG	4JqpJeNOhP6bAkolNMLwFg	Indie	United Kingdom	Jean Deaux	55	Watch This! (Deluxe)	38	2020	0.401	0.826	0.833	0.00729	0.14	0.123	0.84
+6QRDewZDz4f9CJEasgWZKt	Snake	56	3QEQeBF0NJ5BvvPY8lyWsP	3y2cIKLjiOlp1Np37WiUdH	Hip-Hop	India	Shaboozey	54	Cowboys Live Forever, Outlaws Never Die	58	2022	0.018	0.718	0.746	0.0	0.224	0.188	0.319
+2nWmAveRfr6nSHuGSdx75D	GOOD NEWS (Intro)	65	0WnQ1pZUSsW94ruKQnkIEd	6vAbPprzkLR2v8FpTgyYcV	International	United Kingdom	Mighty Bay	53	BLOND BOY NEWS	59	2022	0.0771	0.941	0.57	1.33e-05	0.0738	0.269	0.97
+4e1toObCtZaKcEam0XjKcM	UP N DOWN	41	2v9QOVsyQI2815eaOk4em6	6x3iaJYt5zLqKIfkrPQme9	International	USA	Chinese Kitty	45	SMD	51	2021	0.0166	0.812	0.721	7.36e-06	0.394	0.214	0.489
+4MN5ooEr9b3Bmpvk1VFEKU	Sis! You A Bad Bitch! 2.0	56	5BGjZkf3vJiOAxr7XbDAv1	4HekWU89TFKdHe7qDUplQn	Rock	USA	Shariya Wise	38	Sis! You A Bad Bitch! 2.0	48	2022	0.106	0.655	0.451	1.21e-05	0.109	0.212	0.117
+1WGMdRXlSzhohMN396g8EL	Watchu Like	55	7qA6QsW25Hr3yIDCf93YvB	4FeLiFUPdxVfFo8oOfA4BH	Hip-Hop	United Kingdom	Rah Swish	53	Watchu Like	47	2020	0.0412	0.812	0.84	0.0	0.18	0.279	0.953
+0aZ8t7DIZisXGdRrLupGKB	Big Steppa	41	6KkO7DMw7kEmjD4sxi5Dyv	6Dj8wAnffq2dTvObHVLIdB	Pop	India	SWIM	37	Big Steppa	33	2022	0.167	0.796	0.75	0.0	0.181	0.314	0.691
+2V4bv1fNWfTcyRJKmej6Sj	Cooler Than Me - Single Mix	77	2nnIlWcriIqcJtjduWcTRl	2KsP6tYLJlTBvSUxnwlVWa	International	USA	Mike Posner	70	31 Minutes to Takeoff	71	2010	0.179	0.768	0.82	0.0	0.689	0.0474	0.625
+25vDBsMOeQkJvxymSWlnPE	"Party in My Tummy (From ""Yo Gabba Gabba!"")"	23	5iXD3RzllTwL9Crw3oF3ss	0xcGrO7veUe0S5LnG4XFK0	Rock	United Kingdom	The Academy Allstars	23	Kids Tv Favourites	19	2013	0.0232	0.709	0.458	0.0	0.295	0.283	0.337
+5hTpBe8h35rJ67eAWHQsJx	Caroline	74	3lajefIuUk4SfzqVBSJy8p	3Gm5F95VdRxW3mqCn8RPBJ	International	India	Aminé	70	Good For You	71	2017	0.17	0.94	0.335	0.0	0.262	0.505	0.707
+75VVIB2x1h6BfxD2PqOO57	"Healing Incantation - From ""Tangled""/Soundtrack Version"	63	1l0aFrH24oPrQSqGtfeFyE	2LJxr7Pt3JnP60eLxwbDOu	Rock	India	Mandy Moore	64	Tangled	75	2010	0.92	0.366	0.0279	0.0	0.109	0.0461	0.35
+5vGUjhykZds2aqWFvfgnCh	mr. sunshine	57	7rvW3uGdmXRYY14oldA2J9	2jwRHcdgkRhelYEMqndDKe	International	USA	Yxngxr1	57	mr. sunshine	49	2022	0.0739	0.763	0.834	3.61e-06	0.101	0.182	0.63
+4U69c6x6vG2ULgUd6tRapG	MAMBO	59	2BTaK3AfGOQCHEy7ivSSw7	5BEGUGWpPDPKXCgqubqnLB	International	United Kingdom	DIRTYXAN	53	MAMBO	52	2022	0.216	0.817	0.505	2.03e-06	0.231	0.119	0.735
+65ha6jDdEeQ05hbiDeSUjT	Nikes	60	15mUcH1QPGllxiAjJUJQJn	25hjCXq9ACmSkWbnvKMThf	Hip-Hop	USA	Nimstarr	44	Nikes	52	2021	0.479	0.976	0.375	0.0	0.0523	0.104	0.976
+2s14ypvd880AiEfZssEjaY	OLIVIA	60	3hNNuCctdqZqKJvPcb5UbV	0fAEWMlRd4yiJBT2usaqqc	Pop	India	Softwilly	60	OLIVIA	53	2021	0.119	0.55	0.88	0.0	0.109	0.0368	0.462
+3qsR1pTGoshzapShuYm0ns	OKAY SHAWTY	51	2vtizplVpMIp3cguwoT7nA	1QduOP354RYyRRGRuvYPD2	Indie	United Kingdom	Kwe the Artist	42	OKAY SHAWTY	44	2021	0.000563	0.874	0.358	0.0	0.132	0.127	0.172
+2CpH1L4CUR47RARB3PgY1l	You Don't Own Me (feat. G-Eazy)	56	1jwMRIAKCBeroo1jYV19tO	6y5amJcTjeDgLXIjtQLMst	Pop	USA	SAYGRACE	57	You Don't Own Me (feat. G-Eazy)	49	2015	0.166	0.336	0.664	1.31e-06	0.0575	0.102	0.294
+023OVLNzXhX0j7CxswUt6D	Cheerleader - Felix Jaehn Remix Radio Edit	69	1QwWTLYn9dntAj7l9FRJwY	5MouCg6ta7zAxsfMEbc1uh	Rock	India	OMI	64	Me 4 U	61	2015	0.141	0.78	0.68	1.2e-05	0.138	0.0305	0.594
+4T0ScSPdQKmGvruK7pavNP	Flex (Ooh, Ooh, Ooh)	66	4DGTGynJ1c17ElQpAbDAqV	5lHRUCqkQZCIWeX7xG4sYT	Rock	South Korea	Rich Homie Quan	64	Flex (Ooh, Ooh, Ooh) - Single	58	2015	0.0389	0.726	0.607	0.0	0.19	0.0498	0.891
+5RIVoVdkDLEygELLCniZFr	Watch Me (Whip / Nae Nae)	66	5nYi5TJ16E7Qt73zxOu6sP	7juKTDFlPesGeWQ1GmjmOv	Indie	USA	Silentó	50	Watch Me (Whip / Nae Nae)	58	2015	0.247	0.821	0.759	0.0	0.321	0.121	0.962
+5uDASfU19gDxSjW8cnCaBp	Chill Bill (feat. J. Davi$ & Spooks)	77	5qBu7Ab6alstSCAzxTJMb1	2hWs22BmQkK4czFtDLnar2	Indie	USA	Rob $tone	60	Chill Bill (feat. J. Davi$ & Spooks)	70	2016	0.0312	0.886	0.427	0.00099	0.0906	0.145	0.23
+5b2bu6yyATC1zMXDGScJ2d	Hey Mama (feat. Nicki Minaj, Bebe Rexha & Afrojack)	63	3UEEPh5wsdhP7SKC31yvhu	1Cs0zKBU1kc0i8ypK3B9ai	Rock	USA	David Guetta	89	Listen (Deluxe)	60	2014	0.24	0.596	0.73	0.0	0.325	0.151	0.525
+3CRDbSIZ4r5MsZ0YwxuEkn	Stressed Out	86	3cQO7jp5S9qLBoIVtbkSM1	3YQKmKGau1PzlVlkL1iodx	Pop	South Korea	Twenty One Pilots	80	Blurryface	86	2015	0.0462	0.734	0.637	2.29e-05	0.0602	0.141	0.648
+7fBv7CLKzipRk6EC6TWHOB	The Hills	88	0P3oVJBFOv3TDXlYRhGL7s	1Xyo4u8uXC1ZmMpatF05PJ	Hip-Hop	USA	The Weeknd	96	Beauty Behind The Madness	88	2015	0.0671	0.585	0.564	0.0	0.135	0.0515	0.137
+2PIvq1pGrUjY007X5y1UpM	"Earned It (Fifty Shades Of Grey) - From The ""Fifty Shades Of Grey"" Soundtrack"	78	61Ba3txRZWfiX6ZTEZlFCV	1Xyo4u8uXC1ZmMpatF05PJ	Pop	India	The Weeknd	96	"Earned It (Fifty Shades Of Grey) [From The ""Fifty Shades Of Grey"" Soundtrack]"	70	2014	0.385	0.659	0.381	0.0	0.0972	0.0304	0.426
+500mvzh7TRZ0YdnVeHhj8b	Light It Up - Remix	69	4pCLlUxlKj3pNVdBtFyhrU	738wLrAtLtCtFOLvQBXOXp	International	India	Major Lazer	75	Peace Is The Mission (Extended)	72	2015	0.0375	0.747	0.877	0.000833	0.233	0.0664	0.752
+1Lim1Py7xBgbAkAys3AGAG	Lean On	75	4pCLlUxlKj3pNVdBtFyhrU	738wLrAtLtCtFOLvQBXOXp	Hip-Hop	India	Major Lazer	75	Peace Is The Mission (Extended)	72	2015	0.00346	0.723	0.809	0.00123	0.565	0.0625	0.274
+3G7XYAwtxtoGK7fAm4IlD9	Classic Man (feat. Roman GianArthur)	60	6WYHzLqNy9g3zNeqs9IwAA	4TsHKU8l8Wq7n7OPVikirn	Indie	USA	Jidenna	54	Classic Man (feat. Roman GianArthur)	52	2015	0.185	0.79	0.585	0.0	0.292	0.0348	0.585
+5tf1VVWniHgryyumXyJM7w	Sugar (feat. Francesco Yates)	78	5XyJzEROSmup2TcWmVjTIt	3t5xRXzsuZmMDkQzgOX35S	Indie	India	Robin Schulz	79	Sugar	73	2015	0.0185	0.636	0.815	0.0	0.163	0.0581	0.636
+4MflGTO2ZTcSQ12bWcyRgI	Honey, I'm Good.	73	0XUNG1cssmwHh22loRqKdJ	2oX42qP5ineK3hrhBECLmj	Hip-Hop	India	Andy Grammer	70	Magazines Or Novels	67	2014	0.0324	0.752	0.775	0.0	0.351	0.0546	0.595
+2JzZzZUQj3Qff7wapcbKjc	See You Again (feat. Charlie Puth)	83	5FXIqS1XqbpfOKNoi5VUwS	137W8MRPWKqSmrBGDBFSop	Pop	India	Wiz Khalifa	82	See You Again (feat. Charlie Puth)	76	2015	0.369	0.689	0.481	1.03e-06	0.0649	0.0815	0.283
+0PJIbOdMs3bd5AT8liULMQ	oui	77	7DMyQuDPe8xzjC0UDSDa96	3KV3p5EY4AvKxOlhGHORLg	International	India	Jeremih	74	Late Nights: The Album	77	2015	0.213	0.418	0.724	0.0	0.112	0.0964	0.604
+2zoobJFEB9h15fjYjRd6oP	Hail Mary	68	1WBZyULtlANBKed7Zf9cDP	1ZwdS5xdxEREPySFridCfh	International	United Kingdom	2Pac	81	Greatest Hits	83	1998	0.158	0.772	0.644	4.14e-06	0.366	0.265	0.388
+4ycLiPVzE5KamivXrAzGFG	Fuck You	68	3MXU6UoWrf4w4bOvjZTlvY	5nLYd9ST4Cnwy6NHaCxbj8	International	India	CeeLo Green	64	The Lady Killer	62	2010	0.129	0.69	0.834	0.0	0.136	0.0566	0.738
+7AqISujIaWcY3h5zrOqt5v	Forget You	66	0kA2VAfzhFIIv0jEHdFKEN	5nLYd9ST4Cnwy6NHaCxbj8	Indie	USA	CeeLo Green	64	The Lady Killer	58	2010	0.134	0.696	0.875	0.0	0.159	0.0649	0.772
+6GVhuAnqQ2mB5TCNY2MlbP	Teenage Mutant Ninja Turtles Theme Song	53	4RPR6HA7DHKNYT0L7YOzVe	22VxLUFi6QDNZ24uB4Qk8d	International	USA	Teenage Mutant Ninja Turtles	44	Teenage Mutant Ninja Turtles Theme Song	46	2012	0.00123	0.684	0.478	0.0	0.114	0.0303	0.396
+3fo6DYGktjENCiagUeU9yH	Pity Party	74	5JpH5T1sCYnUyZD6TM0QaY	63yrD80RY3RNEM2YDpUpO8	Rock	India	Melanie Martinez	85	Cry Baby (Deluxe Edition)	87	2015	0.058	0.716	0.73	7.32e-06	0.151	0.0364	0.339
+6wNeKPXF0RDKyvfKfri5hf	Dollhouse	77	5JpH5T1sCYnUyZD6TM0QaY	63yrD80RY3RNEM2YDpUpO8	Rock	India	Melanie Martinez	85	Cry Baby (Deluxe Edition)	87	2015	0.22	0.725	0.708	0.0	0.777	0.0756	0.555
+03f7xZmt2wHCIDJBFPK8G4	Soap	74	5JpH5T1sCYnUyZD6TM0QaY	63yrD80RY3RNEM2YDpUpO8	Hip-Hop	United Kingdom	Melanie Martinez	85	Cry Baby (Deluxe Edition)	87	2015	0.254	0.595	0.689	5.44e-06	0.129	0.148	0.213
+360Wr96ywrCQq4kTAJ8Pq6	Pacify Her	80	5JpH5T1sCYnUyZD6TM0QaY	63yrD80RY3RNEM2YDpUpO8	International	India	Melanie Martinez	85	Cry Baby (Deluxe Edition)	87	2015	0.0467	0.576	0.593	0.000767	0.237	0.0306	0.373
+5gWtkdgdyt5bZt9i6n3Kqd	Mad Hatter	74	5JpH5T1sCYnUyZD6TM0QaY	63yrD80RY3RNEM2YDpUpO8	Indie	USA	Melanie Martinez	85	Cry Baby (Deluxe Edition)	87	2015	0.0161	0.568	0.692	0.0	0.148	0.0589	0.577
+3EGW6TGGbdk6Ys1Y3HU3lj	Training Wheels	75	5JpH5T1sCYnUyZD6TM0QaY	63yrD80RY3RNEM2YDpUpO8	International	India	Melanie Martinez	85	Cry Baby (Deluxe Edition)	87	2015	0.697	0.571	0.481	0.0	0.089	0.0444	0.0807
+5H3TCfiw0CQTX1XU7A9TXM	Cake	77	5JpH5T1sCYnUyZD6TM0QaY	63yrD80RY3RNEM2YDpUpO8	Rock	USA	Melanie Martinez	85	Cry Baby (Deluxe Edition)	87	2015	0.381	0.518	0.655	0.0	0.271	0.0826	0.29
+3K1tdhoeE6koNnWgAxEK9Y	Mrs. Potato Head	71	5JpH5T1sCYnUyZD6TM0QaY	63yrD80RY3RNEM2YDpUpO8	International	India	Melanie Martinez	85	Cry Baby (Deluxe Edition)	87	2015	0.174	0.517	0.622	0.0	0.105	0.0577	0.463
+1y56hd5fCuL5jCjjbRyGMN	DEATH	70	6lbrHERXve89hrxuCpsJOg	63yrD80RY3RNEM2YDpUpO8	International	India	Melanie Martinez	85	PORTALS (Deluxe)	83	2023	0.105	0.362	0.545	9.97e-06	0.288	0.0665	0.448
+6bbjMFCiXYhTRCfclucV4S	VOID	71	6lbrHERXve89hrxuCpsJOg	63yrD80RY3RNEM2YDpUpO8	International	India	Melanie Martinez	85	PORTALS (Deluxe)	83	2023	0.178	0.715	0.656	0.0378	0.186	0.0421	0.415
+6b6lS6QFGPzJl4bZF8cFvG	TUNNEL VISION	71	6lbrHERXve89hrxuCpsJOg	63yrD80RY3RNEM2YDpUpO8	International	United Kingdom	Melanie Martinez	85	PORTALS (Deluxe)	83	2023	0.731	0.483	0.412	0.00245	0.403	0.0441	0.581
+0hSE8bQYBYieW1p9jSK6gm	NYMPHOLOGY	71	6lbrHERXve89hrxuCpsJOg	63yrD80RY3RNEM2YDpUpO8	Hip-Hop	USA	Melanie Martinez	85	PORTALS (Deluxe)	83	2023	0.166	0.63	0.606	4.91e-05	0.328	0.0526	0.34
+4l8CIibQf8cVk5BcrquSiD	Opp Stoppa	73	7neQoxL2lAY27Xa7FMQj4y	3gGUMEwIX6XodWsYEvKSal	Pop	India	YBN Nahmir	64	VISIONLAND	70	2021	0.0175	0.821	0.304	0.0	0.118	0.114	0.217
+6mPFNU22MpSm95JTQMZta7	W o k	40	2JDC9CJVfSVSbDrOpdxDK1	4FvDKhWYdv8tQTgDa0VgKO	Indie	USA	dxxd	22	W o k	33	2017	0.00198	0.729	0.429	0.131	0.131	0.267	0.919
+4k7x3QKrc3h3U0Viqk0uop	Rosyln	77	2PDlvc7K51qC4Bkali3q0R	4LEiUm1SRbFMgfqnQTwUbQ	Pop	South Korea	Bon Iver	75	The Twilight Saga: New Moon (Original Motion Picture Soundtrack)	71	2009	0.971	0.329	0.277	0.024	0.0971	0.0302	0.121
+0UNTBB02C1aB55Fu4H63qd	One Call Away	63	0Hv5X7RRaM7F3hfAq0YmzB	3s2wTjWxK8NOX09dmsvVOh	Rock	India	Chingy	59	Jackpot	66	2003	0.0918	0.765	0.821	0.0	0.217	0.183	0.962
+0l3GEbH3CviUytD6iX4wzg	Right Thurr	69	0Hv5X7RRaM7F3hfAq0YmzB	3s2wTjWxK8NOX09dmsvVOh	International	India	Chingy	59	Jackpot	66	2003	0.15	0.866	0.749	0.0	0.0614	0.253	0.891
+0ll8uFnc0nANY35E0Lfxvg	Somewhere Only We Know	77	0qsT8HLvlWaSWIq8Rc95BI	53A0W3U0s8diEn9RhXQhVz	Pop	India	Keane	73	Hopes And Fears	72	2004	0.0794	0.453	0.655	7.61e-06	0.0849	0.0259	0.368
+1loMHOGpWEgh1cFvpoSZf0	Good Luck	49	7Ed7XnDGooooAKya8nhWbo	4YrKBkKSVeqDamzBPWVnSJ	Indie	United Kingdom	Basement Jaxx	55	Kish Kash	44	2003	0.065	0.57	0.969	3.14e-06	0.592	0.165	0.306
+2mXsZsJBThTaJXbNcg5QD4	Mama's Broken Heart	71	1Pv6Znx8kGygusP4fqBD7m	66lH4jAE7pqPlOlzUKbwA0	Rock	India	Miranda Lambert	72	Four The Record	66	2011	0.278	0.768	0.809	0.0	0.139	0.0616	0.748
+1oOamzG57yPWa5PTxXguDt	missin something	78	1ulPzOYjb3Ez1S3HUn4glH	5YgOA27qcu8nSl1lp5ektj	Rock	USA	Zach Templar	60	orange blood	71	2023	0.71	0.626	0.535	1.76e-06	0.109	0.0289	0.358
+40gk32E7YaTFoQwDIWv2SY	Christmas Kids	85	42vd9Cgr89pjb0Jipvaj5d	7dIpKWlEeAljA20vFJ82RD	International	India	Roar	70	I Can't Handle Change	81	2010	0.0104	0.425	0.754	0.112	0.438	0.0367	0.558
+3Z8moQAt92BErdoVadCLd9	Matte Black UFO	40	0Bz50bf5fwYqCOrwBBJuG3	1qxMrN7GOPfiFkC8H0rKh6	International	USA	Marigold	46	Under Green Light	39	2021	0.729	0.653	0.361	0.2	0.106	0.217	0.767
+60wIcX7lyEHTyOOryh3Asl	THAT'S MY GIRL	58	604eAGlQiUePGfuWlklWRo	10uDX8MnRj05PQIVGMygO2	International	USA	Frank Sativa	46	BEDROOM FILES	50	2022	0.135	0.655	0.176	0.00531	0.0735	0.0425	0.558
+2R4AlwtrrkMaRKojcTIzmL	For the First Time	83	4NNq2vwTapv4fSJcrZbPH7	3Sz7ZnJQBIHsXLUSo0OQtM	International	India	Mac DeMarco	82	This Old Dog	82	2017	0.296	0.551	0.529	0.0093	0.178	0.0517	0.521
+3HlK8txWAdtKMrbsqX40pl	Freaking Out the Neighborhood	77	2XgBQwGRxr4P7cHLDYiqrO	3Sz7ZnJQBIHsXLUSo0OQtM	Indie	USA	Mac DeMarco	82	2	78	2012	0.0638	0.565	0.832	0.0288	0.386	0.108	0.847
+45mvVEa99kOMcjHJpCykrw	Out of Bounds	56	4BJlDkrVrN6O0oT1tMXzhy	7eKkW1zo5uzW8kUntiiBvz	Hip-Hop	United Kingdom	Malcolm Todd	50	Demos Before Prom	53	2022	0.456	0.58	0.486	5.51e-05	0.126	0.38	0.708
+4riDfclV7kPDT9D58FpmHd	Some	79	4POiurFeB5bDsF9yBwOxbh	57vWImR43h4CaDao012Ofp	Rock	USA	Steve Lacy	82	Some	71	2016	0.00548	0.784	0.554	0.254	0.0995	0.03	0.634
+3NOIkyNWG0fEjkPkq9HVMW	Basement Jack	70	4hvsfS6cytmO16IfAptVA9	57vWImR43h4CaDao012Ofp	Hip-Hop	India	Steve Lacy	82	Apollo XXI	74	2019	0.15	0.644	0.931	0.0547	0.386	0.0689	0.911
+6M0EP76qW9TG4SNU0agu94	Uuuu	72	6m5qlaMzLtNsQDj3DQY5ji	57vWImR43h4CaDao012Ofp	International	United Kingdom	Steve Lacy	82	The Lo-Fis	77	2020	0.0168	0.947	0.616	0.259	0.0658	0.0415	0.968
+0f8eRy9A0n6zXpKSHSCAEp	Infrunami	79	6m5qlaMzLtNsQDj3DQY5ji	57vWImR43h4CaDao012Ofp	Pop	India	Steve Lacy	82	The Lo-Fis	77	2020	0.31	0.826	0.299	0.0952	0.0758	0.0446	0.215
+7yNf9YjeO5JXUE3JEBgnYc	Babydoll	78	05jbNkYoEQdjVDHEHtg1gY	6USv9qhCn6zfxlBQIYJ9qs	Rock	USA	Dominic Fike	74	Don't Forget About Me, Demos	76	2018	0.114	0.762	0.604	0.0	0.0271	0.11	0.847
+4z4IP6VGrqNC5F2RmzzXSe	Steal This Night - Sped Up	56	6PvEBFPbP45tzWSsnJTePV	30gZlVVUt3gwNXlLorZjuq	Hip-Hop	USA	Rocco	56	Steal This Night (Sped Up)	50	2022	0.672	0.718	0.242	0.0232	0.221	0.0345	0.606
+6me7F0aaZjwDo6RJ5MrfBD	Evergreen	82	2weOG4ZiOjfxiuFMsHm9JQ	4qU7IJSReZnsLy5907Mtau	Indie	India	Richy Mitch & The Coal Miners	66	RMCM	76	2017	0.557	0.555	0.216	0.00416	0.109	0.0721	0.504
+41P6Tnd8KIHqON0QIydx6a	the perfect pair	80	2rhNQbqRNxiNQkDXTffe1V	35l9BRT7MXmM8bv2WDQiyB	International	USA	beabadoobee	76	Beatopia	77	2022	0.433	0.634	0.663	0.124	0.102	0.0331	0.6
+3iBgrkexCzVuPy4O9vx7Mf	Glue Song	82	3KmSMUwyrakryureTNI4U8	35l9BRT7MXmM8bv2WDQiyB	International	India	beabadoobee	76	Glue Song	74	2023	0.77	0.62	0.409	0.0542	0.105	0.0282	0.582
+1NaDK3atogQEn9glK5fYuy	Cologne	68	6EBrUVVsjIQD8N0c63mqjv	35l9BRT7MXmM8bv2WDQiyB	International	India	beabadoobee	76	Our Extended Play	63	2021	0.000561	0.55	0.803	0.000523	0.0266	0.0347	0.877
+5xA5MggKc3aQxuOzNzPUWB	Apple Cider	67	475CNcvlqtRpaXjTcn4hCP	35l9BRT7MXmM8bv2WDQiyB	Rock	United Kingdom	beabadoobee	76	Loveworm	65	2019	0.082	0.492	0.921	0.0114	0.301	0.032	0.679
+2sBKLT7bFa38yVAYxYltUX	Dance with Me	65	7zPBy6Rjmijd4p8drmQPu7	35l9BRT7MXmM8bv2WDQiyB	Hip-Hop	South Korea	beabadoobee	76	Patched Up	70	2018	0.967	0.36	0.209	0.00326	0.153	0.0355	0.227
+3M67HP1R5myqeIDySRyCqa	Smoking On Soprano (S.O.S.)	59	3HAvNDGm76yMNEAWOpOJJj	4alndwWPbM9ApMYLjg19oD	International	India	Wale the Sage	54	Smoking On Soprano (S.O.S.)	51	2022	0.268	0.765	0.658	3.27e-06	0.197	0.0729	0.8
+204t5SErksNRHRhU52g5JF	Oncle Jazz	71	4W4gNYa4tt3t8V6FmONWEK	3zmfs9cQwzJl575W1ZYXeT	Hip-Hop	India	Men I Trust	71	Oncle Jazz	70	2019	0.535	0.712	0.308	0.816	0.0813	0.0519	0.246
+6AQbmUe0Qwf5PZnt4HmTXv	Boy's a liar Pt. 2	96	6cVfHBcp3AdpYY0bBglkLN	78rUTD7y6Cy67W1RVzYs7t	Rock	India	PinkPantheress	81	Boy's a liar Pt. 2	89	2023	0.252	0.696	0.809	0.000128	0.248	0.05	0.857
+4RnvS1tmh1ERhjXX6dxv95	Language	75	2MsWCeQjZlSfHFjDm5DYR1	58uK0d4R5Rq4FDUNgNIFeI	International	India	Paperboy Fabe	56	Language	68	2017	0.0422	0.62	0.721	0.0075	0.563	0.0887	0.77
+3NRql0A1Ef4RCvT473iqgD	Hell N Back	85	3aEdbaJGWXbBxn79DgjamF	3K2Srho6NCF3o9MswGR76H	Hip-Hop	India	Bakar	70	Hell N Back	77	2019	0.312	0.584	0.684	9.05e-05	0.112	0.567	0.72
+5E4mQ2mXblbeuI4tefnMZG	Self Medication (feat. Seth MacFarlane, Redman, & Statik Selektah)	74	57T1flhMpfjP4T4yW38qW0	4xRYI6VqpkE3UwrDrAZL8L	Pop	India	Logic	77	College Park	74	2023	0.626	0.655	0.881	0.0	0.125	0.431	0.651
+36LbZDC1ifQx6SZzuarexp	I. The Itis	59	310dIny3ZDI9n2K2vVJ0Mp	4yJPiziKjwvjKUnsnsOixM	Hip-Hop	United Kingdom	Piff Marti	51	Lucid	52	2018	0.0793	0.86	0.4	0.0	0.109	0.538	0.487
+5Mkbqot9JUaN5XhRgqITME	Adonis Interlude (The Montage) (with J. Cole)	72	4V6qjHa2otWYkYHB6bdO1S	1iNqsUDUraNWrj00bqssQG	Indie	India	Dreamville	71	Creed III: The Soundtrack	71	2023	0.145	0.474	0.833	0.0	0.0949	0.439	0.414
+6l8GvAyoUZwWDgF1e4822w	Bohemian Rhapsody	67	7C2DKB8C12LqxMkfJRwTo9	1dfeR4HaWDbWqFHLkxsg1d	Hip-Hop	India	Queen	85	Stone Cold Classics	60	2006	0.271	0.397	0.386	0.0	0.188	0.0503	0.21
+0LJTfmgOMvlLd0u4HU9twm	Killshot	63	5OsXAPcYYYNTtkFuuB8TDc	1oPRcJUkloHaRLYx0olBLJ	International	USA	Magdalena Bay	59	A Little Rhythm and a Wicked Feeling	57	2020	0.000716	0.726	0.53	0.00211	0.0502	0.0518	0.374
+086myS9r57YsLbJpU0TgK9	Why'd You Only Call Me When You're High?	88	78bpIziExqiI9qztvNFlQu	7Ln80lUS6He07XvHI8qqHH	Rock	United Kingdom	Arctic Monkeys	87	AM	93	2013	0.0483	0.691	0.631	1.13e-05	0.104	0.0368	0.8
+5FVd6KXrgO9B3JPmC8OPst	Do I Wanna Know?	88	78bpIziExqiI9qztvNFlQu	7Ln80lUS6He07XvHI8qqHH	Hip-Hop	India	Arctic Monkeys	87	AM	93	2013	0.186	0.548	0.532	0.000263	0.217	0.0323	0.405
+1HFCIJ0pMbrDVs2xH0Jt0B	BMO (feat. Doja Cat) - Remix	48	4H4zgSw27aH4HkJxLzZdCv	1vaQ6v3pOFxAIrFoPrAcom	International	India	Ari Lennox	65	Shea Butter Baby	47	2020	0.0205	0.709	0.702	1.33e-05	0.054	0.0693	0.894
+4dzbGvxqQ1DsF6m6RUlPwg	Pedigree	60	3RKdtH2LKTaayLJOaFZUn2	1vaQ6v3pOFxAIrFoPrAcom	Indie	India	Ari Lennox	65	Pedigree	53	2018	0.148	0.804	0.664	1.72e-06	0.246	0.0913	0.83
+47jm0UM4wlIzuSMws0OfJ4	Don't Leave Your Girl	51	5udBfaGdflGiQRkL9TORN2	5lcDGoJUr5WY5bCFAfYbCU	Pop	India	KIRBY	58	Sis.	57	2020	0.135	0.545	0.623	3.02e-06	0.118	0.0397	0.466
+5FFUDCkMjxuK6XQZNumN55	Love Me Like (feat. DUCKWRTH)	58	4ASozZrX3WMIJplKcfRJYf	1kh0AypxF3CxMMzmQyif2S	International	USA	Rayana Jay	54	Love Me Like	62	2019	0.731	0.874	0.558	0.000638	0.106	0.225	0.451
+5hyq3LBlCfjRQAFkdQwe8o	Vroom Vroom	65	261QvR3MgGdyL2HyYIlgfd	25uiPmTg16RbhZWAqwLBy5	International	India	Charli XCX	76	Vroom Vroom EP	59	2016	0.122	0.836	0.684	0.0	0.0854	0.241	0.514
+4Nw5eUAvVWsIc2bBE22OFa	Cold Island	61	6LFYYr55k4H6oCC0vlK3DX	5xzGjhYnWUd2CFDL1B9srb	Rock	United Kingdom	My Singing Monsters	55	My Singing Monsters, Vol. 2 (Original Game Soundtrack)	63	2021	0.298	0.706	0.577	6.43e-06	0.31	0.053	0.579
+0sajbvtKzol0PeerLCCmtM	Let's Go To Bed	57	34ozkv3AkFksZD8srOmOrX	7bu3H8JO7d0UbMoVzbo70s	International	USA	The Cure	76	Greatest Hits	61	2001	0.52	0.8	0.767	0.333	0.312	0.103	0.737
+7aQjPecQdIuNd1sz3KCDhD	Lovefool	78	56vFkneGivqQcoNQq362iZ	1tqZaCwM57UFKjWoYwMLrw	International	India	The Cardigans	67	First Band On The Moon (Remastered)	76	1996	0.0344	0.704	0.636	0.0	0.35	0.0252	0.89
+4CgCKTm0LycBADUP0jVbGX	the napoleonic wars	42	7D4UwrZ1ujvGDfbW9JrAj3	6hsup81mKFpY5Q2vv13Rtw	Indie	United Kingdom	SPIDER GANG	40	the napoleonic wars	34	2022	0.000303	0.705	0.75	1.87e-05	0.0999	0.282	0.337
+6vECYJHxYmm3Ydt3fF01pE	Stolen Dance	63	5D20ZzsNB377xbshIFP9Nb	1hzfo8twXdOegF3xireCYs	Hip-Hop	United Kingdom	Milky Chance	73	Sadnecessary	58	2014	0.427	0.885	0.581	0.000204	0.0759	0.0378	0.728
+4sebUbjqbcgDSwG6PbSGI0	Come a Little Closer	74	4EK8gtQfdVsmDTji7gBFlz	26T3LtbuGT1Fu9m0eRq5X3	International	USA	Cage The Elephant	74	Melophobia	76	2013	0.0265	0.44	0.778	1.04e-06	0.151	0.0327	0.304
+4iEOVEULZRvmzYSZY2ViKN	Left Hand Free	71	4oktVvRuO1In9B7Hz0xm0a	3XHO7cRUPCLOr6jwp8vsx5	Pop	USA	alt-J	71	This Is All Yours	66	2014	0.462	0.697	0.877	0.00943	0.083	0.0462	0.802
+0O45fw2L5vsWpdsOdXwNAR	SexyBack (feat. Timbaland)	80	2scB1uhcCI1TSf6b9TCZK3	31TPClRtHm23RisEBtV3X7	Pop	USA	Justin Timberlake	80	FutureSex/LoveSounds	76	2006	0.0584	0.967	0.583	0.0	0.0519	0.0789	0.964
+6vt0I1cw1YmAIKDJvHVIM5	Suit & Tie (feat. Jay-Z)	68	0O82niJ0NpcptYRxogeEZu	31TPClRtHm23RisEBtV3X7	Hip-Hop	India	Justin Timberlake	80	The 20/20 Experience (Deluxe Version)	74	2013	0.103	0.795	0.596	0.0	0.164	0.219	0.357
+1SOTqkhpIWoLX1AS9Y2RpU	"Coconut Mall (From ""Mario Kart Wii"")"	60	3uPOSDtQ4ZX6NbHhdIzESH	1v4YnufenjE9BLAfP90qvt	Hip-Hop	India	Arcade Player	57	Mario Kart Wii, The Themes	57	2020	0.186	0.777	0.633	0.197	0.239	0.0367	0.96
+52RDyIwYlzSYRwHtpE2Bqi	Dracula Has Risen From the Grave	40	5wmk6nGeXhJSTJtWi7BPbb	40MSz9KU6J8HDdfATbQzO2	Indie	India	The Coffinshakers	35	Dark Wings Over the World	41	2014	0.000315	0.341	0.845	0.607	0.188	0.0438	0.843
+0dGqP4VickYjtIaB5VOt4H	3:15 (Breathe)	80	6QYK9rRB1nJ1ZnhEiOKT1J	1z7b1Pr1rSlvWRzsW3HOrS	Indie	India	Russ	78	3:15 (Breathe)	73	2021	0.591	0.451	0.627	0.00958	0.118	0.127	0.77
+3pndPhlQWjuSoXhcIIdBjv	What They Want	74	0lUL92det7mZ4DaHYmiUEC	1z7b1Pr1rSlvWRzsW3HOrS	International	South Korea	Russ	78	There's Really A Wolf	77	2017	0.484	0.71	0.404	0.0	0.0953	0.379	0.398
+08XHGvYxioT9gMP6TPuaLR	NASTY - Extended Version	77	16c4zu2oKZ8JTGOWAAwz8X	1z7b1Pr1rSlvWRzsW3HOrS	Hip-Hop	United Kingdom	Russ	78	NASTY (Extended Version)	69	2023	0.0274	0.819	0.355	7.77e-06	0.109	0.155	0.242
+3hxIUxnT27p5WcmjGUXNwx	Shut up My Moms Calling	88	4qVzNqB4cskFInYfrC7P0S	35WVTyRnKAoaGExqgktVyb	Hip-Hop	India	Hotel Ugly	75	Shut up My Moms Calling	81	2020	0.325	0.485	0.409	0.0	0.103	0.101	0.376
+569vy4ZVCh2qawmDraU1ez	Missin It	68	1MRyz2eNPJqOhArrP6vcDw	2jomvyAKdqYYimeLl3XcdZ	Rock	South Korea	Inayah	57	Side A	61	2021	0.719	0.62	0.38	0.0	0.108	0.0384	0.793
+56AXSWLp4R6gBqvkaWTuRj	what lovers do	56	3JCEN8moOGQU2V9NZjr0Zz	2HPqVfdPh9JkBSlFG5hK6h	Hip-Hop	USA	anees	61	what lovers do	49	2021	0.172	0.931	0.474	0.0	0.118	0.0941	0.672
+2c2tlXfEmLgUNvxngIi1qL	DEAD MAN WALKING	74	0PHMNbcgHfzSUALlfk7wGg	3tlXnStJ1fFhdScmQeLpuG	Rock	South Korea	Brent Faiyaz	83	WASTELAND	85	2022	0.303	0.51	0.272	0.0	0.0958	0.0557	0.435
+1eUGmzzvahJjOSWgDHuRlv	Girl With The Tattoo Enter.lewd	82	493HYe7N5pleudEZRyhE7R	360IAlyVv4PCEVjgyMZrxK	Pop	United Kingdom	Miguel	81	All I Want Is You	86	2010	0.856	0.372	0.239	0.000175	0.168	0.0296	0.127
+7FbrGaHYVDmfr7KoLIZnQ7	Cupid - Twin Ver.	96	5letLUZIFsQikJYShfGNs4	4GJ6xDCF5jaUqD6avOuQT6	Rock	United Kingdom	FIFTY FIFTY	81	The Beginning: Cupid	91	2023	0.435	0.783	0.592	4.15e-06	0.347	0.0331	0.726
+4pV6Kx1T9L49PBFwH1g8ca	Aces	75	7e0f5k0iqJVH5OdUEP9vOf	5FU1KYJheed7LZIM2r6KrE	Pop	USA	dkj	59	Aces	68	2022	0.00118	0.602	0.537	0.947	0.289	0.0332	0.428
+4w9soAM7IrmYDhSXLp14p6	Peaches	86	3QITNyRzvTqn0t9tLmS1Vd	0qpMYTgbXRi1ZcX6vend3T	Hip-Hop	USA	Jack Black	68	The Super Mario Bros. Movie (Original Motion Picture Soundtrack)	81	2023	0.797	0.698	0.312	0.0	0.1	0.0483	0.419
+3XKIUb7HzIF1Vu9usunMzc	Maria Maria (feat. The Product G&B)	84	10aiDpdFGyfCFEcqpx6XTq	6GI52t8N5F02MxU0g5U69P	Rock	India	Santana	73	Supernatural (Remastered)	78	1999	0.0406	0.777	0.601	0.00201	0.0348	0.126	0.68
+6ztstiyZL6FXzh4aG46ZPD	Boogie Wonderland	77	4RLVTxnuVN5ZWZqBFnaaQt	4QQgXkCYTt3BlENzhyNETg	Indie	India	Earth, Wind & Fire	73	I Am	72	1979	0.0843	0.802	0.756	0.00765	0.0521	0.0349	0.963
+3koCCeSaVUyrRo3N2gHrd8	Let's Groove	78	1hj1SYbJYdXloRiSjsCLXg	4QQgXkCYTt3BlENzhyNETg	Hip-Hop	USA	Earth, Wind & Fire	73	Raise!	70	1981	0.121	0.869	0.648	2.17e-05	0.126	0.0633	0.9
+7uKcScNXuO3MWw6LowBjW1	One, Two Step (feat. Missy Elliott)	76	71gUhKYZIWmmjqAHlY4Br3	2NdeV5rLm47xAvogXrYhJX	Indie	India	Ciara	70	Goodies	72	2004	0.042	0.944	0.511	0.00107	0.0379	0.161	0.842
+3rKCDtV8UcF0RytSiXxypc	Get Up (feat. Chamillionaire)	60	0hfJ35SzCkWesdUpLKXLto	2NdeV5rLm47xAvogXrYhJX	Indie	United Kingdom	Ciara	70	The Evolution	66	2006	0.0248	0.964	0.595	5.14e-06	0.0405	0.109	0.629
+3RmKpob8xzv1pzHEQrMJah	Let Me Blow Ya Mind	77	6ZWL1xSTEvqs5A6dBh8vZw	4d3yvTptO48nOYTPBcPFZC	International	India	Eve	68	Scorpion	72	2001	0.242	0.908	0.557	0.0	0.0709	0.107	0.897
+1RGIjMFMgJxkZHMDXVYzOJ	Bartender (feat. Akon)	75	6CrSEKCF4TYrbSIitegb3h	3aQeKQSyrW4qWr35idm0cy	Pop	India	T-Pain	77	Epiphany (Expanded Edition)	74	2007	0.0564	0.832	0.391	0.0	0.224	0.0628	0.436
+6QgkOxBXqVRjZ1JcIDbDYY	Booty Wurk (One Cheek At a Time) (feat. Joey Galaxy)	64	184XWylq7ZF0Hn7da4Tr6W	3aQeKQSyrW4qWr35idm0cy	Hip-Hop	India	T-Pain	77	Happy Hour: The Greatest Hits	67	2014	0.00931	0.786	0.689	1.14e-06	0.214	0.315	0.874
+2gam98EZKrF9XuOkU13ApN	Promiscuous	84	2yboV2QBcVGEhcRlYuPpDT	2jw70GZXlAI8QzWeY2bgRc	Rock	USA	Nelly Furtado	76	Loose	83	2006	0.0569	0.808	0.97	6.13e-05	0.154	0.0506	0.868
+3BxWKCI06eQ5Od8TY2JBeA	Buttons	67	5x8e8UcCeOgrOzSnDGuPye	6wPhSqRtPu1UhRCDX5yaDJ	Indie	United Kingdom	The Pussycat Dolls	69	PCD	68	2005	0.178	0.57	0.821	0.0	0.289	0.267	0.408
+65c0WFZ8C6RWxUosvkdfzX	Now That We're Men	42	3yaX4L63CKiN2oleC53fy8	0j3pJsIWhjyoQeajnwSWU4	Indie	India	Tom Kenny	39	The SpongeBob SquarePants Movie-Music From The Movie and More	49	2004	0.622	0.395	0.947	0.0	0.667	0.449	0.302
+2Od8Vrqg0SAqVTLMHCMmWU	I Whipped Batman's Ass	34	3xWFBvXYPQqUFOP4jvDs0p	50yovZJnAHoy0pBruvFaCR	Rock	USA	Wesley Willis	33	Rush Hour	31	2000	0.0896	0.918	0.491	0.00427	0.0998	0.039	0.499
+2tVbzxwb5M67hfO8IOylgE	The Boomerang	7	3xWFBvXYPQqUFOP4jvDs0p	50yovZJnAHoy0pBruvFaCR	Indie	India	Wesley Willis	33	Rush Hour	31	2000	0.0908	0.652	0.615	0.000491	0.105	0.0394	0.732
+190l7oYBQe6JBsWPJM2uNN	Rock N Roll McDonalds	47	4Zt5GnqGEzomd4rKBr3cWR	50yovZJnAHoy0pBruvFaCR	Hip-Hop	USA	Wesley Willis	33	Greatest Hits Volume 1	41	1995	0.07	0.701	0.556	0.000173	0.104	0.0373	0.667
+3QzAOrNlsabgbMwlZt7TAY	Ballin' (with Roddy Ricch)	83	2WrNHOba5u6P9S9xEboaUy	0YinUQ50QDB7ZxSCLyQ40k	International	India	Mustard	74	Perfect Ten	79	2019	0.392	0.809	0.545	0.0	0.151	0.0735	0.244
+0sVcnEo2jnUnr3p7uVDZ9o	Walk	67	2hVuPNCVgEqT68y7vCKk88	1iJdyDcY98X3GMnUesl7tf	Pop	India	Comethazine	64	Bawskee	66	2018	0.228	0.828	0.795	0.0	0.307	0.26	0.739
+1EVJeWeItAPcATFolrw3VR	Double Dutch Bus	50	2Hl3lIVkGoQQp0FzqZJnyY	0CcGsPdBvdYS0JuxrTvTIF	International	USA	Frankie Smith	35	Double Dutch Bus	43	1981	0.0018	0.915	0.52	0.00035	0.0293	0.132	0.471
+7wZlHrCYaNJUXfrsI1wbQs	Gangster Sh**	62	3s6aKEQQ5k1QgSXZK3FK3s	4if49KlQEdVNk97CQYSFvt	Pop	USA	Pete & Bas	52	Gangster Sh**	54	2023	0.256	0.927	0.889	0.0	0.124	0.288	0.617
+21m2jxB9DSn9ZkFsGip8fd	Mr Worldwide	58	0UGJ7jvU1Dn14J7BCMCP1f	4if49KlQEdVNk97CQYSFvt	Hip-Hop	United Kingdom	Pete & Bas	52	Mr Worldwide	50	2022	0.322	0.798	0.918	3.49e-06	0.34	0.192	0.872
+7j3z6ddMlm2VCvTe1wWeVG	The Old Estate	50	50mAIRRttXdfDv0wVo7H2N	4if49KlQEdVNk97CQYSFvt	Rock	USA	Pete & Bas	52	The Old Estate	43	2020	0.374	0.744	0.71	4.56e-06	0.129	0.289	0.67
+6FfTXW2W9ZyGO25nRtXram	Window Frame Cypher, Pt. II	45	3Rt3uSCwlfPNmKIMsOfL63	4if49KlQEdVNk97CQYSFvt	Indie	United Kingdom	Pete & Bas	52	Window Frame Cypher, Pt. II	38	2022	0.379	0.616	0.776	0.0	0.0996	0.205	0.906
+6dyEMgcoXhhKjx0AzVfD5T	Shuffle	44	1Za4W9xnl5a7mdxHISt12F	4if49KlQEdVNk97CQYSFvt	Hip-Hop	United Kingdom	Pete & Bas	52	Shuffle	36	2022	0.455	0.783	0.737	0.0	0.112	0.178	0.668
+11iIikXxC6NP0Ma8vMD27x	Alien Blues	83	1vWOYk3hF5bgVUUUaPvYLh	1W4itxt3vwhmrgLEBuVHJ6	Indie	India	Vundabar	66	Gawk	77	2015	0.0807	0.467	0.757	0.908	0.0876	0.033	0.433
+2lDODk7inZnmUHbIjUnIwP	Running Away	65	0qD1Ymect5I2EamO4HE8ZB	770glnH67Mk4u2D41sxAhx	Indie	USA	VANO 3000	52	Running Away	57	2021	0.66	0.58	0.696	0.852	0.145	0.0408	0.721
+0SzDVyiiUDpuhzrphnoejr	North Memphis	72	1lct5ZQWEx7w2r3qyajVOq	6VlPp1wb53ANKMIwZPJfM0	Indie	India	Pharmacist	61	North Memphis	64	2019	0.000136	0.716	0.942	0.836	0.0663	0.0565	0.899
+5Hroj5K7vLpIG4FNCRIjbP	Best Day Of My Life	80	0V4laGZGshNCpurfIdUhHv	0MlOPi3zIDMVrfA9R04Fe3	Indie	India	American Authors	66	Oh, What A Life	74	2014	0.0591	0.673	0.902	0.000262	0.0558	0.0346	0.538
+1DqdF42leyFIzqNDv9CjId	Dynamite	66	159jpldDCgsgH6KGgjy63c	6MF9fzBmfXghAz953czmBC	Indie	USA	Taio Cruz	70	Rokstarr	63	2010	0.00332	0.754	0.804	0.0	0.0329	0.0853	0.818
+0UV5zxRMz6AO4ZwUOZNIKI	Where'd All the Time Go?	78	16XswZ18xhMs8qUTN51mRl	4mLJ3XfOM5FPjSAWdQ2Jk7	International	USA	Dr. Dog	62	Shame, Shame (Deluxe Edition)	71	2010	0.132	0.454	0.82	0.000969	0.115	0.0567	0.575
+0gNfhF6Ncxn4TodullXjQN	A Time For Love	48	2RhoLdUl6TF5rkPKD4o7zf	0ydTotn3IHqcZ9LaNVSyT3	Indie	India	Judi Singh	31	In the Middle Of the Road	43	2011	0.951	0.275	0.239	0.00425	0.122	0.0312	0.161
+7t0u2dbZoby5Y6yWXY2zYG	Creep (Glee Cast Version)	54	4fZXOp8No89WLudGy6brXd	0SCbttzoZTnLFebDYmAWCm	Hip-Hop	United Kingdom	Glee Cast	70	Glee: The Music, The Complete Season Four	65	2014	0.017	0.329	0.54	1.63e-05	0.176	0.033	0.137
+3dnP0JxCgygwQH9Gm7q7nb	Ella Baila Sola	100	3Mm1P5CEEAiuJqBclr2EyU	0XeEobZplHxzM9QzFQWLiR	Rock	USA	Eslabon Armado	86	Ella Baila Sola	92	2023	0.483	0.668	0.758	1.89e-05	0.0837	0.0332	0.834
+7eJMfftS33KTjuF7lTsMCx	death bed (coffee for your head)	83	2p9gK2BcdrloHNJwarc9gc	6bmlMHgSheBauioMgKv2tn	International	United Kingdom	Powfu	70	death bed (coffee for your head)	75	2020	0.731	0.726	0.431	0.0	0.696	0.135	0.348
+48O0GrGJWml3DzHhC5sJ7a	Karma Chameleon	63	7gdwk8zdee8ghIq94Z9ck3	6kz53iCdBSqhQCZ21CoLcc	Rock	India	Culture Club	64	At Worst...The Best Of Boy George And Culture Club	58	1993	0.186	0.676	0.577	0.0	0.148	0.0365	0.934
+7bn8hQ1PW06VuphijGLJ40	IWSS (Remix)	62	0aXZtsW3U979BtvUj1JAu7	52Nioi9ACBG8H4XvE0eS7r	Indie	India	Delli Boe	47	IWSS (Remix)	54	2021	0.109	0.9	0.686	0.0	0.0848	0.224	0.624
+6U2sXLGhxJVmKskGUvJzI3	fantasize	62	0QEZpylv3YWsleH9U0ijWE	4hR6Bm9YYtktXzjmKhb1Cn	International	USA	ericdoa	63	fantasize	54	2021	0.00591	0.713	0.535	5.4e-05	0.115	0.0308	0.551
+2YIDnkBfwbLMkt9rcugLdr	3 BIG BALLS	59	6Aus9U0MvQ2nvHpGTNp0VR	3Kb7e8b1tSd7TLa3cy7HUV	International	USA	DigBar	54	3 BIG BALLS	52	2021	0.0541	0.935	0.518	0.0	0.328	0.445	0.687
+62k3kkUQmWan59sH3Lzt1t	Princess Diana (with Nicki Minaj) [Extendo Clip]	67	00eK46cfChKfGZcYZcaWSa	3LZZPxNDGDFVSIPqf4JuEf	Indie	USA	Ice Spice	82	Princess Diana (with Nicki Minaj) [Versions]	66	2023	0.152	0.904	0.688	0.0	0.0992	0.155	0.731
+6H9xCW5IqdKEM3Ml9YOAWi	Meat Cleaver	41	28KzxdVOMdTW0T4bK8eDA5	46UxF4P7x9FUigK1O2sSsV	International	USA	Brotha Lynch Hung	47	Mannibalector	40	2013	0.0346	0.781	0.81	0.0	0.223	0.276	0.498
+3IvmPCV67L6lWM8KU4iALx	nitro cellular device	54	5lMC7pOPEvOpyBa8knOLTQ	7oee3IOl9N7Nv7PCDEJgEh	Indie	USA	cynicalv	43	nitro cellular device	46	2022	0.00109	0.637	0.645	0.0	0.16	0.382	0.184
+1mKXFLRA179hdOWQBwUk9e	Just Give Me a Reason (feat. Nate Ruess)	83	2Q9oTK48eb85waX1fFJsvj	1KCSPY1glIKqW2TotWuXOR	Indie	India	P!nk	82	The Truth About Love	81	2012	0.346	0.778	0.547	0.000302	0.132	0.0489	0.441
+2iJuuzV8P9Yz0VSurttIV5	Scream & Shout	79	6edYDxspt9uQj21mbAfFIb	085pc2PYOi8bGKj0PNjekA	Rock	India	will.i.am	73	#willpower	73	2013	0.019	0.772	0.685	8.96e-05	0.131	0.0696	0.501
+07Tx168RSsUS1HqkDIOZbH	Cupid Shuffle	64	1tDyAU95D65Shy34JxsQCu	0lax1ZgWclW6mZFaGu27MM	Rock	India	Cupid	47	Time for a Change	57	2007	0.191	0.785	0.582	0.0	0.2	0.237	0.861
+7Fq9RwQxSn3kW85PrDUf0M	Boot Scootin' Boogie	72	1ZXM9jY3Bsg12KXgwftBrO	0XKOBt59crntr7HQXXO8Yz	International	USA	Brooks & Dunn	71	#1s ... and then some	75	2009	0.22	0.656	0.817	0.0	0.304	0.0435	0.862
+3IeCYkdKI55mNMl2o4vX0k	Bust A Move	66	5epYkQqWldhYysHIH9mrmE	5n30a5V4ftXNMHCHChmK2h	International	USA	Young MC	50	Stone Cold Rhymin'	58	1989	0.0512	0.946	0.772	2.26e-06	0.0612	0.121	0.743
+0JbSghVDghtFEurrSO8JrC	Country Girl (Shake It For Me)	78	5IyIjKnGkQbYGVpWenblSe	0BvkDsjIUla7X0k6CSWh1I	International	USA	Luke Bryan	77	Tailgates & Tanlines	76	2011	0.0293	0.645	0.904	0.0	0.0834	0.0462	0.671
+37d8O4cIq36tssCoJnhJxg	Boogie Shoes - 2004 Remaster	64	6S2ZnQo8V7k7EQZZEK3WcR	3mQBpAOMWYqAZyxtyeo4Lo	Pop	South Korea	KC & The Sunshine Band	64	KC & the Sunshine Band	63	1975	0.496	0.931	0.801	0.379	0.0563	0.0548	0.971
+383B8ksM58jbV3HbiRJo0K	Say Hey (I Love You) (feat. Cherine Tanya Anderson)	66	7gbG5HpQeBPXUSvhrlP9bc	1mHuZMOP8FG5ip4yAb1vrB	Indie	United Kingdom	Michael Franti & Spearhead	57	All Rebel Rockers	59	2008	0.0376	0.738	0.983	5.98e-06	0.183	0.0852	0.957
+0k6HUzaRHpQ3eEWr1C7Esh	Ms. New Booty	63	6Nu5K9Mpb5qYi1e7DGESse	3RPYHNSwe3w0mtfJwKIN9P	Indie	United Kingdom	Bubba Sparxxx	54	Ms. New Booty	55	2005	0.016	0.64	0.62	0.0	0.0831	0.416	0.609
+61ehOd7NByNLD1C5AcQhEb	Swing	60	4wJuLhlcMEhnlGechjWanO	1GbrJTB56Xs4XQGlmVbaCf	International	USA	Savage	60	Savage Island	53	2008	0.0209	0.885	0.474	0.0	0.0895	0.25	0.794
+5uuJruktM9fMdN9Va0DUMl	Play That Funky Music	72	27ompw8zlrCkWMacS21ysX	4apX9tIeHb85yPyy4F6FJG	Rock	USA	Wild Cherry	55	Wild Cherry	65	1976	0.0435	0.814	0.672	0.0	0.061	0.0619	0.933
+0AuyLYjy9W7px84ZQUKA2a	deadman (feat. Lil Toe)	53	4oGLasNzQCSK6V3A8ssVKY	41X1TR6hrK8Q2ZCpp2EqCz	Rock	India	bbno$	72	bag or die	68	2022	0.277	0.869	0.732	0.000692	0.111	0.151	0.723
+2GChAFitjWgYHoXUS7TZiE	BOBBY BOUCHER (ADAM SANDLER)	49	4nW6f33uT4j0sES9cf2So2	1uCXC0T5m3qkDOfpdtar9N	Hip-Hop	South Korea	Pertinence	44	BOBBY BOUCHER (ADAM SANDLER)	41	2022	0.0167	0.69	0.532	0.0	0.0919	0.371	0.506
+26aEkgwjdyZu5kq3KG8Ps0	SHEYTAN	56	7mG7ckePXRvsLs6vQ8Dr7l	4qd3YiK0hARXWStzGqHRja	International	South Korea	Santos Santana	49	SHEYTAN	49	2022	0.09	0.859	0.434	0.848	0.0942	0.43	0.775
+2LKypVZYHyP14AByOpJRDg	Break Yosef	59	2oaau3jGhm8zjnBbGxmCA6	3H6CaRooDAoCeRCpYwOXj2	Hip-Hop	India	Ramirez	67	Grey Gorilla	66	2017	0.0048	0.879	0.798	0.412	0.136	0.211	0.48
+6ClOCtJhmZ2WmunnR9vJ8D	Satanic Panic	67	4BOqtqeAHmUv4phMH35S4g	36lCD1wpgG2iZFY57owCNi	International	India	Bleed The Wicked Menace	56	The Occult Series, Vol. 2	65	2021	0.192	0.739	0.598	0.0147	0.38	0.0896	0.231
+0W2uSNUIOybYJCJqNtDP1N	Broke	52	3LiNmX3J4fTeKJ2HOCktQr	1ueFyDvrq8tCjAd6x8AVxD	Rock	India	Tom The Mail Man	52	Broke	45	2019	0.0649	0.9	0.649	0.00718	0.337	0.307	0.209
+3kZAm2TC74lBJFPDoV40Qc	Psycho Pass	72	1gylfqMj0edhomts9vZL7d	3uo0ix4Y67XHVWBhXXIY1S	Hip-Hop	South Korea	Xavier Wulf	71	Blood Shore Season 2	69	2014	0.0303	0.973	0.446	1.75e-05	0.121	0.0612	0.265
+5o9foGmSgRsAYZ1dFsAvce	WIZARD	54	4esAcUG1MvMqI2HPbICFwN	1W1JrFrwTTyv081hWOQJa7	Hip-Hop	India	777villain	48	WIZARD	47	2021	0.0818	0.942	0.533	0.0	0.116	0.263	0.745
+7BWKwg3d9z5RezfD3u1Bzy	BRAIN FREEZE	43	2BA91yRoqJbaX1dKfWXFjh	5gYimn2wODaiKOTFJlzVnn	Rock	India	Warlord Colossus	57	BRAIN FREEZE	36	2022	0.0133	0.831	0.953	0.0	0.415	0.277	0.871
+0Ymjv0OJeIIPXr6s9wi3iW	MATHEMATICAL DISRESPECT	75	2na9riat7uwn9pax75cJue	6FAo7ORAHEzSSf5q10LLfN	International	United Kingdom	Lil Mabu	67	MATHEMATICAL DISRESPECT	67	2023	0.0612	0.795	0.507	0.0	0.272	0.303	0.48
