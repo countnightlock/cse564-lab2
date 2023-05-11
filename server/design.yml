@@ -1,0 +1,22 @@
+major dataset csv
+
+3 filter functions
+
+filtered dataset
+
+/getWorldMapData
+    - Input: current filtered dataset
+    - Output: [{country: IN, count: 50},{},{}]
+
+/getHistogramData
+    - Input: current filtered dataset
+    - Output: ['2014', '2015']
+
+/getBubbleChartData
+    - Input: current filtered dataset
+    - Output: {
+        songs: [{name: obj, popularity:, genre:}, {}, {}],
+        albums: [{name: obj, popularity:, genre:}, {}, {}],
+        artists: [{name: obj, popularity:, genre:}, {}, {}]
+    }
+

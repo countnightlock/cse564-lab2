@@ -1,0 +1,51 @@
+track_id	track_name	track_popularity	album_id	artist_id	genre	country	artist_name	artist_popularity	album_name	album_popularity	release_date	acousticness	danceability	energy	instrumentalness	liveness	speechiness	valence
+0PERS23jNsjcjBywXLvpyc	When I'm Small	58	4EbDqql0TmQPSDaSgDnoEZ	1l9d7B8W0IHy3LqWsxP2SH	Rock	USA	Phantogram	67	Eyelid Movies	52	2010	0.191	0.646	0.758	0.097	0.103	0.0314	0.424
+2FjoCQaBoiEKs3FCvD0HkR	Unbearably White	49	1A3nVEWRJ8yvlPzawHI1pQ	5BvJzeQpmsdsFp4HGUYUEx	Indie	India	Vampire Weekend	66	Father of the Bride	64	2019	0.219	0.531	0.422	0.0198	0.0608	0.0571	0.579
+0tkBOcK7oRVXQJY97zzSvr	Telescope	65	4EK8gtQfdVsmDTji7gBFlz	26T3LtbuGT1Fu9m0eRq5X3	Hip-Hop	India	Cage The Elephant	74	Melophobia	76	2013	0.273	0.589	0.481	1.33e-05	0.0986	0.0285	0.176
+3L80FHW2NswspNHsJfQm85	Tsukuyomi	33	1sgAanfg8fmIFXFbuPBBeO	3Ww8GMbCDMAGwJJ2hd7z7z	Pop	USA	Lena Raine	58	Oneknowing	38	2019	0.862	0.546	0.373	0.929	0.0982	0.0277	0.0919
+5x42CjqVuWJ4HALw5N0FNl	Hyouhaku	42	1MeuOC5pbK1Nz0JPEeBl5j	0txxG1RcOuVefWjrrMQn3G	Hip-Hop	India	R A Y	41	Chapter V	44	2020	0.571	0.34	0.233	0.698	0.085	0.0428	0.213
+1BLfQ6dPXmuDrFmbdfW7Jl	A Little Piece of Heaven	69	3Id3VUk9jSKBD1guNo1buF	0nmQIMXWTXfhgOBdNzhGOs	Indie	USA	Avenged Sevenfold	75	Avenged Sevenfold	74	2007	0.0244	0.486	0.881	0.0	0.429	0.0474	0.667
+38PTaSqKcn1NKafQRdXSby	PPP	50	5tTmosmyV33wCiwniZc4Qs	56ZTgzPBDge0OvCGgMO3OY	Rock	India	Beach House	74	Depression Cherry	69	2015	0.381	0.49	0.464	0.894	0.0555	0.0284	0.142
+1Y3LN4zO1Edc2EluIoSPJN	Until I Found You (with Em Beihold) - Em Beihold Version	93	7ARtQpvnPN2ucbmVHngLOs	5XKFrudbV4IiuE5WuTPRmT	Hip-Hop	United Kingdom	Stephen Sanchez	79	Until I Found You (Em Beihold Version)	86	2022	0.777	0.551	0.55	0.0	0.202	0.0286	0.342
+5TTGoX70AFrTvuEtqHK37S	No. 1 Party Anthem	72	78bpIziExqiI9qztvNFlQu	7Ln80lUS6He07XvHI8qqHH	Indie	USA	Arctic Monkeys	87	AM	93	2013	0.33	0.505	0.698	0.0887	0.0966	0.0297	0.599
+0GegHVxeozw3rdjte45Bfx	White Winter Hymnal	69	5GRnydamKvIeG46dycID6v	4EVpmkEwrLYEg6jIsiPMIb	International	India	Fleet Foxes	64	Fleet Foxes	66	2008	0.44	0.628	0.5	0.0	0.244	0.0268	0.68
+389QX9Q1eUOEZ19vtzzI9O	While My Guitar Gently Weeps - Remastered 2009	72	1klALx0u4AavZNEvC4LrTL	3WrFJ7ztbogyGnTHbHJFl2	Rock	USA	The Beatles	84	The Beatles (Remastered)	78	1968	0.0205	0.453	0.654	0.00395	0.172	0.0317	0.702
+28qA8y1sz0FTuSapsCxNOG	Father Time (feat. Sampha)	75	79ONNoS4M9tfIA1mYLBYVX	2YZyLoL8N0Wb9xBt1NhZWg	Rock	India	Kendrick Lamar	89	Mr. Morale & The Big Steppers	87	2022	0.181	0.514	0.779	0.0	0.099	0.344	0.517
+0fX4oNGBWO3dSGUZcVdVV2	N95	81	79ONNoS4M9tfIA1mYLBYVX	2YZyLoL8N0Wb9xBt1NhZWg	International	USA	Kendrick Lamar	89	Mr. Morale & The Big Steppers	87	2022	0.377	0.79	0.67	2.32e-06	0.119	0.105	0.408
+1QPreu0BNOrUfEb8HTd2qG	Rich Spirit	78	79ONNoS4M9tfIA1mYLBYVX	2YZyLoL8N0Wb9xBt1NhZWg	Indie	USA	Kendrick Lamar	89	Mr. Morale & The Big Steppers	87	2022	0.428	0.852	0.421	2.28e-06	0.106	0.208	0.457
+2g6tReTlM2Akp41g0HaeXN	Die Hard	79	79ONNoS4M9tfIA1mYLBYVX	2YZyLoL8N0Wb9xBt1NhZWg	Indie	India	Kendrick Lamar	89	Mr. Morale & The Big Steppers	87	2022	0.319	0.775	0.736	0.00116	0.127	0.247	0.362
+25Syi9wnfn6ZGAmiOBypPq	Motion Sickness	65	5rcJ5xCMYYLCgGilFDKRZl	1r1uxoy19fzMxunt3ONAkG	Indie	USA	Phoebe Bridgers	80	Stranger in the Alps (Deluxe Edition)	71	2018	0.774	0.651	0.546	0.0437	0.0842	0.0357	0.623
+6NmPA1sBTk3zYOujgUxhf8	You Did This	41	7aqeGazGxWGxzPHLfvvByi	31tVXduq7FmEznjanEBQJA	International	USA	Scattle	46	Sketch	46	2017	0.00258	0.606	0.439	0.814	0.12	0.0493	0.432
+5frmIBzZKMjU2PlWJJ8Ir3	Tere Bin	65	7qYDD5oxBq3ikNV9cgbyjo	7eYwycsUoAQLxKF1MNEvVa	Indie	United Kingdom	Rabbi Shergill	48	Rabbi	58	2004	0.659	0.712	0.87	7.55e-05	0.161	0.0553	0.873
+6CKoWCWAqEVWVjpeoJXyNH	Shape Of My Heart	74	5kV0KBXfELibs6qQJLmOtg	0Ty63ceoRnnJKVEYP0VQpk	International	United Kingdom	Sting	71	Ten Summoner's Tales	73	1993	0.691	0.537	0.373	0.000915	0.083	0.0331	0.244
+780zqvhD7SvK0sMGheplPf	Kaala Rey	38	7DBbDXQbei6e4X6EdXOyz2	3JtetEsoytPoOIPGvqUvSR	Indie	India	Sneha Khanwalkar	36	Gangs Of Wasseypur - 2	42	2012	0.232	0.725	0.511	0.00279	0.233	0.0326	0.472
+5SOA0gaKMMp9cgwn3nuwk7	Solitude - Felsmann + Tiley Reinterpretation	62	7mCzA6gqtv4ZtfInpJXm52	63MQldklfxkjYDoUE4Tppz	International	India	M83	71	Solitude (Felsmann + Tiley Reinterpretation)	55	2020	0.668	0.367	0.202	0.145	0.109	0.0313	0.0362
+2VR1z4g6haFyMoghNj46KB	Jhoom	56	7gITB9pwcGy6027YxnAHsM	3cKNppGLfcxdt9CtoHEZmQ	Indie	United Kingdom	Ali Zafar	57	Jhoom	64	2011	0.392	0.734	0.529	0.0	0.11	0.0346	0.58
+1K2RnVhm3eauKnA8PAcPu1	Heat Waves - Slowed	72	4SRt3uGUROnTFCw41dzHIh	4yvcSjfu4PC0CYQyLy4wSq	International	South Korea	Glass Animals	77	Heat Waves (Expansion Pack)	65	2021	0.649	0.633	0.55	0.000363	0.147	0.0924	0.333
+1ZyQGXH9dZ4AecevHhKUxi	World Gone Mad	54	1eRw8LHFNcfucLRf0PWbHw	7EQ0qTo7fWT7DPxmxtSYEc	Indie	India	Bastille	75	World Gone Mad (From Bright: The Album)	47	2017	0.283	0.505	0.68	0.0	0.175	0.0336	0.362
+1aL9518P5G72N92b48tuKw	Summer High	78	7sni37uwHitUkllYmcRO8W	6LEG9Ld1aLImEFEVHdWNSB	Hip-Hop	United Kingdom	AP Dhillon	76	Summer High	70	2022	0.165	0.86	0.541	0.163	0.0663	0.0325	0.952
+6ft9PAgNOjmZ2kFVP7LGqb	Can't Take My Eyes off You	73	0NUEQILaBzavnzcMEs4buZ	3CDKmzJu6uwEGnPLLZffpD	Rock	USA	Frankie Valli	62	The Very Best of Frankie Valli & The 4 Seasons	69	2003	0.566	0.575	0.764	1.07e-05	0.0692	0.0746	0.536
+59Bc4RPzSL3nYPANh25a6J	My Jinji	61	2vE9BubwB3Sb5yZjv4FyNn	7BqRcZsHYYQeqMAOp7e532	Rock	India	Sunset Rollercoaster	55	JINJI KIKKO	54	2016	0.531	0.389	0.598	0.407	0.143	0.0309	0.517
+1Dp7ASSZVVOPJ85VdLpjOX	Seventeen Going Under	66	4RS1iWb2MC9o21z3t8zxl4	6zlR5ttMfMNmwf2lecU9Cc	International	United Kingdom	Sam Fender	68	Seventeen Going Under	61	2021	0.00471	0.477	0.873	0.00589	0.0813	0.0355	0.611
+67Hna13dNDkZvBpTXRIaOJ	Teardrop	73	49MNmJhZQewjt06rpwp6QR	6FXMGgJwohJLUSr5nVlf9X	Indie	India	Massive Attack	65	Mezzanine	69	1998	0.0173	0.615	0.419	0.497	0.135	0.0395	0.216
+1GnFQL9XnxrXFloKm1yjuW	The Numbers	51	2ix8vWvvSp2Yo7rKMiWpkg	4Z8W4fKeB5YxbusRsdQVPb	International	USA	Radiohead	80	A Moon Shaped Pool	66	2016	0.651	0.282	0.372	0.409	0.0755	0.0315	0.0551
+285pBltuF7vW8TeWk8hdRR	Lucid Dreams	85	6tkjU4Umpo79wwkgPMV3nZ	4MCBfE4596Uoi2O4DtmEMz	International	India	Juice WRLD	89	Goodbye & Good Riddance	89	2018	0.349	0.511	0.566	0.0	0.34	0.2	0.218
+3sqRODOZ1Z6hR4F2tnFAlg	Sakhiyaan	71	2ja8ShVK2RtHqlxzXTRQ6J	2sN4fSzAm2rAL0HIurPCEM	Indie	USA	Maninder Buttar	62	Sakhiyaan	64	2018	0.3	0.706	0.674	0.0	0.202	0.044	0.359
+1wtGtVfMHjeNfNLeNFVMK6	Waiting for the Moon to Rise	34	1y9ogzyvelDrhbnIiPqprm	4I2BJf80C0skQpp1sQmA0h	Hip-Hop	India	Belle and Sebastian	58	Fold Your Hands Child, You Walk Like a Peasant	31	2000	0.807	0.455	0.556	0.0103	0.156	0.0292	0.596
+3bRcSxW2FnSSwrzoYT1knV	At Seventeen	0	0bRlXo4f7P0gF30G3RACTN	5c9uFWpZY2MTlk7Rft0tgp	Indie	USA	Janis Ian	44	Between The Lines	0	1975	0.888	0.599	0.164	0.000612	0.121	0.0475	0.317
+5N22FteLZT3tgYABLAobu1	Funnel of Love	45	1qJy32qMSc0XxWyWVfOaLw	5ZKMPRDHc7qElVJFh3uRqB	Hip-Hop	India	Wanda Jackson	48	Heart Trouble	38	2003	0.0862	0.623	0.658	5.68e-05	0.173	0.0367	0.81
+504gLMHaH2jakKbQymyJCp	Never	35	6lWSJdTy6i0wKU2y1g2uEN	5wvcZVW2R31CFqrx6BZkQE	International	USA	Larry Chance & The Earls	18	Back On the Streets of the Bronx	28	2007	0.799	0.483	0.458	0.000179	0.168	0.0301	0.523
+3GNgik2UtPjHOhnoDi2U0H	Where Is the Love	0	4nDngjnbfvmE9I3L02hU4r	3Xa0P90KKnDRIuoMmdSCGc	International	South Korea	The Monzas	24	Hey! I Know You	0	2017	0.829	0.305	0.404	0.00267	0.329	0.0288	0.233
+3DofkfU0559aayAElVjEIr	Laughing on the Outside	0	66w2ChYG8Ax41fw5JEMCs6	6QwBhFIOXWri9BNtwoIlKY	Indie	United Kingdom	Bernadette Carroll	41	Cleopatra Girls	0	2017	0.822	0.384	0.419	0.00152	0.267	0.0426	0.427
+4PvVX27CitqLAamcc0PCRU	B	48	4IFpj2jyRcugt1yzH82m3E	0xOeVMOz2fVg5BJY3N6akT	Rock	USA	Jaden	68	SYRE	68	2017	0.227	0.515	0.391	0.0	0.355	0.0575	0.47
+15hJmqqEtASVXl6sM7i4UF	trademark usa	74	3r46DPIQeBQbjvjjV5mXGg	5SXuuuRpukkTvsLuUknva1	Indie	India	Baby Keem	79	The Melodic Blue	82	2021	0.107	0.615	0.6	1.61e-06	0.283	0.27	0.0661
+5ubHAQtKuFfiG4FXfLP804	Lego House	75	02pi98kE0nra0yBqCStzbC	6eUKZXaKkcviH0Ku9w2n3V	Pop	USA	Ed Sheeran	91	+	77	2011	0.562	0.592	0.637	0.0	0.13	0.0992	0.565
+0Tel1fmuCxEFV6wBLXsEdk	Kiss Me	70	02pi98kE0nra0yBqCStzbC	6eUKZXaKkcviH0Ku9w2n3V	Rock	USA	Ed Sheeran	91	+	77	2011	0.64	0.589	0.227	0.00469	0.0248	0.0498	0.182
+1HNkqx9Ahdgi1Ixy2xkKkL	Photograph	87	1xn54DMo2qIqBuMqHtUsFd	6eUKZXaKkcviH0Ku9w2n3V	Rock	India	Ed Sheeran	91	x (Deluxe Edition)	85	2014	0.607	0.614	0.379	0.000464	0.0986	0.0476	0.201
+3FzK2g50oLcx8vqETwOn07	Love Songs on the Radio	57	3fjeFLyo8FY1Appkw4Mrvy	4jSYHcSo85heWskYvAULio	Rock	USA	Mojave 3	44	Ask Me Tomorrow	52	1995	0.899	0.457	0.25	0.0896	0.109	0.0269	0.0739
+6Thn8AOHIwPCkf2O4ZgfC2	Song for Zula	62	6rAJ4I8SpPMJj0guCZiAI8	57kIMCLPgkzQlXjblX7XXP	Pop	India	Phosphorescent	49	Muchacho	56	2013	0.734	0.486	0.623	0.536	0.0509	0.0358	0.525
+7mjSHL2Eb0kAwiKbvNNyD9	Wild World	79	44VxbAytHpVi3Rq8hRhild	08F3Y3SctIlsOEmKd6dnH8	Pop	India	Yusuf / Cat Stevens	70	Tea For The Tillerman (Remastered 2020)	77	1970	0.345	0.48	0.542	0.000609	0.113	0.0348	0.567
+1mea3bSkSGXuIRvnydlB5b	Viva La Vida	87	1CEODgTmTwLyabvwd7HBty	4gzpq5DPGxSnKTe4SA8HAU	Rock	USA	Coldplay	88	Viva La Vida or Death and All His Friends	81	2008	0.0954	0.486	0.617	3.23e-06	0.109	0.0287	0.417
+31L9yLXSj6LpCFupyMV6CR	Up&Up	70	3cfAM8b8KqJRoIzt3zLKqw	4gzpq5DPGxSnKTe4SA8HAU	Indie	India	Coldplay	88	A Head Full of Dreams	82	2015	0.0488	0.479	0.717	0.000333	0.102	0.0605	0.253
+1yqMgZNrevsWMLWfO2PRp5	Charlie Brown	71	2R7iJz5uaHjLEVnMkloO18	4gzpq5DPGxSnKTe4SA8HAU	Pop	India	Coldplay	88	Mylo Xyloto	81	2011	0.0212	0.43	0.74	0.00165	0.33	0.0375	0.0948
+7LVHVU3tWfcxj5aiPFEW4Q	Fix You	84	4E7bV0pzG0LciBSWTszra6	4gzpq5DPGxSnKTe4SA8HAU	International	USA	Coldplay	88	X&Y	80	2005	0.164	0.209	0.417	0.00196	0.113	0.0338	0.124

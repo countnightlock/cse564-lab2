@@ -9,6 +9,8 @@ import { arrayMoveImmutable } from 'array-move';
 import { Container, Draggable } from '@edorivai/react-smooth-dnd';
 import VarsMdsChart from './charts/VarsMdsChart';
 import MiniScatterPlot from './charts/MiniScatterPlot';
+import DensityPlot from './charts/DensityPlot';
+import HeatMap from './charts/HeatMap';
 
 
 class App extends Component {
@@ -81,100 +83,105 @@ class App extends Component {
 
   render() {
       return (
-        <Stack spacing={1} divider={<Divider orientation='horizontal' flexItem/>} >
-          <div id='mds-container'>
-            <h1>MDS Chart - Data</h1>
-            <p>
-              This chart shows the result of applying Multidimensional Scaling on our data. The distance between any
-              two points on the chart is representative of the distance between those points in the original data space.
-            </p>
-            <p>
-              The x and y axes have no significance other than to provide a frame of reference for the closeness of points.
-            </p>
-            <p>
-              Points are colored based on k-means clustering performed in lab 2a. 
-            </p>
-            <p>
-              <span id='class-1'>⬤</span> = cluster 1, <span id='class-2'>⬤</span> = cluster 2
-            </p>
-            <MiniScatterPlot dimensionX={'x'} dimensionY={'y'} labels={this.state.labels} data={this.state.mdsdata} />
-          </div>
+        // <Stack spacing={1} divider={<Divider orientation='horizontal' flexItem/>} >
+        //   <div id='mds-container'>
+        //     <h1>MDS Chart - Data</h1>
+        //     <p>
+        //       This chart shows the result of applying Multidimensional Scaling on our data. The distance between any
+        //       two points on the chart is representative of the distance between those points in the original data space.
+        //     </p>
+        //     <p>
+        //       The x and y axes have no significance other than to provide a frame of reference for the closeness of points.
+        //     </p>
+        //     <p>
+        //       Points are colored based on k-means clustering performed in lab 2a. 
+        //     </p>
+        //     <p>
+        //       <span id='class-1'>⬤</span> = cluster 1, <span id='class-2'>⬤</span> = cluster 2
+        //     </p>
+        //     <MiniScatterPlot dimensionX={'x'} dimensionY={'y'} labels={this.state.labels} data={this.state.mdsdata} />
+        //   </div>
 
-          <div id='pcp-info-container'>
-            <h1>Parallel Coordinates Plot - All Dimensions</h1>
-            <p>
-              This chart shows data in the form of one polyline per datapoint. A polyline is made up of line segments
-              between the values on their corresponding dimension.
-            </p>
-            <p>
-              You can drag and drop the cells below to rearrange axes.
-            </p>
-            <p>
-              Polylines are colored based on k-means clustering performed in lab 2a. 
-            </p>
-            <p>
-              <span id='class-1'>⬤</span> = cluster 1, <span id='class-2'>⬤</span> = cluster 2
-            </p>
-          </div>
+        //   <div id='pcp-info-container'>
+        //     <h1>Parallel Coordinates Plot - All Dimensions</h1>
+        //     <p>
+        //       This chart shows data in the form of one polyline per datapoint. A polyline is made up of line segments
+        //       between the values on their corresponding dimension.
+        //     </p>
+        //     <p>
+        //       You can drag and drop the cells below to rearrange axes.
+        //     </p>
+        //     <p>
+        //       Polylines are colored based on k-means clustering performed in lab 2a. 
+        //     </p>
+        //     <p>
+        //       <span id='class-1'>⬤</span> = cluster 1, <span id='class-2'>⬤</span> = cluster 2
+        //     </p>
+        //   </div>
 
-          <div id='pcp-table-container'>
-            <Stack direction='row'>
-              <Container orientation='horizontal' dragHandleSelector='.drag-handle' lockAxis='x' onDrop={this.onDrop}>
-                {
-                this.state.columns.map((column, index) => {
-                  return <Draggable key={index}>
-                    <ListItem className='drag-handle' sx={{ border: 1 }}>
-                      <ListItemText primary={column} />
-                    </ListItem>
-                  </Draggable>
-                })}
-              </Container>
-            </Stack>
-          </div>
+        //   <div id='pcp-table-container'>
+        //     <Stack direction='row'>
+        //       <Container orientation='horizontal' dragHandleSelector='.drag-handle' lockAxis='x' onDrop={this.onDrop}>
+        //         {
+        //         this.state.columns.map((column, index) => {
+        //           return <Draggable key={index}>
+        //             <ListItem className='drag-handle' sx={{ border: 1 }}>
+        //               <ListItemText primary={column} />
+        //             </ListItem>
+        //           </Draggable>
+        //         })}
+        //       </Container>
+        //     </Stack>
+        //   </div>
 
-          <div id='pcp-chart-container'>
-            <ParallelCoords alldata={this.state.alldata} columns={this.state.columns} labels={this.state.labels} />
-          </div>
+        //   <div id='pcp-chart-container'>
+        //     <ParallelCoords alldata={this.state.alldata} columns={this.state.columns} labels={this.state.labels} />
+        //   </div>
 
-          <div id='mds-vars-container'>
-            <h1>MDS Chart - Variables</h1>
-            <p>
-              This chart shows the result of applying Multidimensional Scaling on our variables' correlation matrix. In particular, we
-              use the <code>1 - |correlation|</code> metric to keep highly correlated variables closer on the chart.
-            </p>
-            <p>
-              Click on points to toggle their presence in the PCP below. Note that only numerical variables are plotted here.
-            </p>
-            <p>
-              <span id='var-selected'>⬤</span> = selected, <span id='var-unselected'>⬤</span> = not selected
-            </p>
-          </div>
+        //   <div id='mds-vars-container'>
+        //     <h1>MDS Chart - Variables</h1>
+        //     <p>
+        //       This chart shows the result of applying Multidimensional Scaling on our variables' correlation matrix. In particular, we
+        //       use the <code>1 - |correlation|</code> metric to keep highly correlated variables closer on the chart.
+        //     </p>
+        //     <p>
+        //       Click on points to toggle their presence in the PCP below. Note that only numerical variables are plotted here.
+        //     </p>
+        //     <p>
+        //       <span id='var-selected'>⬤</span> = selected, <span id='var-unselected'>⬤</span> = not selected
+        //     </p>
+        //   </div>
 
-          <div id='charts-container'>
-            <VarsMdsChart corrColumns={this.state.corrColumns} mdsvars={this.state.mdsvars} pcpHandler={this.pcpHandler} />
-          </div>
+        //   <div id='charts-container'>
+        //     <VarsMdsChart corrColumns={this.state.corrColumns} mdsvars={this.state.mdsvars} pcpHandler={this.pcpHandler} />
+        //   </div>
 
-          {
-            this.state.corrColumns.length === 0 ?
-              <div id='charts-container'>
-                <h1>Please select at least one dimension to view PCP.</h1>
-              </div> :
-              <div id='pcp-chart-container'>
+        //   {
+        //     this.state.corrColumns.length === 0 ?
+        //       <div id='charts-container'>
+        //         <h1>Please select at least one dimension to view PCP.</h1>
+        //       </div> :
+        //       <div id='pcp-chart-container'>
 
-                  <h1>Variables MDS driven PCP</h1>
-                  <p>
-                    Polylines are colored based on k-means clustering performed in lab 2a. 
-                  </p>
-                  <p>
-                    <span id='class-1'>⬤</span> = cluster 1, <span id='class-2'>⬤</span> = cluster 2
-                  </p>
+        //           <h1>Variables MDS driven PCP</h1>
+        //           <p>
+        //             Polylines are colored based on k-means clustering performed in lab 2a. 
+        //           </p>
+        //           <p>
+        //             <span id='class-1'>⬤</span> = cluster 1, <span id='class-2'>⬤</span> = cluster 2
+        //           </p>
 
 
-                  <ParallelCoords alldata={this.state.alldata} columns={this.state.corrColumns} labels={this.state.labels} />
+        //           {/* <ParallelCoords alldata={this.state.alldata} columns={this.state.corrColumns} labels={this.state.labels} /> */}
+        //           <DensityPlot alldata={this.state.alldata} columns={this.state.corrColumns} labels={this.state.labels} />
 
-              </div>
-          }
-        </Stack>
+
+        //       </div>
+        //   }
+        // </Stack>
+        <div id="mds-container">
+          <HeatMap alldata={this.state.alldata} />
+        </div>
       )
   }
 }
